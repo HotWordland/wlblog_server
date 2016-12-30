@@ -1,0 +1,173 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "=="
+provides-nominal:
+- "O4Node4Node"
+provides-member:
+- ["O4Node4Node", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "BooleanLiteralType"
+- "Node"
+- "Bool"
+- "Equatable"
+- "=="
+depends-member:
+- !private ["Sa", "deinit"]
+- ["P4Node7Context", "array"]
+- ["P4Node7Context", "bool"]
+- ["P4Node7Context", "bytes"]
+- ["P4Node7Context", "null"]
+- ["P4Node7Context", "number"]
+- ["P4Node7Context", "object"]
+- ["P4Node7Context", "string"]
+- !private ["Vs10Dictionary", "deinit"]
+- ["Ps9Equatable", "array"]
+- ["Ps9Equatable", "bool"]
+- ["Ps9Equatable", "bytes"]
+- ["Ps9Equatable", "null"]
+- ["Ps9Equatable", "number"]
+- ["Ps9Equatable", "object"]
+- ["Ps9Equatable", "string"]
+- ["Ps9Equatable", ""]
+- ["Ps25ExpressibleByArrayLiteral", "array"]
+- ["Ps25ExpressibleByArrayLiteral", "bool"]
+- ["Ps25ExpressibleByArrayLiteral", "bytes"]
+- ["Ps25ExpressibleByArrayLiteral", "null"]
+- ["Ps25ExpressibleByArrayLiteral", "number"]
+- ["Ps25ExpressibleByArrayLiteral", "object"]
+- ["Ps25ExpressibleByArrayLiteral", "string"]
+- ["Ps27ExpressibleByBooleanLiteral", "array"]
+- ["Ps27ExpressibleByBooleanLiteral", "bool"]
+- ["Ps27ExpressibleByBooleanLiteral", "bytes"]
+- ["Ps27ExpressibleByBooleanLiteral", "null"]
+- ["Ps27ExpressibleByBooleanLiteral", "number"]
+- ["Ps27ExpressibleByBooleanLiteral", "object"]
+- ["Ps27ExpressibleByBooleanLiteral", "string"]
+- ["Ps30ExpressibleByDictionaryLiteral", "array"]
+- ["Ps30ExpressibleByDictionaryLiteral", "bool"]
+- ["Ps30ExpressibleByDictionaryLiteral", "bytes"]
+- ["Ps30ExpressibleByDictionaryLiteral", "null"]
+- ["Ps30ExpressibleByDictionaryLiteral", "number"]
+- ["Ps30ExpressibleByDictionaryLiteral", "object"]
+- ["Ps30ExpressibleByDictionaryLiteral", "string"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "array"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "bool"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "bytes"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "null"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "number"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "object"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "string"]
+- ["Ps25ExpressibleByFloatLiteral", "array"]
+- ["Ps25ExpressibleByFloatLiteral", "bool"]
+- ["Ps25ExpressibleByFloatLiteral", "bytes"]
+- ["Ps25ExpressibleByFloatLiteral", "null"]
+- ["Ps25ExpressibleByFloatLiteral", "number"]
+- ["Ps25ExpressibleByFloatLiteral", "object"]
+- ["Ps25ExpressibleByFloatLiteral", "string"]
+- ["Ps27ExpressibleByIntegerLiteral", "array"]
+- ["Ps27ExpressibleByIntegerLiteral", "bool"]
+- ["Ps27ExpressibleByIntegerLiteral", "bytes"]
+- ["Ps27ExpressibleByIntegerLiteral", "null"]
+- ["Ps27ExpressibleByIntegerLiteral", "number"]
+- ["Ps27ExpressibleByIntegerLiteral", "object"]
+- ["Ps27ExpressibleByIntegerLiteral", "string"]
+- ["Ps23ExpressibleByNilLiteral", "array"]
+- ["Ps23ExpressibleByNilLiteral", "bool"]
+- ["Ps23ExpressibleByNilLiteral", "bytes"]
+- ["Ps23ExpressibleByNilLiteral", "null"]
+- ["Ps23ExpressibleByNilLiteral", "number"]
+- ["Ps23ExpressibleByNilLiteral", "object"]
+- ["Ps23ExpressibleByNilLiteral", "string"]
+- ["Ps26ExpressibleByStringLiteral", "array"]
+- ["Ps26ExpressibleByStringLiteral", "bool"]
+- ["Ps26ExpressibleByStringLiteral", "bytes"]
+- ["Ps26ExpressibleByStringLiteral", "null"]
+- ["Ps26ExpressibleByStringLiteral", "number"]
+- ["Ps26ExpressibleByStringLiteral", "object"]
+- ["Ps26ExpressibleByStringLiteral", "string"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "array"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "bool"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "bytes"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "null"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "number"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "object"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "string"]
+- ["O4Node4Node", "array"]
+- ["O4Node4Node", "bool"]
+- ["O4Node4Node", "bytes"]
+- ["O4Node4Node", "deinit"]
+- ["O4Node4Node", "null"]
+- ["O4Node4Node", "number"]
+- ["O4Node4Node", "object"]
+- ["O4Node4Node", "string"]
+- ["P4Node10NodeBacked", "array"]
+- ["P4Node10NodeBacked", "bool"]
+- ["P4Node10NodeBacked", "bytes"]
+- ["P4Node10NodeBacked", "null"]
+- ["P4Node10NodeBacked", "number"]
+- ["P4Node10NodeBacked", "object"]
+- ["P4Node10NodeBacked", "string"]
+- ["P4Node15NodeConvertible", "array"]
+- ["P4Node15NodeConvertible", "bool"]
+- ["P4Node15NodeConvertible", "bytes"]
+- ["P4Node15NodeConvertible", "null"]
+- ["P4Node15NodeConvertible", "number"]
+- ["P4Node15NodeConvertible", "object"]
+- ["P4Node15NodeConvertible", "string"]
+- ["P4Node17NodeInitializable", "array"]
+- ["P4Node17NodeInitializable", "bool"]
+- ["P4Node17NodeInitializable", "bytes"]
+- ["P4Node17NodeInitializable", "null"]
+- ["P4Node17NodeInitializable", "number"]
+- ["P4Node17NodeInitializable", "object"]
+- ["P4Node17NodeInitializable", "string"]
+- ["P4Node17NodeRepresentable", "array"]
+- ["P4Node17NodeRepresentable", "bool"]
+- ["P4Node17NodeRepresentable", "bytes"]
+- ["P4Node17NodeRepresentable", "null"]
+- ["P4Node17NodeRepresentable", "number"]
+- ["P4Node17NodeRepresentable", "object"]
+- ["P4Node17NodeRepresentable", "string"]
+- ["P13PathIndexable13PathIndexable", "array"]
+- ["P13PathIndexable13PathIndexable", "bool"]
+- ["P13PathIndexable13PathIndexable", "bytes"]
+- ["P13PathIndexable13PathIndexable", "null"]
+- ["P13PathIndexable13PathIndexable", "number"]
+- ["P13PathIndexable13PathIndexable", "object"]
+- ["P13PathIndexable13PathIndexable", "string"]
+- ["P11Polymorphic11Polymorphic", "array"]
+- ["P11Polymorphic11Polymorphic", "bool"]
+- ["P11Polymorphic11Polymorphic", "bytes"]
+- ["P11Polymorphic11Polymorphic", "null"]
+- ["P11Polymorphic11Polymorphic", "number"]
+- ["P11Polymorphic11Polymorphic", "object"]
+- ["P11Polymorphic11Polymorphic", "string"]
+depends-nominal:
+- !private "Sa"
+- "P4Node7Context"
+- !private "Vs10Dictionary"
+- "Ps9Equatable"
+- "Ps25ExpressibleByArrayLiteral"
+- "Ps27ExpressibleByBooleanLiteral"
+- "Ps30ExpressibleByDictionaryLiteral"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- "Ps25ExpressibleByFloatLiteral"
+- "Ps27ExpressibleByIntegerLiteral"
+- "Ps23ExpressibleByNilLiteral"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- "O4Node4Node"
+- "P4Node10NodeBacked"
+- "P4Node15NodeConvertible"
+- "P4Node17NodeInitializable"
+- "P4Node17NodeRepresentable"
+- "P13PathIndexable13PathIndexable"
+- "P11Polymorphic11Polymorphic"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Polymorphic.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/PathIndexable.swiftmodule"
+interface-hash: "9daf4e7da71729fb9a11c2bfbd1c78ee"

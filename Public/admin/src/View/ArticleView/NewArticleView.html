@@ -1,0 +1,108 @@
+<!-- Button trigger modal -->
+<script type="text/javascript" charset="utf-8" src="bower_components/ueditor/ueditor.config.js"></script>
+<script type="text/javascript" charset="utf-8" src="bower_components/ueditor/ueditor.all.min.js"> </script>
+<!--建议手动加在语言，避免在ie下有时因为加载语言失败导致编辑器加载失败-->
+<!--这里加载的语言文件会覆盖你在配置项目里添加的语言类型，比如你在配置项目里配置的是英文，这里加载的中文，那最后就是中文-->
+<script type="text/javascript" charset="utf-8" src="bower_components/ueditor/lang/zh-cn/zh-cn.js"></script>
+<script type="text/javascript" charset="utf-8" src="bower_components/ueditor/initEditor.js"></script>
+<div class="grid-form1 <% ctrl.page2Style %>" ng-style="showContent" ng-style="{
+  '-webkit-transition-duration': ctrl.speed + 'ms',
+  '-moz-transition-duration': ctrl.speed + 'ms',
+  '-ms-transition-duration': ctrl.speed + 'ms',
+  '-o-transition-duration': ctrl.speed + 'ms',
+  'transition-duration': ctrl.speed + 'ms'
+}">
+  	       <h3>添加文章</h3>
+  	         <div class="tab-content">
+						<div class="tab-pane active" id="horizontal-form">
+							<form name="form" class="form-horizontal">
+                <div class="form-group">
+                  <label for="selector1" class="col-sm-2 control-label">分类</label>
+                  <div class="col-sm-8">
+                    <select name="selector1" id="selector1" class="form-control1" ng-model="vm.selected">
+                    <option ng-repeat="catalog in vm.catalogs" value="<% catalog.id %>"> <% catalog.cate_name %> </option>
+                  </select></div>
+                </div>
+
+								<div class="form-group">
+									<label for="focusedinput" class="col-sm-2 control-label">文章标题</label>
+									<div class="col-sm-8">
+										<input type="text" name="art_title" ng-model="vm.input_param.art_title" bg-field-error class="form-control1" id="cataloginput" placeholder="不能为空" required="true">
+									</div>
+								</div>
+                <div class="form-group">
+									<label for="focusedinput" class="col-sm-2 control-label">编辑</label>
+									<div class="col-sm-8">
+										<input type="text" name="art_editor" ng-model="vm.input_param.art_editor" bg-field-error class="form-control1" id="titleinput" placeholder="不能为空" required="true">
+									</div>
+								</div>
+                <div class="form-group">
+									<label for="focusedinput" class="col-sm-2 control-label">缩略图</label>
+									<div class="col-sm-8">
+                    <input type="file" nv-file-select="" uploader="vm.uploader"/><br/>
+                      <table class="table" ng-if="vm.uploader.queue.length>0">
+                          <thead>
+                              <tr>
+                                  <th width="50%">文件名</th>
+                                  <th ng-show="vm.uploader.isHTML5">大小</th>
+                                  <th ng-show="vm.uploader.isHTML5">进度</th>
+                                  <th>状态</th>
+                                  <th>操作</th>
+                              </tr>
+                          </thead>
+                          <tbody>
+                              <tr ng-repeat="item in vm.uploader.queue">
+                                  <td>
+                                    <strong><% item.file.name %></strong>
+                                    <div ng-show="vm.uploader.isHTML5" ng-thumb="{ file: item._file, height: 100 }"></div>
+                                  </td>
+                                  <td ng-show="vm.uploader.isHTML5" nowrap><% item.file.size/1024/1024|number:2 %> MB</td>
+                                  <td ng-show="vm.uploader.isHTML5">
+                                      <div class="progress" style="margin-bottom: 0;">
+                                          <div class="progress-bar" role="progressbar" ng-style="{ 'width': item.progress + '%' }"></div>
+                                      </div>
+                                  </td>
+                                  <td class="text-center">
+                                      <span ng-show="item.isSuccess"><i class="glyphicon glyphicon-ok"></i></span>
+                                      <span ng-show="item.isCancel"><i class="glyphicon glyphicon-ban-circle"></i></span>
+                                      <span ng-show="item.isError"><i class="glyphicon glyphicon-remove"></i></span>
+                                  </td>
+                                  <td nowrap>
+                                      <button type="button" class="btn btn-success btn-xs" ng-click="item.upload()" ng-disabled="item.isReady || item.isUploading || item.isSuccess">
+                                          <span class="glyphicon glyphicon-upload"></span> 上传
+                                      </button>
+                                      <button type="button" class="btn btn-warning btn-xs" ng-click="item.cancel()" ng-disabled="!item.isUploading">
+                                          <span class="glyphicon glyphicon-ban-circle"></span> 取消
+                                      </button>
+                                      <!-- <button type="button" class="btn btn-danger btn-xs" ng-click="item.remove()"> 去掉remove
+                                          <span class="glyphicon glyphicon-trash"></span> Remove
+                                      </button> -->
+                                  </td>
+                              </tr>
+                          </tbody>
+                      </table>
+									</div>
+								</div>
+                <div class="form-group">
+									<label for="txtarea1" class="col-sm-2 control-label">描述</label>
+									<div class="col-sm-8">
+                    <textarea name="cate_description" ng-model="vm.input_param.art_description" bg-field-error id="destxtarea" cols="50" rows="4" class="form-control1" style="height:150px;" required="true"></textarea></div>
+								</div>
+                    <style>
+                        .edui-default{line-height: 28px;}
+                        div.edui-combox-body,div.edui-button-body,div.edui-splitbutton-body
+                        {overflow: hidden; height:20px;}
+                        div.edui-box{overflow: hidden; height:22px;}
+                        </style>
+                    <div class="form-group">
+                      <label for="txtarea1" class="col-sm-2 control-label">内容</label>
+                      <div class="col-sm-8">
+                        <script id="editor" name="art_content" ng-model="vm.art_content" type="text/plain" style="width:1024px;height:500px;" required="true"></script>
+                    </div>
+
+							</form>
+						</div>
+					</div>
+          <button type="submit" class="btn btn-default" ng-disabled="form.$invalid" ng-click="vm.submit()">提交</button>
+   </div>
+ </div>

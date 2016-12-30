@@ -1,0 +1,23 @@
+{
+  "": {
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Random.build/master.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Crypto-1.0.1/Sources/Random/CryptoRandom.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Random.build/CryptoRandom.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Random.build/CryptoRandom.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Random.build/CryptoRandom~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Random.build/CryptoRandom.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Crypto-1.0.1/Sources/Random/Random.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Random.build/Random.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Random.build/Random.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Random.build/Random~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Random.build/Random.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Crypto-1.0.1/Sources/Random/URandom.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Random.build/URandom.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Random.build/URandom.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Random.build/URandom~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Random.build/URandom.swiftdeps"
+  }
+}

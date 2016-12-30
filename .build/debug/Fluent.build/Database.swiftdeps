@@ -1,0 +1,86 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Database"
+provides-nominal:
+- "C6Fluent8Database"
+provides-member:
+- ["C6Fluent8Database", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "String"
+- "Database"
+- "AssignmentPrecedence"
+- "Driver"
+- "Dictionary"
+depends-member:
+- !private ["Ps9AnyObject", "driver"]
+- ["Ps9AnyObject", ""]
+- ["Ps7CVarArg", "Key"]
+- ["Ps7CVarArg", "Value"]
+- ["Ps10Collection", "Key"]
+- ["Ps10Collection", "Value"]
+- ["P4Node7Context", "Key"]
+- ["P4Node7Context", "Value"]
+- ["Ps28CustomDebugStringConvertible", "Key"]
+- ["Ps28CustomDebugStringConvertible", "Value"]
+- ["Ps17CustomReflectable", "Key"]
+- ["Ps17CustomReflectable", "Value"]
+- ["Ps23CustomStringConvertible", "Key"]
+- ["Ps23CustomStringConvertible", "Value"]
+- ["C6Fluent8Database", "Database"]
+- ["C6Fluent8Database", "Driver"]
+- ["C6Fluent8Database", "String"]
+- ["C6Fluent8Database", "default"]
+- ["C6Fluent8Database", "deinit"]
+- ["C6Fluent8Database", "driver"]
+- ["C6Fluent8Database", "init"]
+- ["C6Fluent8Database", "map"]
+- ["Vs10Dictionary", "Key"]
+- ["Vs10Dictionary", "Value"]
+- ["Vs10Dictionary", "deinit"]
+- ["P6Fluent6Driver", "deinit"]
+- ["Ps30ExpressibleByDictionaryLiteral", "Key"]
+- ["Ps30ExpressibleByDictionaryLiteral", "Value"]
+- ["Ps9Indexable", "Key"]
+- ["Ps9Indexable", "Value"]
+- ["Ps13IndexableBase", "Key"]
+- ["Ps13IndexableBase", "Value"]
+- ["P4Node13KeyAccessible", "Key"]
+- ["P4Node13KeyAccessible", "Value"]
+- ["Sq", "deinit"]
+- ["Ps8Sequence", "Key"]
+- ["Ps8Sequence", "Value"]
+- ["Ps21_ObjectiveCBridgeable", "Key"]
+- ["Ps21_ObjectiveCBridgeable", "Value"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Ps7CVarArg"
+- "Ps10Collection"
+- "P4Node7Context"
+- "Ps28CustomDebugStringConvertible"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "C6Fluent8Database"
+- "Vs10Dictionary"
+- "P6Fluent6Driver"
+- "Ps30ExpressibleByDictionaryLiteral"
+- "Ps9Indexable"
+- "Ps13IndexableBase"
+- "P4Node13KeyAccessible"
+- "Sq"
+- "Ps8Sequence"
+- "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Node.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/PathIndexable.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Polymorphic.swiftmodule"
+interface-hash: "5576caa36bce0ce57ff35399fa8deed4"

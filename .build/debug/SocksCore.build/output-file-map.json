@@ -1,0 +1,95 @@
+{
+  "": {
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/SocksCore.build/master.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Socks-1.2.0/Sources/SocksCore/Address+C.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/SocksCore.build/Address+C.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/SocksCore.build/Address+C.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/SocksCore.build/Address+C~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/SocksCore.build/Address+C.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Socks-1.2.0/Sources/SocksCore/Address.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/SocksCore.build/Address.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/SocksCore.build/Address.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/SocksCore.build/Address~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/SocksCore.build/Address.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Socks-1.2.0/Sources/SocksCore/Bytes.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/SocksCore.build/Bytes.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/SocksCore.build/Bytes.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/SocksCore.build/Bytes~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/SocksCore.build/Bytes.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Socks-1.2.0/Sources/SocksCore/Conversions.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/SocksCore.build/Conversions.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/SocksCore.build/Conversions.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/SocksCore.build/Conversions~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/SocksCore.build/Conversions.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Socks-1.2.0/Sources/SocksCore/Error.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/SocksCore.build/Error.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/SocksCore.build/Error.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/SocksCore.build/Error~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/SocksCore.build/Error.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Socks-1.2.0/Sources/SocksCore/FDSet.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/SocksCore.build/FDSet.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/SocksCore.build/FDSet.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/SocksCore.build/FDSet~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/SocksCore.build/FDSet.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Socks-1.2.0/Sources/SocksCore/InternetSocket.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/SocksCore.build/InternetSocket.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/SocksCore.build/InternetSocket.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/SocksCore.build/InternetSocket~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/SocksCore.build/InternetSocket.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Socks-1.2.0/Sources/SocksCore/Pipe.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/SocksCore.build/Pipe.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/SocksCore.build/Pipe.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/SocksCore.build/Pipe~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/SocksCore.build/Pipe.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Socks-1.2.0/Sources/SocksCore/Select.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/SocksCore.build/Select.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/SocksCore.build/Select.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/SocksCore.build/Select~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/SocksCore.build/Select.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Socks-1.2.0/Sources/SocksCore/Socket.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/SocksCore.build/Socket.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/SocksCore.build/Socket.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/SocksCore.build/Socket~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/SocksCore.build/Socket.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Socks-1.2.0/Sources/SocksCore/SocketOptions+Deprecated.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/SocksCore.build/SocketOptions+Deprecated.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/SocksCore.build/SocketOptions+Deprecated.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/SocksCore.build/SocketOptions+Deprecated~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/SocksCore.build/SocketOptions+Deprecated.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Socks-1.2.0/Sources/SocksCore/SocketOptions.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/SocksCore.build/SocketOptions.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/SocksCore.build/SocketOptions.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/SocksCore.build/SocketOptions~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/SocksCore.build/SocketOptions.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Socks-1.2.0/Sources/SocksCore/TCPSocket.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/SocksCore.build/TCPSocket.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/SocksCore.build/TCPSocket.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/SocksCore.build/TCPSocket~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/SocksCore.build/TCPSocket.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Socks-1.2.0/Sources/SocksCore/Types.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/SocksCore.build/Types.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/SocksCore.build/Types.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/SocksCore.build/Types~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/SocksCore.build/Types.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Socks-1.2.0/Sources/SocksCore/UDPSocket.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/SocksCore.build/UDPSocket.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/SocksCore.build/UDPSocket.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/SocksCore.build/UDPSocket~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/SocksCore.build/UDPSocket.swiftdeps"
+  }
+}

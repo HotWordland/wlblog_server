@@ -1,0 +1,89 @@
+{
+  "": {
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/App.build/master.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Sources/App/main.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/App.build/main.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/App.build/main.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/App.build/main~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/App.build/main.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Sources/App/Message+TextPlainJSON.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/App.build/Message+TextPlainJSON.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/App.build/Message+TextPlainJSON.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/App.build/Message+TextPlainJSON~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/App.build/Message+TextPlainJSON.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Sources/App/RequestState.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/App.build/RequestState.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/App.build/RequestState.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/App.build/RequestState~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/App.build/RequestState.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Sources/App/Controllers/ArticleController.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/App.build/ArticleController.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/App.build/Controllers/ArticleController.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/App.build/ArticleController~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/App.build/ArticleController.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Sources/App/Controllers/CatagoryController.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/App.build/CatagoryController.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/App.build/Controllers/CatagoryController.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/App.build/CatagoryController~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/App.build/CatagoryController.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Sources/App/Controllers/LoginController.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/App.build/LoginController.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/App.build/Controllers/LoginController.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/App.build/LoginController~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/App.build/LoginController.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Sources/App/Controllers/PostController.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/App.build/PostController.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/App.build/Controllers/PostController.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/App.build/PostController~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/App.build/PostController.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Sources/App/Middleware/CorsMiddleware.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/App.build/CorsMiddleware.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/App.build/Middleware/CorsMiddleware.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/App.build/CorsMiddleware~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/App.build/CorsMiddleware.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Sources/App/Middleware/UserLoginMiddle.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/App.build/UserLoginMiddle.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/App.build/Middleware/UserLoginMiddle.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/App.build/UserLoginMiddle~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/App.build/UserLoginMiddle.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Sources/App/Models/Article.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/App.build/Article.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/App.build/Models/Article.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/App.build/Article~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/App.build/Article.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Sources/App/Models/Catagory.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/App.build/Catagory.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/App.build/Models/Catagory.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/App.build/Catagory~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/App.build/Catagory.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Sources/App/Models/Post.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/App.build/Post.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/App.build/Models/Post.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/App.build/Post~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/App.build/Post.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Sources/App/Models/User.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/App.build/User.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/App.build/Models/User.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/App.build/User~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/App.build/User.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Sources/App/Route/Route.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/App.build/Route.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/App.build/Route/Route.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/App.build/Route~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/App.build/Route.swiftdeps"
+  }
+}

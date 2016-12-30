@@ -1,0 +1,35 @@
+{
+  "": {
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Socks.build/master.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Socks-1.2.0/Sources/Socks/Socks.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Socks.build/Socks.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Socks.build/Socks.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Socks.build/Socks~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Socks.build/Socks.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Socks-1.2.0/Sources/Socks/SynchronousTCPServer.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Socks.build/SynchronousTCPServer.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Socks.build/SynchronousTCPServer.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Socks.build/SynchronousTCPServer~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Socks.build/SynchronousTCPServer.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Socks-1.2.0/Sources/Socks/SynchronousUDPServer.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Socks.build/SynchronousUDPServer.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Socks.build/SynchronousUDPServer.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Socks.build/SynchronousUDPServer~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Socks.build/SynchronousUDPServer.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Socks-1.2.0/Sources/Socks/TCPClient.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Socks.build/TCPClient.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Socks.build/TCPClient.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Socks.build/TCPClient~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Socks.build/TCPClient.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Socks-1.2.0/Sources/Socks/UDPClient.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Socks.build/UDPClient.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Socks.build/UDPClient.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Socks.build/UDPClient~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Socks.build/UDPClient.swiftdeps"
+  }
+}

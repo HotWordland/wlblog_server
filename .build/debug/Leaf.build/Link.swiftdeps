@@ -1,0 +1,143 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Link"
+provides-nominal:
+- "C4Leaf4Link"
+provides-member:
+- ["C4Leaf4Link", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "Link"
+- !private "Optional"
+- "AnyIterator"
+- "AssignmentPrecedence"
+- "Sequence"
+depends-member:
+- ["Vs11AnyIterator", "Element"]
+- ["Vs11AnyIterator", "deinit"]
+- !private ["Vs11AnyIterator", "init"]
+- !private ["Ps9AnyObject", "AnyIterator"]
+- ["Ps9AnyObject", "Element"]
+- ["Ps9AnyObject", "Iterator"]
+- !private ["Ps9AnyObject", "Link"]
+- !private ["Ps9AnyObject", "Optional"]
+- ["Ps9AnyObject", "SubSequence"]
+- ["Ps9AnyObject", "_copyContents"]
+- ["Ps9AnyObject", "_copyToContiguousArray"]
+- ["Ps9AnyObject", "_customContainsEquatableElement"]
+- ["Ps9AnyObject", "_preprocessingPass"]
+- !private ["Ps9AnyObject", "child"]
+- ["Ps9AnyObject", "dropFirst"]
+- ["Ps9AnyObject", "dropLast"]
+- ["Ps9AnyObject", "filter"]
+- ["Ps9AnyObject", "forEach"]
+- !private ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "makeIterator"]
+- ["Ps9AnyObject", "map"]
+- !private ["Ps9AnyObject", "parent"]
+- ["Ps9AnyObject", "prefix"]
+- ["Ps9AnyObject", "split"]
+- ["Ps9AnyObject", "suffix"]
+- !private ["Ps9AnyObject", "tail"]
+- ["Ps9AnyObject", "underestimatedCount"]
+- !private ["Ps9AnyObject", "value"]
+- ["Ps9AnyObject", ""]
+- ["Vs11AnySequence", "Iterator"]
+- ["Vs11AnySequence", "SubSequence"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23ExpressibleByNilLiteral", "init"]
+- !private ["P4Core11Extractable", "init"]
+- ["Ps16IteratorProtocol", "Element"]
+- !private ["Ps16IteratorProtocol", "init"]
+- ["C4Leaf4Link", "AnyIterator"]
+- ["C4Leaf4Link", "Element"]
+- ["C4Leaf4Link", "Iterator"]
+- ["C4Leaf4Link", "Link"]
+- !private ["C4Leaf4Link", "Optional"]
+- ["C4Leaf4Link", "SubSequence"]
+- ["C4Leaf4Link", "Value"]
+- ["C4Leaf4Link", "_copyContents"]
+- ["C4Leaf4Link", "_copyToContiguousArray"]
+- ["C4Leaf4Link", "_customContainsEquatableElement"]
+- ["C4Leaf4Link", "_preprocessingPass"]
+- ["C4Leaf4Link", "addChild"]
+- ["C4Leaf4Link", "addParent"]
+- ["C4Leaf4Link", "child"]
+- ["C4Leaf4Link", "deinit"]
+- ["C4Leaf4Link", "dropChild"]
+- ["C4Leaf4Link", "dropFirst"]
+- ["C4Leaf4Link", "dropLast"]
+- ["C4Leaf4Link", "dropParent"]
+- ["C4Leaf4Link", "extend"]
+- ["C4Leaf4Link", "filter"]
+- ["C4Leaf4Link", "forEach"]
+- ["C4Leaf4Link", "init"]
+- ["C4Leaf4Link", "makeIterator"]
+- ["C4Leaf4Link", "map"]
+- ["C4Leaf4Link", "parent"]
+- ["C4Leaf4Link", "prefix"]
+- ["C4Leaf4Link", "split"]
+- ["C4Leaf4Link", "suffix"]
+- ["C4Leaf4Link", "tail"]
+- ["C4Leaf4Link", "tip"]
+- ["C4Leaf4Link", "underestimatedCount"]
+- ["C4Leaf4Link", "value"]
+- ["Sq", "deinit"]
+- !private ["Sq", "init"]
+- !private ["Ps8Sequence", "AnyIterator"]
+- ["Ps8Sequence", "Element"]
+- ["Ps8Sequence", "Iterator"]
+- !private ["Ps8Sequence", "Link"]
+- !private ["Ps8Sequence", "Optional"]
+- ["Ps8Sequence", "SubSequence"]
+- ["Ps8Sequence", "_copyContents"]
+- ["Ps8Sequence", "_copyToContiguousArray"]
+- ["Ps8Sequence", "_customContainsEquatableElement"]
+- ["Ps8Sequence", "_preprocessingPass"]
+- !private ["Ps8Sequence", "child"]
+- ["Ps8Sequence", "dropFirst"]
+- ["Ps8Sequence", "dropLast"]
+- ["Ps8Sequence", "filter"]
+- ["Ps8Sequence", "forEach"]
+- !private ["Ps8Sequence", "init"]
+- ["Ps8Sequence", "makeIterator"]
+- ["Ps8Sequence", "map"]
+- !private ["Ps8Sequence", "parent"]
+- ["Ps8Sequence", "prefix"]
+- ["Ps8Sequence", "split"]
+- ["Ps8Sequence", "suffix"]
+- !private ["Ps8Sequence", "tail"]
+- ["Ps8Sequence", "underestimatedCount"]
+- !private ["Ps8Sequence", "value"]
+- ["Ps8Sequence", ""]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+depends-nominal:
+- "Vs11AnyIterator"
+- "Ps9AnyObject"
+- "Vs11AnySequence"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps17CustomReflectable"
+- !private "Ps23ExpressibleByNilLiteral"
+- !private "P4Core11Extractable"
+- "Ps16IteratorProtocol"
+- "C4Leaf4Link"
+- "Sq"
+- "Ps8Sequence"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Core.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/libc.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Node.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/PathIndexable.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Polymorphic.swiftmodule"
+interface-hash: "d2c24c3e264c0d9f71e198a133940540"

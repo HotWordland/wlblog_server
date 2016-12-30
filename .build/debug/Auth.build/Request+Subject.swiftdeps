@@ -1,0 +1,292 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["C9Turnstile7Subject", ""]
+- ["C4HTTP7Request", ""]
+- ["C9Turnstile7Subject", "sessionIdentifier"]
+- ["C4HTTP7Request", "subject"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "AuthError"
+- !private "StringLiteralType"
+- "Subject"
+- "String"
+- "Request"
+- "CastingPrecedence"
+depends-member:
+- !private ["Ps9AnyObject", "AuthError"]
+- !private ["Ps9AnyObject", "authDetails"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "storage"]
+- ["Ps9AnyObject", "subject"]
+- ["O4Auth9AuthError", "deinit"]
+- !private ["O4Auth9AuthError", "noSubject"]
+- ["V9Turnstile21AuthenticationDetails", "deinit"]
+- !private ["V9Turnstile21AuthenticationDetails", "sessionID"]
+- !private ["P4HTTP17BodyRepresentable", "init"]
+- !private ["P4Core16BytesConvertible", "init"]
+- !private ["P4Core18BytesInitializable", "init"]
+- !private ["P4Core18BytesRepresentable", "init"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "subscript"]
+- !private ["Ps10Collection", "Index"]
+- !private ["Ps10Collection", "Iterator"]
+- !private ["Ps10Collection", "SubSequence"]
+- !private ["Ps10Collection", "_Element"]
+- !private ["Ps10Collection", "subscript"]
+- !private ["Ps10Comparable", "init"]
+- !private ["P4Node7Context", "subscript"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "subscript"]
+- !private ["Ps23CustomStringConvertible", "AuthError"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "storage"]
+- ["Ps23CustomStringConvertible", "subject"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- !private ["Vs10Dictionary", "subscript"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "noSubject"]
+- !private ["Ps5Error", "noSubject"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "subscript"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "noSubject"]
+- !private ["Ps9Indexable", "Index"]
+- !private ["Ps9Indexable", "Iterator"]
+- !private ["Ps9Indexable", "SubSequence"]
+- !private ["Ps9Indexable", "_Element"]
+- !private ["Ps9Indexable", "subscript"]
+- !private ["Ps13IndexableBase", "Index"]
+- !private ["Ps13IndexableBase", "Iterator"]
+- !private ["Ps13IndexableBase", "SubSequence"]
+- !private ["Ps13IndexableBase", "_Element"]
+- !private ["Ps13IndexableBase", "subscript"]
+- !private ["Vs16IndexingIterator", "Element"]
+- !private ["Ps16IteratorProtocol", "Element"]
+- !private ["P4HTTP13KeyAccessible", "subscript"]
+- !private ["P4Node13KeyAccessible", "subscript"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["C4HTTP7Message", "AuthError"]
+- ["C4HTTP7Message", "Subject"]
+- !private ["C4HTTP7Message", "storage"]
+- ["C4HTTP7Message", "subject"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["CSo8NSObject", "init"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- !private ["P4Node15NodeConvertible", "init"]
+- !private ["P4Node17NodeInitializable", "init"]
+- !private ["P4Node17NodeRepresentable", "init"]
+- ["Sq", "deinit"]
+- !private ["P13PathIndexable9PathIndex", "init"]
+- !private ["P11Polymorphic11Polymorphic", "init"]
+- !private ["C4HTTP7Request", "AuthError"]
+- ["C4HTTP7Request", "Subject"]
+- ["C4HTTP7Request", "deinit"]
+- !private ["C4HTTP7Request", "storage"]
+- ["C4HTTP7Request", "subject"]
+- !private ["P4HTTP21ResponseRepresentable", "init"]
+- !private ["Ps8Sequence", "Element"]
+- !private ["Ps8Sequence", "Index"]
+- !private ["Ps8Sequence", "Iterator"]
+- !private ["Ps8Sequence", "SubSequence"]
+- !private ["Ps8Sequence", "_Element"]
+- !private ["Ps8Sequence", "subscript"]
+- !private ["Vs5Slice", "Index"]
+- !private ["Vs5Slice", "Iterator"]
+- !private ["Vs5Slice", "SubSequence"]
+- !private ["Vs5Slice", "_Element"]
+- ["SS", "deinit"]
+- !private ["SS", "init"]
+- ["C9Turnstile7Subject", "String"]
+- !private ["C9Turnstile7Subject", "authDetails"]
+- ["C9Turnstile7Subject", "deinit"]
+- ["C9Turnstile7Subject", "sessionIdentifier"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["P9Transport15TransferMessage", "AuthError"]
+- !private ["P9Transport15TransferMessage", "storage"]
+- ["P9Transport15TransferMessage", "subject"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "noSubject"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "subscript"]
+depends-nominal:
+- "Ps9AnyObject"
+- "O4Auth9AuthError"
+- "V9Turnstile21AuthenticationDetails"
+- !private "P4HTTP17BodyRepresentable"
+- !private "P4Core16BytesConvertible"
+- !private "P4Core18BytesInitializable"
+- !private "P4Core18BytesRepresentable"
+- !private "Ps7CVarArg"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- !private "P4Node7Context"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- !private "Vs10Dictionary"
+- !private "Ps9Equatable"
+- !private "Ps5Error"
+- !private "Ps30ExpressibleByDictionaryLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps32ExpressibleByStringInterpolation"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Ps8Hashable"
+- !private "Ps9Indexable"
+- !private "Ps13IndexableBase"
+- !private "Vs16IndexingIterator"
+- !private "Ps16IteratorProtocol"
+- !private "P4HTTP13KeyAccessible"
+- !private "P4Node13KeyAccessible"
+- !private "Ps25LosslessStringConvertible"
+- "C4HTTP7Message"
+- !private "Ps10MirrorPath"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "P4Node15NodeConvertible"
+- !private "P4Node17NodeInitializable"
+- !private "P4Node17NodeRepresentable"
+- "Sq"
+- !private "P13PathIndexable9PathIndex"
+- !private "P11Polymorphic11Polymorphic"
+- "C4HTTP7Request"
+- !private "P4HTTP21ResponseRepresentable"
+- !private "Ps8Sequence"
+- !private "Vs5Slice"
+- "SS"
+- "C9Turnstile7Subject"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- "P9Transport15TransferMessage"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- !private "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Turnstile.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/TurnstileCrypto.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/HTTP.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Core.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/libc.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Transport.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/SocksCore.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/TLS.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/whrlpool.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/ui_compat.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/txt_db.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/ts.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/tls.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/ripemd.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/rc4.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/rc2.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/rand.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/poly1305.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/pkcs12.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/opensslfeatures.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/opensslconf.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/x509v3.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/ocsp.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/modes.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/md5.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/md4.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/krb5_asn.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/idea.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/gost.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/err.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/ui.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/engine.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/ssl.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/srtp.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/ssl23.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/tls1.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/ssl3.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/ssl2.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/pem2.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/pkcs7.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/x509_vfy.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/sha.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/rsa.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/ecdh.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/ecdsa.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/ec.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/x509.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/pem.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/hmac.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/dtls1.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/dso.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/dsa.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/dh.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/des.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/conf_api.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/lhash.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/conf.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/crypto.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/comp.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/cms.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/obj_mac.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/objects.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/evp.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/cmac.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/chacha.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/cast.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/camellia.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/buffer.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/blowfish.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/asn1t.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/asn1_mac.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/bn.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/ossl_typ.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/opensslv.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/safestack.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/stack.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/bio.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/asn1.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/aes.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/CLibreSSL.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/module.modulemap"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/URI.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Cookies.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Cache.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Fluent.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Node.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/PathIndexable.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Polymorphic.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Random.swiftmodule"
+interface-hash: "09a338b558ea3dfab512c4b06cd3120a"

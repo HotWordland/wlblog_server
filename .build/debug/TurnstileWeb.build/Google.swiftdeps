@@ -1,0 +1,483 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Google"
+- "GoogleAccount"
+- "GoogleError"
+provides-nominal:
+- "C12TurnstileWeb6Google"
+- "V12TurnstileWeb13GoogleAccount"
+- "V12TurnstileWeb11GoogleError"
+provides-member:
+- ["C12TurnstileWeb6Google", ""]
+- ["V12TurnstileWeb13GoogleAccount", ""]
+- ["V12TurnstileWeb11GoogleError", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "Credentials"
+- !private "APIConnectionError"
+- !private "IncorrectCredentialsError"
+- !private "??"
+- "String"
+- !private "Array"
+- !private "InvalidAPIResponse"
+- "TurnstileError"
+- !private "UnsupportedCredentialsError"
+- !private "=="
+- !private "UnicodeScalarType"
+- "CastingPrecedence"
+- !private "URLRequest"
+- !private "+"
+- "Google"
+- "AssignmentPrecedence"
+- "Realm"
+- "GoogleError"
+- !private "JSONSerialization"
+- "AccessToken"
+- "OAuth2"
+- !private "StringLiteralType"
+- "URL"
+- "Account"
+- "GoogleAccount"
+depends-member:
+- ["V12TurnstileWeb18APIConnectionError", "deinit"]
+- !private ["V12TurnstileWeb18APIConnectionError", "init"]
+- ["C9Turnstile11AccessToken", "deinit"]
+- !private ["C9Turnstile11AccessToken", "string"]
+- !private ["P9Turnstile7Account", "init"]
+- ["P9Turnstile7Account", "uniqueID"]
+- ["P9Turnstile7Account", ""]
+- !private ["Ps9AnyObject", "APIConnectionError"]
+- !private ["Ps9AnyObject", "GoogleAccount"]
+- !private ["Ps9AnyObject", "IncorrectCredentialsError"]
+- !private ["Ps9AnyObject", "InvalidAPIResponse"]
+- !private ["Ps9AnyObject", "JSONSerialization"]
+- !private ["Ps9AnyObject", "URL"]
+- !private ["Ps9AnyObject", "URLRequest"]
+- !private ["Ps9AnyObject", "UnsupportedCredentialsError"]
+- ["Ps9AnyObject", "authenticate"]
+- !private ["Ps9AnyObject", "clientID"]
+- !private ["Ps9AnyObject", "components"]
+- ["Ps9AnyObject", "getLoginLink"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "jsonObject"]
+- ["Ps9AnyObject", "register"]
+- !private ["Ps9AnyObject", "string"]
+- !private ["Ps9AnyObject", "urlSession"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "Iterator"]
+- !private ["Sa", "_Element"]
+- ["Sa", "deinit"]
+- !private ["Sa", "first"]
+- !private ["Ps23BidirectionalCollection", "Iterator"]
+- !private ["Ps23BidirectionalCollection", "_Element"]
+- !private ["Ps23BidirectionalCollection", "first"]
+- !private ["Ps22BidirectionalIndexable", "Iterator"]
+- !private ["Ps22BidirectionalIndexable", "_Element"]
+- !private ["Ps22BidirectionalIndexable", "first"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["Sb", "deinit"]
+- !private ["Ps7CVarArg", "Index"]
+- !private ["Ps7CVarArg", "Iterator"]
+- !private ["Ps7CVarArg", "SubSequence"]
+- !private ["Ps7CVarArg", "_Element"]
+- !private ["Ps7CVarArg", "components"]
+- !private ["Ps7CVarArg", "first"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "jsonObject"]
+- !private ["Ps7CVarArg", "subscript"]
+- !private ["V10Foundation12CharacterSet", "deinit"]
+- !private ["Ps10Collection", "Index"]
+- !private ["Ps10Collection", "Iterator"]
+- !private ["Ps10Collection", "SubSequence"]
+- !private ["Ps10Collection", "_Element"]
+- !private ["Ps10Collection", "first"]
+- !private ["Ps10Collection", "subscript"]
+- !private ["Ps10Comparable", "components"]
+- !private ["Ps10Comparable", "init"]
+- ["P9Turnstile11Credentials", "deinit"]
+- !private ["P9Turnstile11Credentials", "init"]
+- !private ["P9Turnstile11Credentials", "string"]
+- ["P9Turnstile11Credentials", "uniqueID"]
+- ["P9Turnstile11Credentials", ""]
+- !private ["P9Turnstile16CredentialsError", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "Index"]
+- !private ["Ps28CustomDebugStringConvertible", "Iterator"]
+- !private ["Ps28CustomDebugStringConvertible", "SubSequence"]
+- !private ["Ps28CustomDebugStringConvertible", "_Element"]
+- !private ["Ps28CustomDebugStringConvertible", "components"]
+- !private ["Ps28CustomDebugStringConvertible", "first"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "jsonObject"]
+- !private ["Ps28CustomDebugStringConvertible", "setValue"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "components"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "Index"]
+- !private ["Ps17CustomReflectable", "Iterator"]
+- !private ["Ps17CustomReflectable", "SubSequence"]
+- !private ["Ps17CustomReflectable", "_Element"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "components"]
+- !private ["Ps17CustomReflectable", "first"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "setValue"]
+- !private ["Ps17CustomReflectable", "subscript"]
+- !private ["Ps23CustomStringConvertible", "Index"]
+- !private ["Ps23CustomStringConvertible", "Iterator"]
+- !private ["Ps23CustomStringConvertible", "SubSequence"]
+- !private ["Ps23CustomStringConvertible", "_Element"]
+- ["Ps23CustomStringConvertible", "_code"]
+- ["Ps23CustomStringConvertible", "_domain"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps23CustomStringConvertible", "_getEmbeddedNSError"]
+- ["Ps23CustomStringConvertible", "_userInfo"]
+- !private ["Ps23CustomStringConvertible", "components"]
+- ["Ps23CustomStringConvertible", "description"]
+- !private ["Ps23CustomStringConvertible", "first"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "jsonObject"]
+- !private ["Ps23CustomStringConvertible", "setValue"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- ["Ps23CustomStringConvertible", ""]
+- ["V10Foundation4Data", "deinit"]
+- !private ["Vs10Dictionary", "Index"]
+- !private ["Vs10Dictionary", "SubSequence"]
+- ["Vs10Dictionary", "deinit"]
+- !private ["Vs10Dictionary", "subscript"]
+- !private ["Ps9Equatable", "Element"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "components"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "jsonObject"]
+- !private ["Ps9Equatable", "setValue"]
+- ["Ps5Error", "_code"]
+- ["Ps5Error", "_domain"]
+- ["Ps5Error", "_getEmbeddedNSError"]
+- ["Ps5Error", "_userInfo"]
+- ["Ps5Error", "description"]
+- !private ["Ps5Error", "init"]
+- ["Ps5Error", ""]
+- !private ["Ps25ExpressibleByArrayLiteral", "Element"]
+- !private ["Ps25ExpressibleByArrayLiteral", "Iterator"]
+- !private ["Ps25ExpressibleByArrayLiteral", "_Element"]
+- !private ["Ps25ExpressibleByArrayLiteral", "first"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "Index"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "SubSequence"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "subscript"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "components"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps32ExpressibleByStringInterpolation", "components"]
+- !private ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "components"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "components"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["C12TurnstileWeb6Google", "APIConnectionError"]
+- ["C12TurnstileWeb6Google", "AccessToken"]
+- ["C12TurnstileWeb6Google", "Account"]
+- ["C12TurnstileWeb6Google", "Credentials"]
+- ["C12TurnstileWeb6Google", "GoogleAccount"]
+- !private ["C12TurnstileWeb6Google", "IncorrectCredentialsError"]
+- !private ["C12TurnstileWeb6Google", "InvalidAPIResponse"]
+- !private ["C12TurnstileWeb6Google", "JSONSerialization"]
+- ["C12TurnstileWeb6Google", "String"]
+- ["C12TurnstileWeb6Google", "URL"]
+- !private ["C12TurnstileWeb6Google", "URLRequest"]
+- !private ["C12TurnstileWeb6Google", "UnsupportedCredentialsError"]
+- ["C12TurnstileWeb6Google", "authenticate"]
+- !private ["C12TurnstileWeb6Google", "clientID"]
+- ["C12TurnstileWeb6Google", "deinit"]
+- ["C12TurnstileWeb6Google", "getLoginLink"]
+- ["C12TurnstileWeb6Google", "init"]
+- ["C12TurnstileWeb6Google", "register"]
+- !private ["C12TurnstileWeb6Google", "urlSession"]
+- ["V12TurnstileWeb13GoogleAccount", "String"]
+- ["V12TurnstileWeb13GoogleAccount", "deinit"]
+- ["V12TurnstileWeb13GoogleAccount", "init"]
+- ["V12TurnstileWeb13GoogleAccount", "uniqueID"]
+- ["V12TurnstileWeb11GoogleError", "String"]
+- ["V12TurnstileWeb11GoogleError", "_code"]
+- ["V12TurnstileWeb11GoogleError", "_domain"]
+- ["V12TurnstileWeb11GoogleError", "_getEmbeddedNSError"]
+- ["V12TurnstileWeb11GoogleError", "_userInfo"]
+- ["V12TurnstileWeb11GoogleError", "deinit"]
+- ["V12TurnstileWeb11GoogleError", "description"]
+- ["V12TurnstileWeb11GoogleError", "init"]
+- ["P12TurnstileWeb10HTTPClient", "deinit"]
+- !private ["P12TurnstileWeb10HTTPClient", "executeRequest"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "components"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "jsonObject"]
+- !private ["Ps8Hashable", "setValue"]
+- ["V9Turnstile25IncorrectCredentialsError", "deinit"]
+- !private ["V9Turnstile25IncorrectCredentialsError", "init"]
+- !private ["Ps9Indexable", "Index"]
+- !private ["Ps9Indexable", "Iterator"]
+- !private ["Ps9Indexable", "SubSequence"]
+- !private ["Ps9Indexable", "_Element"]
+- !private ["Ps9Indexable", "first"]
+- !private ["Ps9Indexable", "subscript"]
+- !private ["Ps13IndexableBase", "Index"]
+- !private ["Ps13IndexableBase", "Iterator"]
+- !private ["Ps13IndexableBase", "SubSequence"]
+- !private ["Ps13IndexableBase", "_Element"]
+- !private ["Ps13IndexableBase", "first"]
+- !private ["Ps13IndexableBase", "subscript"]
+- !private ["Vs16IndexingIterator", "Element"]
+- ["V12TurnstileWeb18InvalidAPIResponse", "deinit"]
+- !private ["V12TurnstileWeb18InvalidAPIResponse", "init"]
+- !private ["Ps16IteratorProtocol", "Element"]
+- !private ["CSo17JSONSerialization", "jsonObject"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "components"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "components"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["Ps17MutableCollection", "Iterator"]
+- !private ["Ps17MutableCollection", "_Element"]
+- !private ["Ps17MutableCollection", "first"]
+- !private ["Ps16MutableIndexable", "Iterator"]
+- !private ["Ps16MutableIndexable", "_Element"]
+- !private ["Ps16MutableIndexable", "first"]
+- !private ["PSo8NSCoding", "components"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo9NSCopying", "components"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo16NSMutableCopying", "components"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["CSo8NSObject", "components"]
+- !private ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "jsonObject"]
+- !private ["PSo16NSObjectProtocol", "components"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "jsonObject"]
+- !private ["PSo14NSSecureCoding", "components"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "components"]
+- !private ["CSo8NSString", "init"]
+- ["Os5Never", "deinit"]
+- !private ["C12TurnstileWeb6OAuth2", "APIConnectionError"]
+- ["C12TurnstileWeb6OAuth2", "AccessToken"]
+- ["C12TurnstileWeb6OAuth2", "Account"]
+- ["C12TurnstileWeb6OAuth2", "Credentials"]
+- ["C12TurnstileWeb6OAuth2", "GoogleAccount"]
+- !private ["C12TurnstileWeb6OAuth2", "IncorrectCredentialsError"]
+- !private ["C12TurnstileWeb6OAuth2", "InvalidAPIResponse"]
+- !private ["C12TurnstileWeb6OAuth2", "JSONSerialization"]
+- ["C12TurnstileWeb6OAuth2", "String"]
+- ["C12TurnstileWeb6OAuth2", "URL"]
+- !private ["C12TurnstileWeb6OAuth2", "URLRequest"]
+- !private ["C12TurnstileWeb6OAuth2", "UnsupportedCredentialsError"]
+- ["C12TurnstileWeb6OAuth2", "authenticate"]
+- !private ["C12TurnstileWeb6OAuth2", "clientID"]
+- ["C12TurnstileWeb6OAuth2", "deinit"]
+- ["C12TurnstileWeb6OAuth2", "getLoginLink"]
+- ["C12TurnstileWeb6OAuth2", "init"]
+- ["C12TurnstileWeb6OAuth2", "register"]
+- !private ["C12TurnstileWeb6OAuth2", "urlSession"]
+- ["C12TurnstileWeb6OAuth2", ""]
+- !private ["Ps9OptionSet", "Element"]
+- ["Sq", "deinit"]
+- !private ["Ps22RandomAccessCollection", "Iterator"]
+- !private ["Ps22RandomAccessCollection", "_Element"]
+- !private ["Ps22RandomAccessCollection", "first"]
+- !private ["Ps21RandomAccessIndexable", "Iterator"]
+- !private ["Ps21RandomAccessIndexable", "_Element"]
+- !private ["Ps21RandomAccessIndexable", "first"]
+- !private ["Ps26RangeReplaceableCollection", "Iterator"]
+- !private ["Ps26RangeReplaceableCollection", "_Element"]
+- !private ["Ps26RangeReplaceableCollection", "first"]
+- !private ["Ps25RangeReplaceableIndexable", "Iterator"]
+- !private ["Ps25RangeReplaceableIndexable", "_Element"]
+- !private ["Ps25RangeReplaceableIndexable", "first"]
+- !private ["Ps16RawRepresentable", "Element"]
+- !private ["VCSo17JSONSerialization14ReadingOptions", "Element"]
+- ["VCSo17JSONSerialization14ReadingOptions", "deinit"]
+- !private ["P9Turnstile5Realm", "APIConnectionError"]
+- !private ["P9Turnstile5Realm", "GoogleAccount"]
+- !private ["P9Turnstile5Realm", "IncorrectCredentialsError"]
+- !private ["P9Turnstile5Realm", "InvalidAPIResponse"]
+- !private ["P9Turnstile5Realm", "JSONSerialization"]
+- !private ["P9Turnstile5Realm", "URL"]
+- !private ["P9Turnstile5Realm", "URLRequest"]
+- !private ["P9Turnstile5Realm", "UnsupportedCredentialsError"]
+- ["P9Turnstile5Realm", "authenticate"]
+- !private ["P9Turnstile5Realm", "clientID"]
+- ["P9Turnstile5Realm", "register"]
+- !private ["P9Turnstile5Realm", "urlSession"]
+- ["P9Turnstile5Realm", ""]
+- !private ["P10Foundation20ReferenceConvertible", "init"]
+- !private ["P10Foundation20ReferenceConvertible", "setValue"]
+- !private ["Ps8Sequence", "Element"]
+- !private ["Ps8Sequence", "Index"]
+- !private ["Ps8Sequence", "Iterator"]
+- !private ["Ps8Sequence", "SubSequence"]
+- !private ["Ps8Sequence", "_Element"]
+- !private ["Ps8Sequence", "first"]
+- !private ["Ps8Sequence", "subscript"]
+- !private ["Ps10SetAlgebra", "Element"]
+- !private ["Vs5Slice", "Index"]
+- !private ["Vs5Slice", "Iterator"]
+- !private ["Vs5Slice", "SubSequence"]
+- !private ["Vs5Slice", "_Element"]
+- ["Vs12StaticString", "deinit"]
+- !private ["Vs12StaticString", "init"]
+- !private ["SS", "components"]
+- ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "components"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "components"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- ["P9Turnstile14TurnstileError", "_code"]
+- ["P9Turnstile14TurnstileError", "_domain"]
+- ["P9Turnstile14TurnstileError", "_getEmbeddedNSError"]
+- ["P9Turnstile14TurnstileError", "_userInfo"]
+- ["P9Turnstile14TurnstileError", "description"]
+- !private ["P9Turnstile14TurnstileError", "init"]
+- ["P9Turnstile14TurnstileError", ""]
+- ["Su", "deinit"]
+- ["V10Foundation3URL", "deinit"]
+- !private ["V10Foundation3URL", "init"]
+- ["V10Foundation10URLRequest", "deinit"]
+- !private ["V10Foundation10URLRequest", "init"]
+- !private ["V10Foundation10URLRequest", "setValue"]
+- ["V9Turnstile27UnsupportedCredentialsError", "deinit"]
+- !private ["V9Turnstile27UnsupportedCredentialsError", "init"]
+- !private ["Ps14_ArrayProtocol", "Iterator"]
+- !private ["Ps14_ArrayProtocol", "_Element"]
+- !private ["Ps14_ArrayProtocol", "first"]
+- !private ["Ps24_DestructorSafeContainer", "Iterator"]
+- !private ["Ps24_DestructorSafeContainer", "_Element"]
+- !private ["Ps24_DestructorSafeContainer", "first"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "components"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "components"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "components"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "components"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps34_ExpressibleByFileReferenceLiteral", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "components"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "components"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "jsonObject"]
+- !private ["Ps9_Hashable", "setValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "Index"]
+- !private ["Ps21_ObjectiveCBridgeable", "Iterator"]
+- !private ["Ps21_ObjectiveCBridgeable", "SubSequence"]
+- !private ["Ps21_ObjectiveCBridgeable", "_Element"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "components"]
+- !private ["Ps21_ObjectiveCBridgeable", "first"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "setValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "subscript"]
+depends-nominal:
+- "V12TurnstileWeb18APIConnectionError"
+- "C9Turnstile11AccessToken"
+- "P9Turnstile7Account"
+- "Ps9AnyObject"
+- "Sa"
+- !private "Ps23BidirectionalCollection"
+- !private "Ps22BidirectionalIndexable"
+- "Sb"
+- !private "Ps7CVarArg"
+- !private "V10Foundation12CharacterSet"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- "P9Turnstile11Credentials"
+- !private "P9Turnstile16CredentialsError"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "V10Foundation4Data"
+- "Vs10Dictionary"
+- !private "Ps9Equatable"
+- "Ps5Error"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps30ExpressibleByDictionaryLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps32ExpressibleByStringInterpolation"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "C12TurnstileWeb6Google"
+- "V12TurnstileWeb13GoogleAccount"
+- "V12TurnstileWeb11GoogleError"
+- "P12TurnstileWeb10HTTPClient"
+- !private "Ps8Hashable"
+- "V9Turnstile25IncorrectCredentialsError"
+- !private "Ps9Indexable"
+- !private "Ps13IndexableBase"
+- !private "Vs16IndexingIterator"
+- "V12TurnstileWeb18InvalidAPIResponse"
+- !private "Ps16IteratorProtocol"
+- !private "CSo17JSONSerialization"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "Ps17MutableCollection"
+- !private "Ps16MutableIndexable"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- "Os5Never"
+- "C12TurnstileWeb6OAuth2"
+- !private "Ps9OptionSet"
+- "Sq"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps21RandomAccessIndexable"
+- !private "Ps26RangeReplaceableCollection"
+- !private "Ps25RangeReplaceableIndexable"
+- !private "Ps16RawRepresentable"
+- "VCSo17JSONSerialization14ReadingOptions"
+- "P9Turnstile5Realm"
+- !private "P10Foundation20ReferenceConvertible"
+- !private "Ps8Sequence"
+- !private "Ps10SetAlgebra"
+- !private "Vs5Slice"
+- "Vs12StaticString"
+- "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- "P9Turnstile14TurnstileError"
+- "Su"
+- "V10Foundation3URL"
+- "V10Foundation10URLRequest"
+- "V9Turnstile27UnsupportedCredentialsError"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps34_ExpressibleByFileReferenceLiteral"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- !private "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Turnstile.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/TurnstileCrypto.swiftmodule"
+interface-hash: "fc0601b6ea08e6eac1c763b7819545f4"

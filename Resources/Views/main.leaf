@@ -1,0 +1,104 @@
+#raw() {
+<!DOCTYPE HTML>
+<html ng-app="MyApp">
+    <head>
+        <title>Home</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+            <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+            <meta name="keywords" content="" />
+            <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+            <!-- Bootstrap Core CSS -->
+            <link href="css/bootstrap.min.css" rel='stylesheet' type='text/css' />
+            <!-- Custom CSS -->
+            <link href="css/style.css" rel='stylesheet' type='text/css' />
+            <link rel="stylesheet" href="css/morris.css" type="text/css"/>
+            <!-- Graph CSS -->
+            <link href="css/font-awesome.css" rel="stylesheet">
+            <!-- tables -->
+            <link rel="stylesheet" type="text/css" href="css/basictable.css">
+            <link rel="stylesheet" type="text/css" href="css/table-style.css">
+            <!--<script type="text/javascript" src="js/jquery.basictable.min.js"></script>-->
+
+            <link rel="stylesheet" href="css/icon-font.min.css" type="text/css">
+            <link rel="stylesheet" href="css/Base.css"/>
+            <link rel="stylesheet" type="text/css" href="bower_components/angular-ui-router-anim-in-out/css/anim-in-out.css">
+            <link rel="stylesheet" type="text/css" href="bower_components/angular-loading_bar/build/loading-bar.min.css">
+            <link rel="stylesheet" type="text/css" href="bower_components/angular-busy/dist/angular-busy.css">
+                
+
+
+                <!-- jQuery -->
+                <script src="bower_components/jquery.js"></script>
+                <!-- //jQuery -->
+                <link href='http://fonts.googleapis.com/css?family=Roboto:700,500,300,100italic,100,400' rel='stylesheet' type='text/css'/>
+                    
+                    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+                    <!-- lined-icons -->
+                    <link rel="stylesheet" href="css/icon-font.min.css" type='text/css' />
+                    <!-- //lined-icons -->
+                    </head>
+                    <body>
+                    <script src="bower_components/angular/angular.min.js"></script>
+                    <!--<script src="bower_components/angular-route/angular-route.js"></script>-->
+                    <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+                    <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
+                    <script src="bower_components/angular-animate/angular-animate.min.js"></script>
+                    <script src="bower_components/angular-ui-router-anim-in-out/anim-in-out.js"></script>
+                    <script src="bower_components/angular-loading_bar/build/loading-bar.min.js"></script>
+                    <script src="bower_components/angular-busy/dist/angular-busy.js"></script>
+                    <script src="bower_components/angular-file-upload/dist/angular-file-upload.min.js"></script>
+                    <!--angular-file-upload thumbnails for images-->
+                    <script src="bower_components/angular-file-upload/dist/directives.js"></script>
+
+
+
+
+                    <script src="src/app.js"></script>
+                    <script src="src/filters/error.js"></script>
+                    <script src="src/constants/Errors.js"></script>
+                    <script src="src/constants/DomainConstant.js"></script>
+                    <script src="src/FormVaild/formVaild.js"></script>
+                    <script src="src/AlertPresent/AlertPresentService.js"></script>
+                    <script src="src/LoginView/LoginView.js"></script>
+                    <script src="src/UserService/LmUser.js"></script>
+                    <script src="src/AutoLoginView/AutoLoginView.js"></script>
+                    <script src="src/View/IntroView/IntroView.js"></script>
+                    <script src="src/View/CatalogView/CatalogView.js"></script>
+                    <script src="src/View/DashboardView/DashboardView.js"></script>
+                    <script src="src/View/ArticleView/ArticleView.js"></script>
+
+                    <!-- Bootstrap Core JavaScript -->
+                    <script src="js/bootstrap.min.js"></script>
+                    <!-- /Bootstrap Core JavaScript -->
+                    <!-- morris JavaScript -->
+                    <script src="js/raphael-min.js"></script>
+                    <script src="js/morris.js"></script>
+
+
+                    <!-- Modal alert -->
+                    <div class="modal fade" id="alertPresentModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                    <h4 class="modal-title" id="myModalLabel"><% alertPresentValue.title %></h4>
+                    </div>
+                    <div class="modal-body">
+                    <% alertPresentValue.message %>
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+
+
+
+                    <div  ui-view="main" autoscroll="true" class="MainContainer anim-in-out <% ctrl.mainViewStyle %>" data-anim-sync="<% ctrl.sync %>"
+                    data-anim-speed="<% ctrl.speed %>" ng-style="root_windowsinfo">
+                    </div>
+
+                    </body>
+                    </html>
+                }

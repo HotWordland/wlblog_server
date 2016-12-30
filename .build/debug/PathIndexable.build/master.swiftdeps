@@ -1,0 +1,6 @@
+version: "Apple Swift version 3.0.1 (swiftlang-800.0.58.6 clang-800.0.42.1)"
+options: "84e577621f73aec5a13b9a9e24e34083"
+build_time: [536398976, 685731000]
+inputs:
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/PathIndexable-1.0.0/Sources/PathIndexable/PathIndexable+Subscripting.swift": [533878363, 0]
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/PathIndexable-1.0.0/Sources/PathIndexable/PathIndexable.swift": [533878363, 0]

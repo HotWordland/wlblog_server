@@ -1,0 +1,608 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Post"
+provides-nominal:
+- "C3App4Post"
+provides-member:
+- ["C3App4Post", ""]
+- ["C3App4Post", "init"]
+provides-dynamic-lookup:
+depends-top-level:
+- "Database"
+- !private "UUID"
+- "AssignmentPrecedence"
+- "Model"
+- "Node"
+- !private "Dictionary"
+- !private "StringLiteralType"
+- "String"
+- "Post"
+- "Preparation"
+- "Context"
+depends-member:
+- !private ["Ps9AnyObject", "Node"]
+- !private ["Ps9AnyObject", "UUID"]
+- !private ["Ps9AnyObject", "content"]
+- ["Ps9AnyObject", "didCreate"]
+- ["Ps9AnyObject", "didDelete"]
+- ["Ps9AnyObject", "didUpdate"]
+- ["Ps9AnyObject", "entity"]
+- ["Ps9AnyObject", "exists"]
+- ["Ps9AnyObject", "id"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "makeJSON"]
+- ["Ps9AnyObject", "makeNode"]
+- ["Ps9AnyObject", "makeResponse"]
+- ["Ps9AnyObject", "name"]
+- ["Ps9AnyObject", "prepare"]
+- ["Ps9AnyObject", "revert"]
+- ["Ps9AnyObject", "willCreate"]
+- ["Ps9AnyObject", "willDelete"]
+- ["Ps9AnyObject", "willUpdate"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "deinit"]
+- !private ["P4HTTP17BodyRepresentable", "init"]
+- !private ["P4HTTP17BodyRepresentable", "makeNode"]
+- !private ["P4Core16BytesConvertible", "init"]
+- !private ["P4Core16BytesConvertible", "makeNode"]
+- !private ["P4Core18BytesInitializable", "init"]
+- !private ["P4Core18BytesInitializable", "makeNode"]
+- !private ["P4Core18BytesRepresentable", "init"]
+- !private ["P4Core18BytesRepresentable", "makeNode"]
+- !private ["Ps7CVarArg", "Key"]
+- !private ["Ps7CVarArg", "Value"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "makeNode"]
+- !private ["P8VaporJWT16ClaimsVerifiable", "extract"]
+- !private ["P8VaporJWT16ClaimsVerifiable", "init"]
+- !private ["Ps10Collection", "Key"]
+- !private ["Ps10Collection", "Value"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps10Comparable", "makeNode"]
+- !private ["P4Node7Context", "Key"]
+- !private ["P4Node7Context", "Value"]
+- !private ["P4Node7Context", "extract"]
+- !private ["P4Node7Context", "init"]
+- !private ["P5Vapor9Countable", "Key"]
+- !private ["P5Vapor9Countable", "Value"]
+- !private ["P5Vapor9Countable", "init"]
+- !private ["P5Vapor9Countable", "makeNode"]
+- !private ["Ps28CustomDebugStringConvertible", "Key"]
+- !private ["Ps28CustomDebugStringConvertible", "Value"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "makeNode"]
+- !private ["Ps28CustomDebugStringConvertible", "uuidString"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "makeNode"]
+- !private ["Ps17CustomReflectable", "Key"]
+- !private ["Ps17CustomReflectable", "Value"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "makeNode"]
+- !private ["Ps17CustomReflectable", "uuidString"]
+- !private ["Ps23CustomStringConvertible", "Key"]
+- !private ["Ps23CustomStringConvertible", "Value"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "makeNode"]
+- !private ["Ps23CustomStringConvertible", "uuidString"]
+- !private ["Vs10Dictionary", "Key"]
+- !private ["Vs10Dictionary", "Value"]
+- ["Vs10Dictionary", "deinit"]
+- !private ["P6Fluent6Entity", "Node"]
+- !private ["P6Fluent6Entity", "UUID"]
+- !private ["P6Fluent6Entity", "content"]
+- ["P6Fluent6Entity", "didCreate"]
+- ["P6Fluent6Entity", "didDelete"]
+- ["P6Fluent6Entity", "didUpdate"]
+- ["P6Fluent6Entity", "entity"]
+- ["P6Fluent6Entity", "exists"]
+- ["P6Fluent6Entity", "id"]
+- ["P6Fluent6Entity", "init"]
+- ["P6Fluent6Entity", "makeJSON"]
+- ["P6Fluent6Entity", "makeNode"]
+- ["P6Fluent6Entity", "makeResponse"]
+- ["P6Fluent6Entity", "name"]
+- ["P6Fluent6Entity", "prepare"]
+- ["P6Fluent6Entity", "revert"]
+- ["P6Fluent6Entity", "willCreate"]
+- ["P6Fluent6Entity", "willDelete"]
+- ["P6Fluent6Entity", "willUpdate"]
+- ["P6Fluent6Entity", ""]
+- !private ["Ps9Equatable", "extract"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "makeNode"]
+- !private ["Ps9Equatable", "uuidString"]
+- !private ["Ps25ExpressibleByArrayLiteral", "extract"]
+- !private ["Ps25ExpressibleByArrayLiteral", "init"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "extract"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "init"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "Key"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "Value"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "extract"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "init"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "extract"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "makeNode"]
+- !private ["Ps25ExpressibleByFloatLiteral", "extract"]
+- !private ["Ps25ExpressibleByFloatLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "extract"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "init"]
+- !private ["Ps23ExpressibleByNilLiteral", "Key"]
+- !private ["Ps23ExpressibleByNilLiteral", "extract"]
+- !private ["Ps23ExpressibleByNilLiteral", "init"]
+- !private ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps32ExpressibleByStringInterpolation", "makeNode"]
+- !private ["Ps26ExpressibleByStringLiteral", "extract"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "makeNode"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "extract"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "makeNode"]
+- !private ["P4Core11Extractable", "Key"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "makeNode"]
+- !private ["Ps8Hashable", "uuidString"]
+- !private ["Ps9Indexable", "Key"]
+- !private ["Ps9Indexable", "Value"]
+- !private ["Ps13IndexableBase", "Key"]
+- !private ["Ps13IndexableBase", "Value"]
+- !private ["P4JSON17JSONRepresentable", "Node"]
+- !private ["P4JSON17JSONRepresentable", "UUID"]
+- !private ["P4JSON17JSONRepresentable", "content"]
+- ["P4JSON17JSONRepresentable", "didCreate"]
+- ["P4JSON17JSONRepresentable", "didDelete"]
+- ["P4JSON17JSONRepresentable", "didUpdate"]
+- ["P4JSON17JSONRepresentable", "entity"]
+- ["P4JSON17JSONRepresentable", "exists"]
+- ["P4JSON17JSONRepresentable", "id"]
+- ["P4JSON17JSONRepresentable", "init"]
+- ["P4JSON17JSONRepresentable", "makeJSON"]
+- ["P4JSON17JSONRepresentable", "makeNode"]
+- ["P4JSON17JSONRepresentable", "makeResponse"]
+- ["P4JSON17JSONRepresentable", "name"]
+- ["P4JSON17JSONRepresentable", "prepare"]
+- ["P4JSON17JSONRepresentable", "revert"]
+- ["P4JSON17JSONRepresentable", "willCreate"]
+- ["P4JSON17JSONRepresentable", "willDelete"]
+- ["P4JSON17JSONRepresentable", "willUpdate"]
+- ["P4JSON17JSONRepresentable", ""]
+- !private ["P4HTTP13KeyAccessible", "Key"]
+- !private ["P4HTTP13KeyAccessible", "Value"]
+- !private ["P4Node13KeyAccessible", "Key"]
+- !private ["P4Node13KeyAccessible", "Value"]
+- !private ["P8Settings13KeyAccessible", "Key"]
+- !private ["P8Settings13KeyAccessible", "Value"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps25LosslessStringConvertible", "makeNode"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["Ps10MirrorPath", "makeNode"]
+- !private ["P5Vapor5Model", "Node"]
+- !private ["P5Vapor5Model", "UUID"]
+- !private ["P5Vapor5Model", "content"]
+- ["P5Vapor5Model", "didCreate"]
+- ["P5Vapor5Model", "didDelete"]
+- ["P5Vapor5Model", "didUpdate"]
+- ["P5Vapor5Model", "entity"]
+- ["P5Vapor5Model", "exists"]
+- ["P5Vapor5Model", "id"]
+- ["P5Vapor5Model", "init"]
+- ["P5Vapor5Model", "makeJSON"]
+- ["P5Vapor5Model", "makeNode"]
+- ["P5Vapor5Model", "makeResponse"]
+- ["P5Vapor5Model", "name"]
+- ["P5Vapor5Model", "prepare"]
+- ["P5Vapor5Model", "revert"]
+- ["P5Vapor5Model", "willCreate"]
+- ["P5Vapor5Model", "willDelete"]
+- ["P5Vapor5Model", "willUpdate"]
+- ["P5Vapor5Model", ""]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "makeNode"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "makeNode"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["PSo16NSMutableCopying", "makeNode"]
+- !private ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "makeNode"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "makeNode"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "makeNode"]
+- !private ["CSo8NSString", "init"]
+- !private ["CSo8NSString", "makeNode"]
+- ["O4Node4Node", "deinit"]
+- !private ["O4Node4Node", "extract"]
+- !private ["O4Node4Node", "init"]
+- !private ["P4Node10NodeBacked", "extract"]
+- !private ["P4Node10NodeBacked", "init"]
+- !private ["P4Node15NodeConvertible", "Node"]
+- !private ["P4Node15NodeConvertible", "UUID"]
+- !private ["P4Node15NodeConvertible", "content"]
+- ["P4Node15NodeConvertible", "didCreate"]
+- ["P4Node15NodeConvertible", "didDelete"]
+- ["P4Node15NodeConvertible", "didUpdate"]
+- ["P4Node15NodeConvertible", "entity"]
+- ["P4Node15NodeConvertible", "exists"]
+- !private ["P4Node15NodeConvertible", "extract"]
+- ["P4Node15NodeConvertible", "id"]
+- ["P4Node15NodeConvertible", "init"]
+- ["P4Node15NodeConvertible", "makeJSON"]
+- ["P4Node15NodeConvertible", "makeNode"]
+- ["P4Node15NodeConvertible", "makeResponse"]
+- ["P4Node15NodeConvertible", "name"]
+- ["P4Node15NodeConvertible", "prepare"]
+- ["P4Node15NodeConvertible", "revert"]
+- ["P4Node15NodeConvertible", "willCreate"]
+- ["P4Node15NodeConvertible", "willDelete"]
+- ["P4Node15NodeConvertible", "willUpdate"]
+- ["P4Node15NodeConvertible", ""]
+- !private ["P4Node17NodeInitializable", "Node"]
+- !private ["P4Node17NodeInitializable", "UUID"]
+- !private ["P4Node17NodeInitializable", "content"]
+- ["P4Node17NodeInitializable", "didCreate"]
+- ["P4Node17NodeInitializable", "didDelete"]
+- ["P4Node17NodeInitializable", "didUpdate"]
+- ["P4Node17NodeInitializable", "entity"]
+- ["P4Node17NodeInitializable", "exists"]
+- !private ["P4Node17NodeInitializable", "extract"]
+- ["P4Node17NodeInitializable", "id"]
+- ["P4Node17NodeInitializable", "init"]
+- ["P4Node17NodeInitializable", "makeJSON"]
+- ["P4Node17NodeInitializable", "makeNode"]
+- ["P4Node17NodeInitializable", "makeResponse"]
+- ["P4Node17NodeInitializable", "name"]
+- ["P4Node17NodeInitializable", "prepare"]
+- ["P4Node17NodeInitializable", "revert"]
+- ["P4Node17NodeInitializable", "willCreate"]
+- ["P4Node17NodeInitializable", "willDelete"]
+- ["P4Node17NodeInitializable", "willUpdate"]
+- ["P4Node17NodeInitializable", ""]
+- !private ["P4Node17NodeRepresentable", "Node"]
+- !private ["P4Node17NodeRepresentable", "UUID"]
+- !private ["P4Node17NodeRepresentable", "Value"]
+- !private ["P4Node17NodeRepresentable", "content"]
+- !private ["P4Node17NodeRepresentable", "deinit"]
+- ["P4Node17NodeRepresentable", "didCreate"]
+- ["P4Node17NodeRepresentable", "didDelete"]
+- ["P4Node17NodeRepresentable", "didUpdate"]
+- ["P4Node17NodeRepresentable", "entity"]
+- ["P4Node17NodeRepresentable", "exists"]
+- !private ["P4Node17NodeRepresentable", "extract"]
+- ["P4Node17NodeRepresentable", "id"]
+- ["P4Node17NodeRepresentable", "init"]
+- ["P4Node17NodeRepresentable", "makeJSON"]
+- ["P4Node17NodeRepresentable", "makeNode"]
+- ["P4Node17NodeRepresentable", "makeResponse"]
+- ["P4Node17NodeRepresentable", "name"]
+- ["P4Node17NodeRepresentable", "prepare"]
+- ["P4Node17NodeRepresentable", "revert"]
+- ["P4Node17NodeRepresentable", "willCreate"]
+- ["P4Node17NodeRepresentable", "willDelete"]
+- ["P4Node17NodeRepresentable", "willUpdate"]
+- ["P4Node17NodeRepresentable", ""]
+- !private ["Sq", "Key"]
+- ["Sq", "deinit"]
+- !private ["P13PathIndexable9PathIndex", "deinit"]
+- !private ["P13PathIndexable9PathIndex", "init"]
+- !private ["P13PathIndexable9PathIndex", "makeNode"]
+- !private ["P13PathIndexable13PathIndexable", "extract"]
+- !private ["P13PathIndexable13PathIndexable", "init"]
+- !private ["P11Polymorphic11Polymorphic", "extract"]
+- !private ["P11Polymorphic11Polymorphic", "init"]
+- !private ["P11Polymorphic11Polymorphic", "makeNode"]
+- !private ["P5Vapor24PolymorphicInitializable", "init"]
+- !private ["P5Vapor24PolymorphicInitializable", "makeNode"]
+- ["C3App4Post", "Context"]
+- ["C3App4Post", "Database"]
+- ["C3App4Post", "Node"]
+- ["C3App4Post", "String"]
+- !private ["C3App4Post", "UUID"]
+- ["C3App4Post", "content"]
+- ["C3App4Post", "deinit"]
+- ["C3App4Post", "didCreate"]
+- ["C3App4Post", "didDelete"]
+- ["C3App4Post", "didUpdate"]
+- ["C3App4Post", "entity"]
+- ["C3App4Post", "exists"]
+- ["C3App4Post", "id"]
+- ["C3App4Post", "init"]
+- ["C3App4Post", "makeJSON"]
+- ["C3App4Post", "makeNode"]
+- ["C3App4Post", "makeResponse"]
+- ["C3App4Post", "name"]
+- ["C3App4Post", "prepare"]
+- ["C3App4Post", "revert"]
+- ["C3App4Post", "willCreate"]
+- ["C3App4Post", "willDelete"]
+- ["C3App4Post", "willUpdate"]
+- !private ["P6Fluent11Preparation", "Node"]
+- !private ["P6Fluent11Preparation", "UUID"]
+- !private ["P6Fluent11Preparation", "content"]
+- ["P6Fluent11Preparation", "didCreate"]
+- ["P6Fluent11Preparation", "didDelete"]
+- ["P6Fluent11Preparation", "didUpdate"]
+- ["P6Fluent11Preparation", "entity"]
+- ["P6Fluent11Preparation", "exists"]
+- ["P6Fluent11Preparation", "id"]
+- ["P6Fluent11Preparation", "init"]
+- ["P6Fluent11Preparation", "makeJSON"]
+- ["P6Fluent11Preparation", "makeNode"]
+- ["P6Fluent11Preparation", "makeResponse"]
+- ["P6Fluent11Preparation", "name"]
+- ["P6Fluent11Preparation", "prepare"]
+- ["P6Fluent11Preparation", "revert"]
+- ["P6Fluent11Preparation", "willCreate"]
+- ["P6Fluent11Preparation", "willDelete"]
+- ["P6Fluent11Preparation", "willUpdate"]
+- ["P6Fluent11Preparation", ""]
+- !private ["P10Foundation20ReferenceConvertible", "init"]
+- !private ["P10Foundation20ReferenceConvertible", "uuidString"]
+- !private ["P5Vapor23RequestContentSubscript", "init"]
+- !private ["P5Vapor23RequestContentSubscript", "makeNode"]
+- !private ["P4HTTP21ResponseRepresentable", "Node"]
+- !private ["P4HTTP21ResponseRepresentable", "UUID"]
+- !private ["P4HTTP21ResponseRepresentable", "content"]
+- ["P4HTTP21ResponseRepresentable", "didCreate"]
+- ["P4HTTP21ResponseRepresentable", "didDelete"]
+- ["P4HTTP21ResponseRepresentable", "didUpdate"]
+- ["P4HTTP21ResponseRepresentable", "entity"]
+- ["P4HTTP21ResponseRepresentable", "exists"]
+- ["P4HTTP21ResponseRepresentable", "id"]
+- ["P4HTTP21ResponseRepresentable", "init"]
+- ["P4HTTP21ResponseRepresentable", "makeJSON"]
+- ["P4HTTP21ResponseRepresentable", "makeNode"]
+- ["P4HTTP21ResponseRepresentable", "makeResponse"]
+- ["P4HTTP21ResponseRepresentable", "name"]
+- ["P4HTTP21ResponseRepresentable", "prepare"]
+- ["P4HTTP21ResponseRepresentable", "revert"]
+- ["P4HTTP21ResponseRepresentable", "willCreate"]
+- ["P4HTTP21ResponseRepresentable", "willDelete"]
+- ["P4HTTP21ResponseRepresentable", "willUpdate"]
+- ["P4HTTP21ResponseRepresentable", ""]
+- !private ["Ps8Sequence", "Key"]
+- !private ["Ps8Sequence", "Value"]
+- ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["SS", "makeNode"]
+- !private ["P15TypeSafeRouting19StringInitializable", "Node"]
+- !private ["P15TypeSafeRouting19StringInitializable", "UUID"]
+- !private ["P15TypeSafeRouting19StringInitializable", "content"]
+- ["P15TypeSafeRouting19StringInitializable", "didCreate"]
+- ["P15TypeSafeRouting19StringInitializable", "didDelete"]
+- ["P15TypeSafeRouting19StringInitializable", "didUpdate"]
+- ["P15TypeSafeRouting19StringInitializable", "entity"]
+- ["P15TypeSafeRouting19StringInitializable", "exists"]
+- ["P15TypeSafeRouting19StringInitializable", "id"]
+- ["P15TypeSafeRouting19StringInitializable", "init"]
+- ["P15TypeSafeRouting19StringInitializable", "makeJSON"]
+- ["P15TypeSafeRouting19StringInitializable", "makeNode"]
+- ["P15TypeSafeRouting19StringInitializable", "makeResponse"]
+- ["P15TypeSafeRouting19StringInitializable", "name"]
+- ["P15TypeSafeRouting19StringInitializable", "prepare"]
+- ["P15TypeSafeRouting19StringInitializable", "revert"]
+- ["P15TypeSafeRouting19StringInitializable", "willCreate"]
+- ["P15TypeSafeRouting19StringInitializable", "willDelete"]
+- ["P15TypeSafeRouting19StringInitializable", "willUpdate"]
+- ["P15TypeSafeRouting19StringInitializable", ""]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps16TextOutputStream", "makeNode"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["Ps20TextOutputStreamable", "makeNode"]
+- ["V10Foundation4UUID", "deinit"]
+- !private ["V10Foundation4UUID", "init"]
+- !private ["V10Foundation4UUID", "uuidString"]
+- !private ["P5Vapor11Validatable", "Key"]
+- !private ["P5Vapor11Validatable", "Value"]
+- !private ["P5Vapor11Validatable", "init"]
+- !private ["P5Vapor11Validatable", "makeNode"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "makeNode"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "makeNode"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "makeNode"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "makeNode"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "makeNode"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "makeNode"]
+- !private ["Ps9_Hashable", "uuidString"]
+- !private ["Ps21_ObjectiveCBridgeable", "Key"]
+- !private ["Ps21_ObjectiveCBridgeable", "Value"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "makeNode"]
+- !private ["Ps21_ObjectiveCBridgeable", "uuidString"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sa"
+- !private "P4HTTP17BodyRepresentable"
+- !private "P4Core16BytesConvertible"
+- !private "P4Core18BytesInitializable"
+- !private "P4Core18BytesRepresentable"
+- !private "Ps7CVarArg"
+- !private "P8VaporJWT16ClaimsVerifiable"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- !private "P4Node7Context"
+- !private "P5Vapor9Countable"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- "Vs10Dictionary"
+- "P6Fluent6Entity"
+- !private "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps30ExpressibleByDictionaryLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps25ExpressibleByFloatLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps23ExpressibleByNilLiteral"
+- !private "Ps32ExpressibleByStringInterpolation"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "P4Core11Extractable"
+- !private "Ps8Hashable"
+- !private "Ps9Indexable"
+- !private "Ps13IndexableBase"
+- "P4JSON17JSONRepresentable"
+- !private "P4HTTP13KeyAccessible"
+- !private "P4Node13KeyAccessible"
+- !private "P8Settings13KeyAccessible"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- "P5Vapor5Model"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- "O4Node4Node"
+- !private "P4Node10NodeBacked"
+- "P4Node15NodeConvertible"
+- "P4Node17NodeInitializable"
+- "P4Node17NodeRepresentable"
+- "Sq"
+- !private "P13PathIndexable9PathIndex"
+- !private "P13PathIndexable13PathIndexable"
+- !private "P11Polymorphic11Polymorphic"
+- !private "P5Vapor24PolymorphicInitializable"
+- "C3App4Post"
+- "P6Fluent11Preparation"
+- !private "P10Foundation20ReferenceConvertible"
+- !private "P5Vapor23RequestContentSubscript"
+- "P4HTTP21ResponseRepresentable"
+- !private "Ps8Sequence"
+- "SS"
+- "P15TypeSafeRouting19StringInitializable"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- "V10Foundation4UUID"
+- !private "P5Vapor11Validatable"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- !private "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/HTTP.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Core.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/libc.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Transport.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/SocksCore.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/TLS.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/whrlpool.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/ui_compat.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/txt_db.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/ts.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/tls.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/ripemd.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/rc4.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/rc2.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/rand.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/poly1305.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/pkcs12.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/opensslfeatures.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/opensslconf.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/x509v3.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/ocsp.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/modes.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/md5.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/md4.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/krb5_asn.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/idea.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/gost.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/err.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/ui.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/engine.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/ssl.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/srtp.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/ssl23.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/tls1.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/ssl3.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/ssl2.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/pem2.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/pkcs7.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/x509_vfy.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/sha.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/rsa.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/ecdh.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/ecdsa.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/ec.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/x509.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/pem.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/hmac.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/dtls1.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/dso.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/dsa.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/dh.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/des.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/conf_api.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/lhash.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/conf.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/crypto.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/comp.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/cms.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/obj_mac.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/objects.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/evp.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/cmac.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/chacha.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/cast.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/camellia.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/buffer.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/blowfish.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/asn1t.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/asn1_mac.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/bn.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/ossl_typ.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/opensslv.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/safestack.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/stack.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/bio.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/asn1.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/aes.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/CLibreSSL.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/module.modulemap"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/URI.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Cache.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Fluent.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Node.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/PathIndexable.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Polymorphic.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Cipher.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Essentials.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Console.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/HMAC.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/HTTPRouting.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Routing.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Hash.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Random.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/JSON.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Jay.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Leaf.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Sessions.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Cookies.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Settings.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/TypeSafeRouting.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/WebSockets.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/VaporPostgreSQL.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/FluentPostgreSQL.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/PostgreSQL.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/VaporJWT.swiftmodule"
+interface-hash: "fe06170e4fe28b43e19723c2cf3ba359"

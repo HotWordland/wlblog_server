@@ -1,0 +1,6 @@
+version: "Apple Swift version 3.0.1 (swiftlang-800.0.58.6 clang-800.0.42.1)"
+options: "88ca4f0cc9f898f0e7cff27a686b914d"
+build_time: [536398976, 685731000]
+inputs:
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Polymorphic-1.0.1/Sources/Polymorphic.swift": [533878371, 0]
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Polymorphic-1.0.1/Sources/String+Polymorphic.swift": [533878371, 0]

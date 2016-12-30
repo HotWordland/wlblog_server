@@ -1,0 +1,23 @@
+{
+  "": {
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/TypeSafeRouting.build/master.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Routing-1.0.1/Sources/TypeSafeRouting/Generated.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/TypeSafeRouting.build/Generated.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/TypeSafeRouting.build/Generated.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/TypeSafeRouting.build/Generated~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/TypeSafeRouting.build/Generated.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Routing-1.0.1/Sources/TypeSafeRouting/StringInitializable.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/TypeSafeRouting.build/StringInitializable.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/TypeSafeRouting.build/StringInitializable.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/TypeSafeRouting.build/StringInitializable~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/TypeSafeRouting.build/StringInitializable.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Routing-1.0.1/Sources/TypeSafeRouting/TypeSafeRoutingError.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/TypeSafeRouting.build/TypeSafeRoutingError.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/TypeSafeRouting.build/TypeSafeRoutingError.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/TypeSafeRouting.build/TypeSafeRoutingError~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/TypeSafeRouting.build/TypeSafeRoutingError.swiftdeps"
+  }
+}

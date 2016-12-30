@@ -1,0 +1,12 @@
+version: "Apple Swift version 3.0.1 (swiftlang-800.0.58.6 clang-800.0.42.1)"
+options: "68d340b87be2f96862677ea1dd7295af"
+build_time: [536398998, 436837000]
+inputs:
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Turnstile-1.0.3/Sources/TurnstileWeb/AuthorizationCode.swift": [533880709, 0]
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Turnstile-1.0.3/Sources/TurnstileWeb/Facebook.swift": [533880709, 0]
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Turnstile-1.0.3/Sources/TurnstileWeb/Google.swift": [533880709, 0]
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Turnstile-1.0.3/Sources/TurnstileWeb/OAuth2.swift": [533880709, 0]
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Turnstile-1.0.3/Sources/TurnstileWeb/OAuth2Error.swift": [533880709, 0]
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Turnstile-1.0.3/Sources/TurnstileWeb/OAuth2Token.swift": [533880709, 0]
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Turnstile-1.0.3/Sources/TurnstileWeb/URLSession+Turnstile.swift": [533880698, 0]
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Turnstile-1.0.3/Sources/TurnstileWeb/WebMemoryRealm.swift": [533880709, 0]

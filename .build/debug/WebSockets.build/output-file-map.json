@@ -1,0 +1,89 @@
+{
+  "": {
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/WebSockets.build/master.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Engine-1.3.5/Sources/WebSockets/Request+WebSockets.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/WebSockets.build/Request+WebSockets.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/WebSockets.build/Request+WebSockets.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/WebSockets.build/Request+WebSockets~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/WebSockets.build/Request+WebSockets.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Engine-1.3.5/Sources/WebSockets/WebSocketFormatErrors.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/WebSockets.build/WebSocketFormatErrors.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/WebSockets.build/WebSocketFormatErrors.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/WebSockets.build/WebSocketFormatErrors~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/WebSockets.build/WebSocketFormatErrors.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Engine-1.3.5/Sources/WebSockets/Client/WebSocket+Client.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/WebSockets.build/WebSocket+Client.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/WebSockets.build/Client/WebSocket+Client.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/WebSockets.build/WebSocket+Client~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/WebSockets.build/WebSocket+Client.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Engine-1.3.5/Sources/WebSockets/Communication/WebSocket+ControlFrames.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/WebSockets.build/WebSocket+ControlFrames.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/WebSockets.build/Communication/WebSocket+ControlFrames.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/WebSockets.build/WebSocket+ControlFrames~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/WebSockets.build/WebSocket+ControlFrames.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Engine-1.3.5/Sources/WebSockets/Communication/WebSocket+Send.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/WebSockets.build/WebSocket+Send.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/WebSockets.build/Communication/WebSocket+Send.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/WebSockets.build/WebSocket+Send~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/WebSockets.build/WebSocket+Send.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Engine-1.3.5/Sources/WebSockets/Connection/Headers+WebSockets.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/WebSockets.build/Headers+WebSockets.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/WebSockets.build/Connection/Headers+WebSockets.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/WebSockets.build/Headers+WebSockets~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/WebSockets.build/Headers+WebSockets.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Engine-1.3.5/Sources/WebSockets/Connection/WebSockets+Hash.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/WebSockets.build/WebSockets+Hash.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/WebSockets.build/Connection/WebSockets+Hash.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/WebSockets.build/WebSockets+Hash~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/WebSockets.build/WebSockets+Hash.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Engine-1.3.5/Sources/WebSockets/Model/Fragmentation.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/WebSockets.build/Fragmentation.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/WebSockets.build/Model/Fragmentation.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/WebSockets.build/Fragmentation~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/WebSockets.build/Fragmentation.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Engine-1.3.5/Sources/WebSockets/Model/Frame.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/WebSockets.build/Frame.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/WebSockets.build/Model/Frame.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/WebSockets.build/Frame~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/WebSockets.build/Frame.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Engine-1.3.5/Sources/WebSockets/Model/WebSocket+Error.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/WebSockets.build/WebSocket+Error.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/WebSockets.build/Model/WebSocket+Error.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/WebSockets.build/WebSocket+Error~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/WebSockets.build/WebSocket+Error.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Engine-1.3.5/Sources/WebSockets/Model/WebSocket.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/WebSockets.build/WebSocket.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/WebSockets.build/Model/WebSocket.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/WebSockets.build/WebSocket~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/WebSockets.build/WebSocket.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Engine-1.3.5/Sources/WebSockets/Serialization/FrameDeserializer.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/WebSockets.build/FrameDeserializer.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/WebSockets.build/Serialization/FrameDeserializer.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/WebSockets.build/FrameDeserializer~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/WebSockets.build/FrameDeserializer.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Engine-1.3.5/Sources/WebSockets/Serialization/FrameSerializer.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/WebSockets.build/FrameSerializer.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/WebSockets.build/Serialization/FrameSerializer.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/WebSockets.build/FrameSerializer~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/WebSockets.build/FrameSerializer.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Engine-1.3.5/Sources/WebSockets/Serialization/WebSockets+Flags.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/WebSockets.build/WebSockets+Flags.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/WebSockets.build/Serialization/WebSockets+Flags.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/WebSockets.build/WebSockets+Flags~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/WebSockets.build/WebSockets+Flags.swiftdeps"
+  }
+}

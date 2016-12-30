@@ -1,0 +1,53 @@
+{
+  "": {
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/JSON.build/master.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/JSON-1.0.2/Sources/JSON/JSON+Bytes.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/JSON.build/JSON+Bytes.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/JSON.build/JSON+Bytes.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/JSON.build/JSON+Bytes~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/JSON.build/JSON+Bytes.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/JSON-1.0.2/Sources/JSON/JSON+Equatable.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/JSON.build/JSON+Equatable.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/JSON.build/JSON+Equatable.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/JSON.build/JSON+Equatable~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/JSON.build/JSON+Equatable.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/JSON-1.0.2/Sources/JSON/JSON+Node.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/JSON.build/JSON+Node.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/JSON.build/JSON+Node.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/JSON.build/JSON+Node~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/JSON.build/JSON+Node.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/JSON-1.0.2/Sources/JSON/JSON+Parse.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/JSON.build/JSON+Parse.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/JSON.build/JSON+Parse.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/JSON.build/JSON+Parse~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/JSON.build/JSON+Parse.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/JSON-1.0.2/Sources/JSON/JSON+Serialize.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/JSON.build/JSON+Serialize.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/JSON.build/JSON+Serialize.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/JSON.build/JSON+Serialize~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/JSON.build/JSON+Serialize.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/JSON-1.0.2/Sources/JSON/JSON.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/JSON.build/JSON.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/JSON.build/JSON.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/JSON.build/JSON~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/JSON.build/JSON.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/JSON-1.0.2/Sources/JSON/JSONRepresentable.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/JSON.build/JSONRepresentable.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/JSON.build/JSONRepresentable.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/JSON.build/JSONRepresentable~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/JSON.build/JSONRepresentable.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/JSON-1.0.2/Sources/JSON/Sequence+Convertible.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/JSON.build/Sequence+Convertible.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/JSON.build/Sequence+Convertible.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/JSON.build/Sequence+Convertible~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/JSON.build/Sequence+Convertible.swiftdeps"
+  }
+}

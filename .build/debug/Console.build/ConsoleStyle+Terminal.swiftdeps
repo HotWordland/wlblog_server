@@ -1,0 +1,89 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["O7Console12ConsoleStyle", ""]
+- ["O7Console12ConsoleStyle", "terminalColor"]
+provides-dynamic-lookup:
+depends-top-level:
+- "ConsoleStyle"
+- "AssignmentPrecedence"
+- "ConsoleColor"
+depends-member:
+- !private ["O7Console12ConsoleColor", "cyan"]
+- ["O7Console12ConsoleColor", "deinit"]
+- !private ["O7Console12ConsoleColor", "green"]
+- !private ["O7Console12ConsoleColor", "red"]
+- !private ["O7Console12ConsoleColor", "yellow"]
+- ["O7Console12ConsoleStyle", "ConsoleColor"]
+- ["O7Console12ConsoleStyle", "custom"]
+- ["O7Console12ConsoleStyle", "deinit"]
+- ["O7Console12ConsoleStyle", "error"]
+- ["O7Console12ConsoleStyle", "info"]
+- ["O7Console12ConsoleStyle", "plain"]
+- ["O7Console12ConsoleStyle", "success"]
+- ["O7Console12ConsoleStyle", "terminalColor"]
+- ["O7Console12ConsoleStyle", "warning"]
+- !private ["Ps28CustomDebugStringConvertible", "cyan"]
+- !private ["Ps28CustomDebugStringConvertible", "green"]
+- !private ["Ps28CustomDebugStringConvertible", "red"]
+- !private ["Ps28CustomDebugStringConvertible", "yellow"]
+- !private ["Ps17CustomReflectable", "cyan"]
+- !private ["Ps17CustomReflectable", "green"]
+- !private ["Ps17CustomReflectable", "red"]
+- !private ["Ps17CustomReflectable", "yellow"]
+- !private ["Ps9Equatable", "cyan"]
+- !private ["Ps9Equatable", "green"]
+- !private ["Ps9Equatable", "red"]
+- !private ["Ps9Equatable", "yellow"]
+- !private ["Ps23ExpressibleByNilLiteral", "cyan"]
+- !private ["Ps23ExpressibleByNilLiteral", "green"]
+- !private ["Ps23ExpressibleByNilLiteral", "red"]
+- !private ["Ps23ExpressibleByNilLiteral", "yellow"]
+- !private ["P4Core11Extractable", "cyan"]
+- !private ["P4Core11Extractable", "green"]
+- !private ["P4Core11Extractable", "red"]
+- !private ["P4Core11Extractable", "yellow"]
+- !private ["Ps8Hashable", "cyan"]
+- !private ["Ps8Hashable", "green"]
+- !private ["Ps8Hashable", "red"]
+- !private ["Ps8Hashable", "yellow"]
+- !private ["Sq", "cyan"]
+- ["Sq", "deinit"]
+- !private ["Sq", "green"]
+- !private ["Sq", "red"]
+- !private ["Sq", "yellow"]
+- !private ["Ps9_Hashable", "cyan"]
+- !private ["Ps9_Hashable", "green"]
+- !private ["Ps9_Hashable", "red"]
+- !private ["Ps9_Hashable", "yellow"]
+- !private ["Ps21_ObjectiveCBridgeable", "cyan"]
+- !private ["Ps21_ObjectiveCBridgeable", "green"]
+- !private ["Ps21_ObjectiveCBridgeable", "red"]
+- !private ["Ps21_ObjectiveCBridgeable", "yellow"]
+depends-nominal:
+- "O7Console12ConsoleColor"
+- "O7Console12ConsoleStyle"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps17CustomReflectable"
+- !private "Ps9Equatable"
+- !private "Ps23ExpressibleByNilLiteral"
+- !private "P4Core11Extractable"
+- !private "Ps8Hashable"
+- "Sq"
+- !private "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/libc.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Polymorphic.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Core.swiftmodule"
+interface-hash: "8725c64d8d4f0f3c332b2f3b42e53565"

@@ -1,0 +1,13 @@
+version: "Apple Swift version 3.0.1 (swiftlang-800.0.58.6 clang-800.0.42.1)"
+options: "ff1ed3ef6b9d0ce94d732ea771dfd0ae"
+build_time: [536399011, 137383000]
+inputs:
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Routing-1.0.1/Sources/Routing/Branch.swift": [533880780, 0]
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Routing-1.0.1/Sources/Routing/ParametersContainer.swift": [533880780, 0]
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Routing-1.0.1/Sources/Routing/RouteBuilder+RouteCollection.swift": [533880780, 0]
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Routing-1.0.1/Sources/Routing/RouteBuilder+RouteGroup.swift": [533880780, 0]
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Routing-1.0.1/Sources/Routing/RouteBuilder.swift": [533880780, 0]
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Routing-1.0.1/Sources/Routing/RouteCollection.swift": [533880780, 0]
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Routing-1.0.1/Sources/Routing/RouteGroup+RouteBuilder.swift": [533880780, 0]
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Routing-1.0.1/Sources/Routing/RouteGroup.swift": [533880780, 0]
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Routing-1.0.1/Sources/Routing/Router.swift": [533880780, 0]

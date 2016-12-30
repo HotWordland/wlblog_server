@@ -1,0 +1,7 @@
+version: "Apple Swift version 3.0.1 (swiftlang-800.0.58.6 clang-800.0.42.1)"
+options: "f2308e8fac57c481cb16c6a8b62e8774"
+build_time: [536399017, 85767000]
+inputs:
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Cache/CacheProtocol.swift": [536397249, 0]
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Cache/FluentCache.swift": [536397249, 0]
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Cache/MemoryCache.swift": [536397249, 0]

@@ -1,0 +1,767 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CatagoryController"
+provides-nominal:
+- "C3App18CatagoryController"
+provides-member:
+- ["C3App18CatagoryController", ""]
+- ["C4HTTP7Request", ""]
+- ["C4HTTP7Request", "catagory"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "<"
+- !private "JSON"
+- "Resource"
+- !private "StringLiteralType"
+- "CatagoryController"
+- "Request"
+- !private "responseWithSuccess"
+- "BooleanLiteralType"
+- !private "UnicodeScalarType"
+- !private "Abort"
+- "Catagory"
+- "ResourceRepresentable"
+- !private "Dictionary"
+- !private "Array"
+- !private "Bool"
+- "AssignmentPrecedence"
+- "ResponseRepresentable"
+depends-member:
+- !private ["O5Vapor5Abort", "badRequest"]
+- ["O5Vapor5Abort", "deinit"]
+- !private ["Ps9AnyObject", "Abort"]
+- !private ["Ps9AnyObject", "Catagory"]
+- !private ["Ps9AnyObject", "JSON"]
+- ["Ps9AnyObject", "Model"]
+- !private ["Ps9AnyObject", "Resource"]
+- !private ["Ps9AnyObject", "T"]
+- !private ["Ps9AnyObject", "all"]
+- ["Ps9AnyObject", "catagory"]
+- !private ["Ps9AnyObject", "cate_description"]
+- !private ["Ps9AnyObject", "cate_keywords"]
+- !private ["Ps9AnyObject", "cate_name"]
+- !private ["Ps9AnyObject", "cate_order"]
+- !private ["Ps9AnyObject", "cate_pid"]
+- !private ["Ps9AnyObject", "cate_title"]
+- !private ["Ps9AnyObject", "cate_view"]
+- !private ["Ps9AnyObject", "clear"]
+- !private ["Ps9AnyObject", "create"]
+- !private ["Ps9AnyObject", "delete"]
+- !private ["Ps9AnyObject", "filter"]
+- !private ["Ps9AnyObject", "index"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "int"]
+- ["Ps9AnyObject", "makeResource"]
+- !private ["Ps9AnyObject", "query"]
+- !private ["Ps9AnyObject", "replace"]
+- !private ["Ps9AnyObject", "responseWithSuccess"]
+- !private ["Ps9AnyObject", "save"]
+- !private ["Ps9AnyObject", "show"]
+- !private ["Ps9AnyObject", "textplain_json"]
+- !private ["Ps9AnyObject", "update"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "Element"]
+- !private ["Sa", "Iterator"]
+- !private ["Sa", "_Element"]
+- ["Sa", "deinit"]
+- !private ["Sa", "makeNode"]
+- !private ["Sa", "sorted"]
+- !private ["Ps23BidirectionalCollection", "Element"]
+- !private ["Ps23BidirectionalCollection", "Iterator"]
+- !private ["Ps23BidirectionalCollection", "_Element"]
+- !private ["Ps23BidirectionalCollection", "makeNode"]
+- !private ["Ps23BidirectionalCollection", "sorted"]
+- !private ["Ps22BidirectionalIndexable", "Element"]
+- !private ["Ps22BidirectionalIndexable", "Iterator"]
+- !private ["Ps22BidirectionalIndexable", "_Element"]
+- !private ["Ps22BidirectionalIndexable", "makeNode"]
+- !private ["Ps22BidirectionalIndexable", "sorted"]
+- !private ["P4HTTP17BodyRepresentable", "init"]
+- !private ["P4HTTP17BodyRepresentable", "int"]
+- !private ["Sb", "deinit"]
+- !private ["P4Core16BytesConvertible", "init"]
+- !private ["P4Core16BytesConvertible", "int"]
+- !private ["P4Core18BytesInitializable", "init"]
+- !private ["P4Core18BytesInitializable", "int"]
+- !private ["P4Core18BytesRepresentable", "init"]
+- !private ["P4Core18BytesRepresentable", "int"]
+- !private ["Ps7CVarArg", "Element"]
+- !private ["Ps7CVarArg", "Iterator"]
+- !private ["Ps7CVarArg", "Key"]
+- !private ["Ps7CVarArg", "Value"]
+- !private ["Ps7CVarArg", "_Element"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "int"]
+- !private ["Ps7CVarArg", "makeNode"]
+- !private ["Ps7CVarArg", "sorted"]
+- !private ["C3App8Catagory", "all"]
+- !private ["C3App8Catagory", "cate_description"]
+- !private ["C3App8Catagory", "cate_keywords"]
+- !private ["C3App8Catagory", "cate_name"]
+- !private ["C3App8Catagory", "cate_order"]
+- !private ["C3App8Catagory", "cate_pid"]
+- !private ["C3App8Catagory", "cate_title"]
+- !private ["C3App8Catagory", "cate_view"]
+- ["C3App8Catagory", "deinit"]
+- !private ["C3App8Catagory", "delete"]
+- !private ["C3App8Catagory", "init"]
+- !private ["C3App8Catagory", "query"]
+- !private ["C3App8Catagory", "save"]
+- !private ["C3App18CatagoryController", "Bool"]
+- ["C3App18CatagoryController", "Catagory"]
+- !private ["C3App18CatagoryController", "JSON"]
+- ["C3App18CatagoryController", "Model"]
+- ["C3App18CatagoryController", "Request"]
+- ["C3App18CatagoryController", "Resource"]
+- ["C3App18CatagoryController", "ResponseRepresentable"]
+- ["C3App18CatagoryController", "clear"]
+- ["C3App18CatagoryController", "create"]
+- ["C3App18CatagoryController", "deinit"]
+- ["C3App18CatagoryController", "delete"]
+- ["C3App18CatagoryController", "getParentCatalog"]
+- ["C3App18CatagoryController", "index"]
+- ["C3App18CatagoryController", "init"]
+- ["C3App18CatagoryController", "makeResource"]
+- ["C3App18CatagoryController", "replace"]
+- !private ["C3App18CatagoryController", "responseWithSuccess"]
+- ["C3App18CatagoryController", "show"]
+- ["C3App18CatagoryController", "update"]
+- !private ["P8VaporJWT16ClaimsVerifiable", "Element"]
+- !private ["P8VaporJWT16ClaimsVerifiable", "converted"]
+- !private ["P8VaporJWT16ClaimsVerifiable", "init"]
+- !private ["Ps10Collection", "Element"]
+- !private ["Ps10Collection", "Iterator"]
+- !private ["Ps10Collection", "Key"]
+- !private ["Ps10Collection", "Value"]
+- !private ["Ps10Collection", "_Element"]
+- !private ["Ps10Collection", "makeNode"]
+- !private ["Ps10Collection", "sorted"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps10Comparable", "int"]
+- !private ["P4Node7Context", "Element"]
+- !private ["P4Node7Context", "Iterator"]
+- !private ["P4Node7Context", "Key"]
+- !private ["P4Node7Context", "Value"]
+- !private ["P4Node7Context", "_Element"]
+- !private ["P4Node7Context", "converted"]
+- !private ["P4Node7Context", "makeNode"]
+- !private ["P4Node7Context", "sorted"]
+- !private ["P5Vapor9Countable", "Element"]
+- !private ["P5Vapor9Countable", "Iterator"]
+- !private ["P5Vapor9Countable", "Key"]
+- !private ["P5Vapor9Countable", "Value"]
+- !private ["P5Vapor9Countable", "_Element"]
+- !private ["P5Vapor9Countable", "init"]
+- !private ["P5Vapor9Countable", "int"]
+- !private ["P5Vapor9Countable", "makeNode"]
+- !private ["P5Vapor9Countable", "sorted"]
+- !private ["Ps28CustomDebugStringConvertible", "Element"]
+- !private ["Ps28CustomDebugStringConvertible", "Iterator"]
+- !private ["Ps28CustomDebugStringConvertible", "Key"]
+- !private ["Ps28CustomDebugStringConvertible", "Value"]
+- !private ["Ps28CustomDebugStringConvertible", "_Element"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "int"]
+- !private ["Ps28CustomDebugStringConvertible", "makeNode"]
+- !private ["Ps28CustomDebugStringConvertible", "sorted"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "int"]
+- !private ["Ps17CustomReflectable", "Element"]
+- !private ["Ps17CustomReflectable", "Iterator"]
+- !private ["Ps17CustomReflectable", "Key"]
+- !private ["Ps17CustomReflectable", "Value"]
+- !private ["Ps17CustomReflectable", "_Element"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "int"]
+- !private ["Ps17CustomReflectable", "makeNode"]
+- !private ["Ps17CustomReflectable", "sorted"]
+- !private ["Ps23CustomStringConvertible", "Abort"]
+- !private ["Ps23CustomStringConvertible", "Catagory"]
+- !private ["Ps23CustomStringConvertible", "Element"]
+- !private ["Ps23CustomStringConvertible", "Iterator"]
+- !private ["Ps23CustomStringConvertible", "Key"]
+- !private ["Ps23CustomStringConvertible", "Value"]
+- !private ["Ps23CustomStringConvertible", "_Element"]
+- ["Ps23CustomStringConvertible", "catagory"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "int"]
+- !private ["Ps23CustomStringConvertible", "makeNode"]
+- !private ["Ps23CustomStringConvertible", "sorted"]
+- !private ["Ps23CustomStringConvertible", "textplain_json"]
+- !private ["Vs10Dictionary", "Key"]
+- !private ["Vs10Dictionary", "Value"]
+- ["Vs10Dictionary", "deinit"]
+- !private ["P6Fluent6Entity", "all"]
+- !private ["P6Fluent6Entity", "cate_description"]
+- !private ["P6Fluent6Entity", "cate_keywords"]
+- !private ["P6Fluent6Entity", "cate_name"]
+- !private ["P6Fluent6Entity", "cate_order"]
+- !private ["P6Fluent6Entity", "cate_pid"]
+- !private ["P6Fluent6Entity", "cate_title"]
+- !private ["P6Fluent6Entity", "cate_view"]
+- !private ["P6Fluent6Entity", "delete"]
+- !private ["P6Fluent6Entity", "init"]
+- !private ["P6Fluent6Entity", "query"]
+- !private ["P6Fluent6Entity", "save"]
+- !private ["Ps9Equatable", "Element"]
+- !private ["Ps9Equatable", "converted"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "int"]
+- !private ["Ps5Error", "badRequest"]
+- !private ["Ps25ExpressibleByArrayLiteral", "Element"]
+- !private ["Ps25ExpressibleByArrayLiteral", "Iterator"]
+- !private ["Ps25ExpressibleByArrayLiteral", "_Element"]
+- !private ["Ps25ExpressibleByArrayLiteral", "converted"]
+- !private ["Ps25ExpressibleByArrayLiteral", "makeNode"]
+- !private ["Ps25ExpressibleByArrayLiteral", "sorted"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "Element"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "converted"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "Element"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "Key"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "Value"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "converted"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "Element"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "converted"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "int"]
+- !private ["Ps25ExpressibleByFloatLiteral", "Element"]
+- !private ["Ps25ExpressibleByFloatLiteral", "converted"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "Element"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "converted"]
+- !private ["Ps23ExpressibleByNilLiteral", "Element"]
+- !private ["Ps23ExpressibleByNilLiteral", "converted"]
+- !private ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps32ExpressibleByStringInterpolation", "int"]
+- !private ["Ps26ExpressibleByStringLiteral", "Element"]
+- !private ["Ps26ExpressibleByStringLiteral", "converted"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "int"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "Element"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "converted"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "int"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "int"]
+- !private ["Ps9Indexable", "Element"]
+- !private ["Ps9Indexable", "Iterator"]
+- !private ["Ps9Indexable", "Key"]
+- !private ["Ps9Indexable", "Value"]
+- !private ["Ps9Indexable", "_Element"]
+- !private ["Ps9Indexable", "makeNode"]
+- !private ["Ps9Indexable", "sorted"]
+- !private ["Ps13IndexableBase", "Element"]
+- !private ["Ps13IndexableBase", "Iterator"]
+- !private ["Ps13IndexableBase", "Key"]
+- !private ["Ps13IndexableBase", "Value"]
+- !private ["Ps13IndexableBase", "_Element"]
+- !private ["Ps13IndexableBase", "makeNode"]
+- !private ["Ps13IndexableBase", "sorted"]
+- !private ["Vs16IndexingIterator", "Element"]
+- !private ["Si", "deinit"]
+- !private ["Ps16IteratorProtocol", "Element"]
+- ["V4JSON4JSON", "deinit"]
+- !private ["V4JSON4JSON", "init"]
+- !private ["P4JSON15JSONConvertible", "init"]
+- !private ["P4JSON17JSONInitializable", "init"]
+- !private ["P4JSON17JSONRepresentable", "all"]
+- !private ["P4JSON17JSONRepresentable", "cate_description"]
+- !private ["P4JSON17JSONRepresentable", "cate_keywords"]
+- !private ["P4JSON17JSONRepresentable", "cate_name"]
+- !private ["P4JSON17JSONRepresentable", "cate_order"]
+- !private ["P4JSON17JSONRepresentable", "cate_pid"]
+- !private ["P4JSON17JSONRepresentable", "cate_title"]
+- !private ["P4JSON17JSONRepresentable", "cate_view"]
+- !private ["P4JSON17JSONRepresentable", "delete"]
+- !private ["P4JSON17JSONRepresentable", "init"]
+- !private ["P4JSON17JSONRepresentable", "query"]
+- !private ["P4JSON17JSONRepresentable", "save"]
+- !private ["P4HTTP13KeyAccessible", "Key"]
+- !private ["P4HTTP13KeyAccessible", "Value"]
+- !private ["P4Node13KeyAccessible", "Key"]
+- !private ["P4Node13KeyAccessible", "Value"]
+- !private ["P8Settings13KeyAccessible", "Key"]
+- !private ["P8Settings13KeyAccessible", "Value"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps25LosslessStringConvertible", "int"]
+- !private ["C4HTTP7Message", "Abort"]
+- ["C4HTTP7Message", "Catagory"]
+- ["C4HTTP7Message", "catagory"]
+- !private ["C4HTTP7Message", "textplain_json"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["Ps10MirrorPath", "int"]
+- !private ["P5Vapor5Model", "all"]
+- !private ["P5Vapor5Model", "cate_description"]
+- !private ["P5Vapor5Model", "cate_keywords"]
+- !private ["P5Vapor5Model", "cate_name"]
+- !private ["P5Vapor5Model", "cate_order"]
+- !private ["P5Vapor5Model", "cate_pid"]
+- !private ["P5Vapor5Model", "cate_title"]
+- !private ["P5Vapor5Model", "cate_view"]
+- !private ["P5Vapor5Model", "delete"]
+- !private ["P5Vapor5Model", "init"]
+- !private ["P5Vapor5Model", "query"]
+- !private ["P5Vapor5Model", "save"]
+- !private ["Ps17MutableCollection", "Element"]
+- !private ["Ps17MutableCollection", "Iterator"]
+- !private ["Ps17MutableCollection", "_Element"]
+- !private ["Ps17MutableCollection", "makeNode"]
+- !private ["Ps17MutableCollection", "sorted"]
+- !private ["Ps16MutableIndexable", "Element"]
+- !private ["Ps16MutableIndexable", "Iterator"]
+- !private ["Ps16MutableIndexable", "_Element"]
+- !private ["Ps16MutableIndexable", "makeNode"]
+- !private ["Ps16MutableIndexable", "sorted"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "int"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "int"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["PSo16NSMutableCopying", "int"]
+- !private ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "int"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "int"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "int"]
+- !private ["CSo8NSString", "init"]
+- !private ["CSo8NSString", "int"]
+- !private ["O4Node4Node", "Element"]
+- !private ["O4Node4Node", "converted"]
+- ["O4Node4Node", "deinit"]
+- !private ["P4Node10NodeBacked", "Element"]
+- !private ["P4Node10NodeBacked", "converted"]
+- !private ["P4Node10NodeBacked", "init"]
+- !private ["P4Node15NodeConvertible", "Element"]
+- !private ["P4Node15NodeConvertible", "all"]
+- !private ["P4Node15NodeConvertible", "cate_description"]
+- !private ["P4Node15NodeConvertible", "cate_keywords"]
+- !private ["P4Node15NodeConvertible", "cate_name"]
+- !private ["P4Node15NodeConvertible", "cate_order"]
+- !private ["P4Node15NodeConvertible", "cate_pid"]
+- !private ["P4Node15NodeConvertible", "cate_title"]
+- !private ["P4Node15NodeConvertible", "cate_view"]
+- !private ["P4Node15NodeConvertible", "converted"]
+- !private ["P4Node15NodeConvertible", "delete"]
+- !private ["P4Node15NodeConvertible", "init"]
+- !private ["P4Node15NodeConvertible", "int"]
+- !private ["P4Node15NodeConvertible", "query"]
+- !private ["P4Node15NodeConvertible", "save"]
+- !private ["P4Node17NodeInitializable", "Element"]
+- !private ["P4Node17NodeInitializable", "all"]
+- !private ["P4Node17NodeInitializable", "cate_description"]
+- !private ["P4Node17NodeInitializable", "cate_keywords"]
+- !private ["P4Node17NodeInitializable", "cate_name"]
+- !private ["P4Node17NodeInitializable", "cate_order"]
+- !private ["P4Node17NodeInitializable", "cate_pid"]
+- !private ["P4Node17NodeInitializable", "cate_title"]
+- !private ["P4Node17NodeInitializable", "cate_view"]
+- !private ["P4Node17NodeInitializable", "converted"]
+- !private ["P4Node17NodeInitializable", "delete"]
+- !private ["P4Node17NodeInitializable", "init"]
+- !private ["P4Node17NodeInitializable", "int"]
+- !private ["P4Node17NodeInitializable", "query"]
+- !private ["P4Node17NodeInitializable", "save"]
+- !private ["P4Node17NodeRepresentable", "Abort"]
+- !private ["P4Node17NodeRepresentable", "Catagory"]
+- !private ["P4Node17NodeRepresentable", "Element"]
+- !private ["P4Node17NodeRepresentable", "all"]
+- !private ["P4Node17NodeRepresentable", "catagory"]
+- !private ["P4Node17NodeRepresentable", "cate_description"]
+- !private ["P4Node17NodeRepresentable", "cate_keywords"]
+- !private ["P4Node17NodeRepresentable", "cate_name"]
+- !private ["P4Node17NodeRepresentable", "cate_order"]
+- !private ["P4Node17NodeRepresentable", "cate_pid"]
+- !private ["P4Node17NodeRepresentable", "cate_title"]
+- !private ["P4Node17NodeRepresentable", "cate_view"]
+- !private ["P4Node17NodeRepresentable", "converted"]
+- !private ["P4Node17NodeRepresentable", "deinit"]
+- !private ["P4Node17NodeRepresentable", "delete"]
+- !private ["P4Node17NodeRepresentable", "init"]
+- !private ["P4Node17NodeRepresentable", "int"]
+- !private ["P4Node17NodeRepresentable", "query"]
+- !private ["P4Node17NodeRepresentable", "save"]
+- !private ["P4Node17NodeRepresentable", "textplain_json"]
+- ["Sq", "deinit"]
+- !private ["P7Routing19ParametersContainer", "Abort"]
+- !private ["P7Routing19ParametersContainer", "Catagory"]
+- !private ["P7Routing19ParametersContainer", "catagory"]
+- !private ["P7Routing19ParametersContainer", "textplain_json"]
+- !private ["P13PathIndexable9PathIndex", "init"]
+- !private ["P13PathIndexable9PathIndex", "int"]
+- !private ["P13PathIndexable13PathIndexable", "Element"]
+- !private ["P13PathIndexable13PathIndexable", "converted"]
+- !private ["P13PathIndexable13PathIndexable", "init"]
+- !private ["P11Polymorphic11Polymorphic", "Element"]
+- !private ["P11Polymorphic11Polymorphic", "converted"]
+- !private ["P11Polymorphic11Polymorphic", "init"]
+- !private ["P11Polymorphic11Polymorphic", "int"]
+- !private ["P5Vapor24PolymorphicInitializable", "init"]
+- !private ["P5Vapor24PolymorphicInitializable", "int"]
+- !private ["P6Fluent11Preparation", "all"]
+- !private ["P6Fluent11Preparation", "cate_description"]
+- !private ["P6Fluent11Preparation", "cate_keywords"]
+- !private ["P6Fluent11Preparation", "cate_name"]
+- !private ["P6Fluent11Preparation", "cate_order"]
+- !private ["P6Fluent11Preparation", "cate_pid"]
+- !private ["P6Fluent11Preparation", "cate_title"]
+- !private ["P6Fluent11Preparation", "cate_view"]
+- !private ["P6Fluent11Preparation", "delete"]
+- !private ["P6Fluent11Preparation", "init"]
+- !private ["P6Fluent11Preparation", "query"]
+- !private ["P6Fluent11Preparation", "save"]
+- !private ["C6Fluent5Query", "T"]
+- !private ["C6Fluent5Query", "all"]
+- ["C6Fluent5Query", "deinit"]
+- !private ["C6Fluent5Query", "delete"]
+- !private ["C6Fluent5Query", "filter"]
+- !private ["P6Fluent18QueryRepresentable", "T"]
+- !private ["P6Fluent18QueryRepresentable", "all"]
+- !private ["P6Fluent18QueryRepresentable", "delete"]
+- !private ["P6Fluent18QueryRepresentable", "filter"]
+- !private ["Ps22RandomAccessCollection", "Element"]
+- !private ["Ps22RandomAccessCollection", "Iterator"]
+- !private ["Ps22RandomAccessCollection", "_Element"]
+- !private ["Ps22RandomAccessCollection", "makeNode"]
+- !private ["Ps22RandomAccessCollection", "sorted"]
+- !private ["Ps21RandomAccessIndexable", "Element"]
+- !private ["Ps21RandomAccessIndexable", "Iterator"]
+- !private ["Ps21RandomAccessIndexable", "_Element"]
+- !private ["Ps21RandomAccessIndexable", "makeNode"]
+- !private ["Ps21RandomAccessIndexable", "sorted"]
+- !private ["Ps26RangeReplaceableCollection", "Element"]
+- !private ["Ps26RangeReplaceableCollection", "Iterator"]
+- !private ["Ps26RangeReplaceableCollection", "_Element"]
+- !private ["Ps26RangeReplaceableCollection", "makeNode"]
+- !private ["Ps26RangeReplaceableCollection", "sorted"]
+- !private ["Ps25RangeReplaceableIndexable", "Element"]
+- !private ["Ps25RangeReplaceableIndexable", "Iterator"]
+- !private ["Ps25RangeReplaceableIndexable", "_Element"]
+- !private ["Ps25RangeReplaceableIndexable", "makeNode"]
+- !private ["Ps25RangeReplaceableIndexable", "sorted"]
+- !private ["C4HTTP7Request", "Abort"]
+- ["C4HTTP7Request", "Catagory"]
+- ["C4HTTP7Request", "catagory"]
+- ["C4HTTP7Request", "deinit"]
+- !private ["C4HTTP7Request", "textplain_json"]
+- !private ["P5Vapor23RequestContentSubscript", "init"]
+- !private ["P5Vapor23RequestContentSubscript", "int"]
+- ["C5Vapor8Resource", "deinit"]
+- !private ["C5Vapor8Resource", "init"]
+- !private ["P5Vapor21ResourceRepresentable", "Catagory"]
+- !private ["P5Vapor21ResourceRepresentable", "JSON"]
+- ["P5Vapor21ResourceRepresentable", "Model"]
+- !private ["P5Vapor21ResourceRepresentable", "Resource"]
+- !private ["P5Vapor21ResourceRepresentable", "clear"]
+- !private ["P5Vapor21ResourceRepresentable", "create"]
+- !private ["P5Vapor21ResourceRepresentable", "delete"]
+- !private ["P5Vapor21ResourceRepresentable", "index"]
+- ["P5Vapor21ResourceRepresentable", "makeResource"]
+- !private ["P5Vapor21ResourceRepresentable", "replace"]
+- !private ["P5Vapor21ResourceRepresentable", "responseWithSuccess"]
+- !private ["P5Vapor21ResourceRepresentable", "show"]
+- !private ["P5Vapor21ResourceRepresentable", "update"]
+- ["P5Vapor21ResourceRepresentable", ""]
+- !private ["P4HTTP21ResponseRepresentable", "all"]
+- !private ["P4HTTP21ResponseRepresentable", "cate_description"]
+- !private ["P4HTTP21ResponseRepresentable", "cate_keywords"]
+- !private ["P4HTTP21ResponseRepresentable", "cate_name"]
+- !private ["P4HTTP21ResponseRepresentable", "cate_order"]
+- !private ["P4HTTP21ResponseRepresentable", "cate_pid"]
+- !private ["P4HTTP21ResponseRepresentable", "cate_title"]
+- !private ["P4HTTP21ResponseRepresentable", "cate_view"]
+- ["P4HTTP21ResponseRepresentable", "deinit"]
+- !private ["P4HTTP21ResponseRepresentable", "delete"]
+- !private ["P4HTTP21ResponseRepresentable", "init"]
+- !private ["P4HTTP21ResponseRepresentable", "int"]
+- !private ["P4HTTP21ResponseRepresentable", "query"]
+- !private ["P4HTTP21ResponseRepresentable", "save"]
+- !private ["Ps8Sequence", "Element"]
+- !private ["Ps8Sequence", "Iterator"]
+- !private ["Ps8Sequence", "Key"]
+- !private ["Ps8Sequence", "Value"]
+- !private ["Ps8Sequence", "_Element"]
+- !private ["Ps8Sequence", "makeNode"]
+- !private ["Ps8Sequence", "sorted"]
+- ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["SS", "int"]
+- !private ["P15TypeSafeRouting19StringInitializable", "all"]
+- !private ["P15TypeSafeRouting19StringInitializable", "cate_description"]
+- !private ["P15TypeSafeRouting19StringInitializable", "cate_keywords"]
+- !private ["P15TypeSafeRouting19StringInitializable", "cate_name"]
+- !private ["P15TypeSafeRouting19StringInitializable", "cate_order"]
+- !private ["P15TypeSafeRouting19StringInitializable", "cate_pid"]
+- !private ["P15TypeSafeRouting19StringInitializable", "cate_title"]
+- !private ["P15TypeSafeRouting19StringInitializable", "cate_view"]
+- !private ["P15TypeSafeRouting19StringInitializable", "delete"]
+- !private ["P15TypeSafeRouting19StringInitializable", "init"]
+- !private ["P15TypeSafeRouting19StringInitializable", "int"]
+- !private ["P15TypeSafeRouting19StringInitializable", "query"]
+- !private ["P15TypeSafeRouting19StringInitializable", "save"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps16TextOutputStream", "int"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["Ps20TextOutputStreamable", "int"]
+- !private ["P9Transport15TransferMessage", "Abort"]
+- !private ["P9Transport15TransferMessage", "Catagory"]
+- ["P9Transport15TransferMessage", "catagory"]
+- !private ["P9Transport15TransferMessage", "textplain_json"]
+- !private ["P5Vapor11Validatable", "Element"]
+- !private ["P5Vapor11Validatable", "Iterator"]
+- !private ["P5Vapor11Validatable", "Key"]
+- !private ["P5Vapor11Validatable", "Value"]
+- !private ["P5Vapor11Validatable", "_Element"]
+- !private ["P5Vapor11Validatable", "init"]
+- !private ["P5Vapor11Validatable", "int"]
+- !private ["P5Vapor11Validatable", "makeNode"]
+- !private ["P5Vapor11Validatable", "sorted"]
+- !private ["Ps14_ArrayProtocol", "Element"]
+- !private ["Ps14_ArrayProtocol", "Iterator"]
+- !private ["Ps14_ArrayProtocol", "_Element"]
+- !private ["Ps14_ArrayProtocol", "makeNode"]
+- !private ["Ps14_ArrayProtocol", "sorted"]
+- !private ["Ps24_DestructorSafeContainer", "Element"]
+- !private ["Ps24_DestructorSafeContainer", "Iterator"]
+- !private ["Ps24_DestructorSafeContainer", "_Element"]
+- !private ["Ps24_DestructorSafeContainer", "makeNode"]
+- !private ["Ps24_DestructorSafeContainer", "sorted"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "int"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "int"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "int"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "int"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "int"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "int"]
+- !private ["Ps21_ObjectiveCBridgeable", "Element"]
+- !private ["Ps21_ObjectiveCBridgeable", "Iterator"]
+- !private ["Ps21_ObjectiveCBridgeable", "Key"]
+- !private ["Ps21_ObjectiveCBridgeable", "Value"]
+- !private ["Ps21_ObjectiveCBridgeable", "_Element"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "int"]
+- !private ["Ps21_ObjectiveCBridgeable", "makeNode"]
+- !private ["Ps21_ObjectiveCBridgeable", "sorted"]
+depends-nominal:
+- "O5Vapor5Abort"
+- "Ps9AnyObject"
+- "Sa"
+- !private "Ps23BidirectionalCollection"
+- !private "Ps22BidirectionalIndexable"
+- !private "P4HTTP17BodyRepresentable"
+- !private "Sb"
+- !private "P4Core16BytesConvertible"
+- !private "P4Core18BytesInitializable"
+- !private "P4Core18BytesRepresentable"
+- !private "Ps7CVarArg"
+- "C3App8Catagory"
+- "C3App18CatagoryController"
+- !private "P8VaporJWT16ClaimsVerifiable"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- !private "P4Node7Context"
+- !private "P5Vapor9Countable"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Vs10Dictionary"
+- !private "P6Fluent6Entity"
+- !private "Ps9Equatable"
+- !private "Ps5Error"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps30ExpressibleByDictionaryLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps25ExpressibleByFloatLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps23ExpressibleByNilLiteral"
+- !private "Ps32ExpressibleByStringInterpolation"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Ps8Hashable"
+- !private "Ps9Indexable"
+- !private "Ps13IndexableBase"
+- !private "Vs16IndexingIterator"
+- !private "Si"
+- !private "Ps16IteratorProtocol"
+- "V4JSON4JSON"
+- !private "P4JSON15JSONConvertible"
+- !private "P4JSON17JSONInitializable"
+- !private "P4JSON17JSONRepresentable"
+- !private "P4HTTP13KeyAccessible"
+- !private "P4Node13KeyAccessible"
+- !private "P8Settings13KeyAccessible"
+- !private "Ps25LosslessStringConvertible"
+- "C4HTTP7Message"
+- !private "Ps10MirrorPath"
+- !private "P5Vapor5Model"
+- !private "Ps17MutableCollection"
+- !private "Ps16MutableIndexable"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- "O4Node4Node"
+- !private "P4Node10NodeBacked"
+- !private "P4Node15NodeConvertible"
+- !private "P4Node17NodeInitializable"
+- !private "P4Node17NodeRepresentable"
+- "Sq"
+- !private "P7Routing19ParametersContainer"
+- !private "P13PathIndexable9PathIndex"
+- !private "P13PathIndexable13PathIndexable"
+- !private "P11Polymorphic11Polymorphic"
+- !private "P5Vapor24PolymorphicInitializable"
+- !private "P6Fluent11Preparation"
+- "C6Fluent5Query"
+- !private "P6Fluent18QueryRepresentable"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps21RandomAccessIndexable"
+- !private "Ps26RangeReplaceableCollection"
+- !private "Ps25RangeReplaceableIndexable"
+- "C4HTTP7Request"
+- !private "P5Vapor23RequestContentSubscript"
+- "C5Vapor8Resource"
+- "P5Vapor21ResourceRepresentable"
+- "P4HTTP21ResponseRepresentable"
+- !private "Ps8Sequence"
+- "SS"
+- !private "P15TypeSafeRouting19StringInitializable"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- "P9Transport15TransferMessage"
+- !private "P5Vapor11Validatable"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- !private "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/HTTP.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Core.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/libc.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Transport.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/SocksCore.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/TLS.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/whrlpool.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/ui_compat.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/txt_db.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/ts.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/tls.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/ripemd.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/rc4.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/rc2.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/rand.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/poly1305.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/pkcs12.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/opensslfeatures.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/opensslconf.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/x509v3.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/ocsp.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/modes.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/md5.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/md4.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/krb5_asn.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/idea.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/gost.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/err.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/ui.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/engine.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/ssl.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/srtp.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/ssl23.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/tls1.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/ssl3.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/ssl2.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/pem2.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/pkcs7.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/x509_vfy.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/sha.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/rsa.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/ecdh.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/ecdsa.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/ec.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/x509.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/pem.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/hmac.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/dtls1.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/dso.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/dsa.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/dh.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/des.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/conf_api.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/lhash.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/conf.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/crypto.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/comp.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/cms.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/obj_mac.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/objects.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/evp.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/cmac.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/chacha.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/cast.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/camellia.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/buffer.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/blowfish.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/asn1t.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/asn1_mac.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/bn.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/ossl_typ.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/opensslv.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/safestack.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/stack.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/bio.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/asn1.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/aes.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/CLibreSSL.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/module.modulemap"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/URI.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Cache.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Fluent.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Node.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/PathIndexable.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Polymorphic.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Cipher.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Essentials.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Console.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/HMAC.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/HTTPRouting.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Routing.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Hash.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Random.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/JSON.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Jay.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Leaf.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Sessions.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Cookies.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Settings.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/TypeSafeRouting.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/WebSockets.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/VaporPostgreSQL.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/FluentPostgreSQL.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/PostgreSQL.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/VaporJWT.swiftmodule"
+interface-hash: "97d88e97f18cf60914f7b1eceea1099d"

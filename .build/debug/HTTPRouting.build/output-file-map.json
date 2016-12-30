@@ -1,0 +1,35 @@
+{
+  "": {
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/HTTPRouting.build/master.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Routing-1.0.1/Sources/HTTPRouting/Request+Routing.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/HTTPRouting.build/Request+Routing.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/HTTPRouting.build/Request+Routing.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/HTTPRouting.build/Request+Routing~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/HTTPRouting.build/Request+Routing.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Routing-1.0.1/Sources/HTTPRouting/RouteBuilder+HTTP.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/HTTPRouting.build/RouteBuilder+HTTP.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/HTTPRouting.build/RouteBuilder+HTTP.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/HTTPRouting.build/RouteBuilder+HTTP~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/HTTPRouting.build/RouteBuilder+HTTP.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Routing-1.0.1/Sources/HTTPRouting/Router+HTTP.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/HTTPRouting.build/Router+HTTP.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/HTTPRouting.build/Router+HTTP.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/HTTPRouting.build/Router+HTTP~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/HTTPRouting.build/Router+HTTP.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Routing-1.0.1/Sources/HTTPRouting/Routing+HTTP.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/HTTPRouting.build/Routing+HTTP.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/HTTPRouting.build/Routing+HTTP.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/HTTPRouting.build/Routing+HTTP~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/HTTPRouting.build/Routing+HTTP.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Routing-1.0.1/Sources/HTTPRouting/Utilities.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/HTTPRouting.build/Utilities.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/HTTPRouting.build/Utilities.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/HTTPRouting.build/Utilities~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/HTTPRouting.build/Utilities.swiftdeps"
+  }
+}

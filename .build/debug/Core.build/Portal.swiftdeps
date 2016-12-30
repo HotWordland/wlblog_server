@@ -1,0 +1,273 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PortalError"
+- "Portal"
+- "=="
+provides-nominal:
+- "O4Core11PortalError"
+- "C4Core6Portal"
+provides-member:
+- ["O4Core11PortalError", ""]
+- ["C4Core6Portal", ""]
+- ["C4Core6Portal", "open"]
+- ["C4Core6Portal", "timeout"]
+provides-dynamic-lookup:
+depends-top-level:
+- "PortalError"
+- "Error"
+- "Void"
+- "DispatchSemaphore"
+- "Portal"
+- !private "*"
+- "Result"
+- "Core"
+- "Double"
+- "Lock"
+- !private "IntegerLiteralType"
+- !private "FloatLiteralType"
+- !private "background"
+- "=="
+- !private "AssignmentPrecedence"
+depends-member:
+- ["Ps9AnyObject", "Core"]
+- !private ["Ps9AnyObject", "DispatchSemaphore"]
+- !private ["Ps9AnyObject", "Portal"]
+- !private ["Ps9AnyObject", "PortalError"]
+- !private ["Ps9AnyObject", "background"]
+- !private ["Ps9AnyObject", "close"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "lock"]
+- !private ["Ps9AnyObject", "locked"]
+- !private ["Ps9AnyObject", "open"]
+- !private ["Ps9AnyObject", "result"]
+- !private ["Ps9AnyObject", "semaphore"]
+- !private ["Ps9AnyObject", "signal"]
+- !private ["Ps9AnyObject", "wait"]
+- ["Ps9AnyObject", ""]
+- !private ["Ps17BitwiseOperations", "hashValue"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Sb", "deinit"]
+- !private ["Ps7CVarArg", "hashValue"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "signal"]
+- !private ["Ps7CVarArg", "wait"]
+- !private ["Ps10Comparable", "hashValue"]
+- !private ["Ps28CustomDebugStringConvertible", "failure"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "none"]
+- !private ["Ps28CustomDebugStringConvertible", "signal"]
+- !private ["Ps28CustomDebugStringConvertible", "success"]
+- !private ["Ps28CustomDebugStringConvertible", "wait"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "hashValue"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "failure"]
+- !private ["Ps17CustomReflectable", "hashValue"]
+- ["Ps17CustomReflectable", "none"]
+- !private ["Ps17CustomReflectable", "success"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "hashValue"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "signal"]
+- !private ["Ps23CustomStringConvertible", "wait"]
+- !private ["CSo14DispatchObject", "init"]
+- !private ["CSo14DispatchObject", "signal"]
+- !private ["CSo14DispatchObject", "wait"]
+- ["CSo17DispatchSemaphore", "deinit"]
+- !private ["CSo17DispatchSemaphore", "init"]
+- !private ["CSo17DispatchSemaphore", "signal"]
+- !private ["CSo17DispatchSemaphore", "wait"]
+- ["O8Dispatch21DispatchTimeoutResult", "deinit"]
+- ["O8Dispatch21DispatchTimeoutResult", "success"]
+- ["O8Dispatch21DispatchTimeoutResult", "timedOut"]
+- ["Sd", "deinit"]
+- ["Ps9Equatable", "_code"]
+- ["Ps9Equatable", "_domain"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "_getEmbeddedNSError"]
+- ["Ps9Equatable", "_toAnyHashable"]
+- ["Ps9Equatable", "_userInfo"]
+- ["Ps9Equatable", "hashValue"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "notClosed"]
+- !private ["Ps9Equatable", "signal"]
+- ["Ps9Equatable", "success"]
+- ["Ps9Equatable", "timedOut"]
+- !private ["Ps9Equatable", "wait"]
+- ["Ps9Equatable", ""]
+- ["Ps5Error", "_code"]
+- ["Ps5Error", "_domain"]
+- ["Ps5Error", "_getEmbeddedNSError"]
+- ["Ps5Error", "_toAnyHashable"]
+- ["Ps5Error", "_userInfo"]
+- !private ["Ps5Error", "deinit"]
+- ["Ps5Error", "hashValue"]
+- !private ["Ps5Error", "notClosed"]
+- !private ["Ps5Error", "timedOut"]
+- ["Ps5Error", ""]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "hashValue"]
+- !private ["Ps23ExpressibleByNilLiteral", "failure"]
+- ["Ps23ExpressibleByNilLiteral", "none"]
+- !private ["Ps23ExpressibleByNilLiteral", "success"]
+- !private ["P4Core11Extractable", "failure"]
+- ["P4Core11Extractable", "none"]
+- !private ["P4Core11Extractable", "success"]
+- ["Ps8Hashable", "_code"]
+- ["Ps8Hashable", "_domain"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "_getEmbeddedNSError"]
+- ["Ps8Hashable", "_toAnyHashable"]
+- ["Ps8Hashable", "_userInfo"]
+- ["Ps8Hashable", "hashValue"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "notClosed"]
+- !private ["Ps8Hashable", "signal"]
+- ["Ps8Hashable", "success"]
+- ["Ps8Hashable", "timedOut"]
+- !private ["Ps8Hashable", "wait"]
+- ["Ps8Hashable", ""]
+- ["Si", "deinit"]
+- !private ["Si", "hashValue"]
+- !private ["Ps7Integer", "hashValue"]
+- !private ["Ps17IntegerArithmetic", "hashValue"]
+- ["C4Core4Lock", "deinit"]
+- ["C4Core4Lock", "init"]
+- !private ["C4Core4Lock", "locked"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps10MirrorPath", "hashValue"]
+- !private ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "signal"]
+- !private ["CSo8NSObject", "wait"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "signal"]
+- !private ["PSo16NSObjectProtocol", "wait"]
+- !private ["CSo9OS_object", "init"]
+- !private ["CSo9OS_object", "signal"]
+- !private ["CSo9OS_object", "wait"]
+- ["Sq", "deinit"]
+- !private ["Sq", "failure"]
+- ["Sq", "none"]
+- !private ["Sq", "success"]
+- ["C4Core6Portal", "Core"]
+- ["C4Core6Portal", "DispatchSemaphore"]
+- ["C4Core6Portal", "Double"]
+- ["C4Core6Portal", "Error"]
+- ["C4Core6Portal", "Portal"]
+- !private ["C4Core6Portal", "PortalError"]
+- ["C4Core6Portal", "Result"]
+- ["C4Core6Portal", "T"]
+- ["C4Core6Portal", "Void"]
+- !private ["C4Core6Portal", "background"]
+- ["C4Core6Portal", "close"]
+- ["C4Core6Portal", "deinit"]
+- ["C4Core6Portal", "destroy"]
+- !private ["C4Core6Portal", "init"]
+- !private ["C4Core6Portal", "lock"]
+- ["C4Core6Portal", "open"]
+- !private ["C4Core6Portal", "result"]
+- !private ["C4Core6Portal", "semaphore"]
+- ["C4Core6Portal", "timeout"]
+- ["O4Core11PortalError", "=="]
+- ["O4Core11PortalError", "_code"]
+- ["O4Core11PortalError", "_domain"]
+- ["O4Core11PortalError", "_getEmbeddedNSError"]
+- ["O4Core11PortalError", "_toAnyHashable"]
+- ["O4Core11PortalError", "_userInfo"]
+- ["O4Core11PortalError", "deinit"]
+- ["O4Core11PortalError", "hashValue"]
+- ["O4Core11PortalError", "notClosed"]
+- ["O4Core11PortalError", "timedOut"]
+- ["O4Core6Result", "deinit"]
+- !private ["O4Core6Result", "extract"]
+- !private ["O4Core6Result", "failure"]
+- !private ["O4Core6Result", "success"]
+- !private ["Ps13SignedInteger", "hashValue"]
+- !private ["Ps12SignedNumber", "hashValue"]
+- !private ["Ps10Strideable", "hashValue"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "hashValue"]
+- ["Ps9_Hashable", "_code"]
+- ["Ps9_Hashable", "_domain"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- ["Ps9_Hashable", "_getEmbeddedNSError"]
+- ["Ps9_Hashable", "_toAnyHashable"]
+- ["Ps9_Hashable", "_userInfo"]
+- ["Ps9_Hashable", "hashValue"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "notClosed"]
+- !private ["Ps9_Hashable", "signal"]
+- ["Ps9_Hashable", "success"]
+- ["Ps9_Hashable", "timedOut"]
+- !private ["Ps9_Hashable", "wait"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps14_Incrementable", "hashValue"]
+- !private ["Ps8_Integer", "hashValue"]
+- !private ["Ps18_IntegerArithmetic", "hashValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "failure"]
+- !private ["Ps21_ObjectiveCBridgeable", "hashValue"]
+- ["Ps21_ObjectiveCBridgeable", "none"]
+- !private ["Ps21_ObjectiveCBridgeable", "success"]
+- !private ["Vs26_OptionalNilComparisonType", "deinit"]
+- !private ["Ps14_SignedInteger", "hashValue"]
+- !private ["Ps11_Strideable", "hashValue"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Ps17BitwiseOperations"
+- !private "Sb"
+- !private "Ps7CVarArg"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- !private "CSo14DispatchObject"
+- "CSo17DispatchSemaphore"
+- "O8Dispatch21DispatchTimeoutResult"
+- "Sd"
+- "Ps9Equatable"
+- "Ps5Error"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- "Ps23ExpressibleByNilLiteral"
+- "P4Core11Extractable"
+- "Ps8Hashable"
+- "Si"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- "C4Core4Lock"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "CSo9OS_object"
+- "Sq"
+- "C4Core6Portal"
+- "O4Core11PortalError"
+- "O4Core6Result"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- !private "Ps10Strideable"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- "Ps21_ObjectiveCBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
+- !private "Ps14_SignedInteger"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/libc.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+interface-hash: "aeefcb8118b9901e64f88cf8aa8d4e35"

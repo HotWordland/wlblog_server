@@ -1,0 +1,41 @@
+{
+  "": {
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/PostgreSQL.build/master.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/PostgreSQL-1.1.0/Sources/PostgreSQL/Connection.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/PostgreSQL.build/Connection.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/PostgreSQL.build/Connection.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/PostgreSQL.build/Connection~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/PostgreSQL.build/Connection.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/PostgreSQL-1.1.0/Sources/PostgreSQL/Database.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/PostgreSQL.build/Database.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/PostgreSQL.build/Database.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/PostgreSQL.build/Database~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/PostgreSQL.build/Database.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/PostgreSQL-1.1.0/Sources/PostgreSQL/Node+Oid.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/PostgreSQL.build/Node+Oid.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/PostgreSQL.build/Node+Oid.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/PostgreSQL.build/Node+Oid~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/PostgreSQL.build/Node+Oid.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/PostgreSQL-1.1.0/Sources/PostgreSQL/PostgreSQL+Node.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/PostgreSQL.build/PostgreSQL+Node.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/PostgreSQL.build/PostgreSQL+Node.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/PostgreSQL.build/PostgreSQL+Node~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/PostgreSQL.build/PostgreSQL+Node.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/PostgreSQL-1.1.0/Sources/PostgreSQL/Result.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/PostgreSQL.build/Result.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/PostgreSQL.build/Result.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/PostgreSQL.build/Result~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/PostgreSQL.build/Result.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/PostgreSQL-1.1.0/Sources/PostgreSQL/Status.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/PostgreSQL.build/Status.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/PostgreSQL.build/Status.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/PostgreSQL.build/Status~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/PostgreSQL.build/Status.swiftdeps"
+  }
+}

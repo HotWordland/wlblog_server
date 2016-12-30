@@ -1,0 +1,198 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Parser"
+- "JsonParser"
+- "ParsingOptionsHaving"
+provides-nominal:
+- "V3Jay6Parser"
+- "P3Jay10JsonParser"
+- "P3Jay20ParsingOptionsHaving"
+provides-member:
+- ["V3Jay6Parser", ""]
+- ["P3Jay10JsonParser", ""]
+- ["P3Jay20ParsingOptionsHaving", ""]
+- ["V3Jay6Parser", "parseJsonFromData"]
+- ["P3Jay20ParsingOptionsHaving", "prepareForReading"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "ByteReader"
+- "Parser"
+- "JChar"
+- !private "!"
+- !private ">"
+- !private "BooleanLiteralType"
+- !private "CommentParser"
+- "JsonParser"
+- "Jay"
+- "ParsingOptionsHaving"
+- !private "RootParser"
+- !private "Const"
+- "JSON"
+- !private "JayError"
+- "Reader"
+- !private "||"
+- "AssignmentPrecedence"
+- !private "=="
+depends-member:
+- !private ["Ps9AnyObject", "init"]
+- ["Sa", "deinit"]
+- !private ["Sa", "isEmpty"]
+- !private ["Ps23BidirectionalCollection", "isEmpty"]
+- !private ["Ps22BidirectionalIndexable", "isEmpty"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["Sb", "deinit"]
+- ["C3Jay10ByteReader", "deinit"]
+- !private ["C3Jay10ByteReader", "init"]
+- !private ["Ps7CVarArg", "isEmpty"]
+- !private ["Ps10Collection", "isEmpty"]
+- ["V3Jay13CommentParser", "deinit"]
+- !private ["V3Jay13CommentParser", "init"]
+- !private ["V3Jay13CommentParser", "parse"]
+- !private ["V3Jay5Const", "Solidus"]
+- !private ["Ps28CustomDebugStringConvertible", "isEmpty"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "isEmpty"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "isEmpty"]
+- !private ["Ps9Equatable", "Element"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "allowComments"]
+- !private ["Ps9Equatable", "contains"]
+- !private ["Ps5Error", "extraTokensFound"]
+- !private ["Ps25ExpressibleByArrayLiteral", "Element"]
+- !private ["Ps25ExpressibleByArrayLiteral", "allowComments"]
+- !private ["Ps25ExpressibleByArrayLiteral", "contains"]
+- !private ["Ps25ExpressibleByArrayLiteral", "isEmpty"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9Indexable", "isEmpty"]
+- !private ["Ps13IndexableBase", "isEmpty"]
+- ["Si", "deinit"]
+- ["O3Jay4JSON", "deinit"]
+- ["V3Jay3Jay", "ParsingOptions"]
+- ["O3Jay8JayError", "deinit"]
+- !private ["O3Jay8JayError", "extraTokensFound"]
+- ["P3Jay10JsonParser", "JSON"]
+- ["P3Jay10JsonParser", "Reader"]
+- !private ["P3Jay10JsonParser", "init"]
+- ["P3Jay10JsonParser", "parse"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps17MutableCollection", "isEmpty"]
+- !private ["Ps16MutableIndexable", "isEmpty"]
+- !private ["Ps9OptionSet", "Element"]
+- !private ["Ps9OptionSet", "allowComments"]
+- !private ["Ps9OptionSet", "contains"]
+- !private ["V3Jay6Parser", "ByteReader"]
+- ["V3Jay6Parser", "JChar"]
+- ["V3Jay6Parser", "JSON"]
+- ["V3Jay6Parser", "Jay"]
+- !private ["V3Jay6Parser", "JayError"]
+- ["V3Jay6Parser", "Reader"]
+- !private ["V3Jay6Parser", "RootParser"]
+- ["V3Jay6Parser", "deinit"]
+- ["V3Jay6Parser", "init"]
+- ["V3Jay6Parser", "parseJsonFromData"]
+- ["V3Jay6Parser", "parseJsonFromReader"]
+- ["V3Jay6Parser", "parsing"]
+- !private ["VV3Jay3Jay14ParsingOptions", "Element"]
+- !private ["VV3Jay3Jay14ParsingOptions", "allowComments"]
+- !private ["VV3Jay3Jay14ParsingOptions", "contains"]
+- ["VV3Jay3Jay14ParsingOptions", "deinit"]
+- !private ["P3Jay20ParsingOptionsHaving", "CommentParser"]
+- !private ["P3Jay20ParsingOptionsHaving", "Const"]
+- ["P3Jay20ParsingOptionsHaving", "JSON"]
+- ["P3Jay20ParsingOptionsHaving", "Jay"]
+- ["P3Jay20ParsingOptionsHaving", "Reader"]
+- !private ["P3Jay20ParsingOptionsHaving", "init"]
+- ["P3Jay20ParsingOptionsHaving", "parse"]
+- ["P3Jay20ParsingOptionsHaving", "parsing"]
+- ["P3Jay20ParsingOptionsHaving", "prepareForReading"]
+- ["P3Jay20ParsingOptionsHaving", ""]
+- !private ["Ps22RandomAccessCollection", "isEmpty"]
+- !private ["Ps21RandomAccessIndexable", "isEmpty"]
+- !private ["Ps26RangeReplaceableCollection", "isEmpty"]
+- !private ["Ps25RangeReplaceableIndexable", "isEmpty"]
+- !private ["Ps16RawRepresentable", "Element"]
+- !private ["Ps16RawRepresentable", "allowComments"]
+- !private ["Ps16RawRepresentable", "contains"]
+- !private ["P3Jay6Reader", "consumeWhitespace"]
+- !private ["P3Jay6Reader", "curr"]
+- !private ["P3Jay6Reader", "ensureNotDone"]
+- !private ["P3Jay6Reader", "finishParsingWhenValid"]
+- !private ["P3Jay6Reader", "init"]
+- !private ["P3Jay6Reader", "isDone"]
+- ["V3Jay10RootParser", "deinit"]
+- !private ["V3Jay10RootParser", "init"]
+- !private ["V3Jay10RootParser", "parse"]
+- !private ["Ps8Sequence", "isEmpty"]
+- !private ["Ps10SetAlgebra", "Element"]
+- !private ["Ps10SetAlgebra", "allowComments"]
+- !private ["Ps10SetAlgebra", "contains"]
+- ["Vs5UInt8", "deinit"]
+- !private ["Ps14_ArrayProtocol", "isEmpty"]
+- !private ["Ps24_DestructorSafeContainer", "isEmpty"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "isEmpty"]
+depends-nominal:
+- !private "Ps9AnyObject"
+- "Sa"
+- !private "Ps23BidirectionalCollection"
+- !private "Ps22BidirectionalIndexable"
+- "Sb"
+- "C3Jay10ByteReader"
+- !private "Ps7CVarArg"
+- !private "Ps10Collection"
+- "V3Jay13CommentParser"
+- !private "V3Jay5Const"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- !private "Ps9Equatable"
+- !private "Ps5Error"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps8Hashable"
+- !private "Ps9Indexable"
+- !private "Ps13IndexableBase"
+- "Si"
+- "O3Jay4JSON"
+- "V3Jay3Jay"
+- "O3Jay8JayError"
+- "P3Jay10JsonParser"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps17MutableCollection"
+- !private "Ps16MutableIndexable"
+- !private "Ps9OptionSet"
+- "V3Jay6Parser"
+- "VV3Jay3Jay14ParsingOptions"
+- "P3Jay20ParsingOptionsHaving"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps21RandomAccessIndexable"
+- !private "Ps26RangeReplaceableCollection"
+- !private "Ps25RangeReplaceableIndexable"
+- !private "Ps16RawRepresentable"
+- !private "P3Jay6Reader"
+- "V3Jay10RootParser"
+- !private "Ps8Sequence"
+- !private "Ps10SetAlgebra"
+- "Vs5UInt8"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+interface-hash: "a642717e8847f17527524c06ad8bcc04"

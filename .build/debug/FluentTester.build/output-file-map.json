@@ -1,0 +1,41 @@
+{
+  "": {
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/FluentTester.build/master.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Fluent-1.1.0/Sources/FluentTester/Atom.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/FluentTester.build/Atom.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/FluentTester.build/Atom.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/FluentTester.build/Atom~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/FluentTester.build/Atom.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Fluent-1.1.0/Sources/FluentTester/Compound.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/FluentTester.build/Compound.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/FluentTester.build/Compound.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/FluentTester.build/Compound~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/FluentTester.build/Compound.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Fluent-1.1.0/Sources/FluentTester/Tester+InsertAndFind.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/FluentTester.build/Tester+InsertAndFind.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/FluentTester.build/Tester+InsertAndFind.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/FluentTester.build/Tester+InsertAndFind~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/FluentTester.build/Tester+InsertAndFind.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Fluent-1.1.0/Sources/FluentTester/Tester+PivotsAndRelations.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/FluentTester.build/Tester+PivotsAndRelations.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/FluentTester.build/Tester+PivotsAndRelations.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/FluentTester.build/Tester+PivotsAndRelations~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/FluentTester.build/Tester+PivotsAndRelations.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Fluent-1.1.0/Sources/FluentTester/Tester+Utilities.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/FluentTester.build/Tester+Utilities.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/FluentTester.build/Tester+Utilities.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/FluentTester.build/Tester+Utilities~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/FluentTester.build/Tester+Utilities.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Fluent-1.1.0/Sources/FluentTester/Tester.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/FluentTester.build/Tester.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/FluentTester.build/Tester.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/FluentTester.build/Tester~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/FluentTester.build/Tester.swiftdeps"
+  }
+}

@@ -1,0 +1,7 @@
+version: "Apple Swift version 3.0.1 (swiftlang-800.0.58.6 clang-800.0.42.1)"
+options: "fd02915bc799f5e2538b625cf4bd4201"
+build_time: [536398999, 350602000]
+inputs:
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Crypto-1.0.1/Sources/Hash/Hash.swift": [533876828, 0]
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Crypto-1.0.1/Sources/Hash/Method.swift": [533876828, 0]
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Crypto-1.0.1/Sources/Hash/Random.swift": [533876828, 0]

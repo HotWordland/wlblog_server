@@ -1,0 +1,545 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "BasicServer"
+- "Server"
+provides-nominal:
+- "C4HTTP6Server"
+provides-member:
+- ["C4HTTP6Server", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "Middleware"
+- "ServerErrorHandler"
+- !private "BooleanLiteralType"
+- !private "StreamError"
+- "Response"
+- "Serializer"
+- "ServerStream"
+- "String"
+- "TCPServerStream"
+- "Server"
+- "Parser"
+- !private "ServerError"
+- "Int"
+- "BasicServer"
+- !private "&&"
+- "SecurityLayer"
+- !private "+"
+- "StreamBuffer"
+- !private "ParserError"
+- "StringLiteralType"
+- "ServerProtocol"
+- "ThreadsafeArray"
+- !private "Stream"
+- "AssignmentPrecedence"
+- !private "CastingPrecedence"
+- "DispatchQueue"
+- "Request"
+- "TransferParser"
+- !private "!"
+- "Responder"
+- "TransferSerializer"
+depends-member:
+- ["Ps9AnyObject", "DispatchQueue"]
+- !private ["Ps9AnyObject", "Parser"]
+- !private ["Ps9AnyObject", "Serializer"]
+- !private ["Ps9AnyObject", "ServerError"]
+- !private ["Ps9AnyObject", "ServerStreamType"]
+- !private ["Ps9AnyObject", "StreamBuffer"]
+- ["Ps9AnyObject", "ThreadsafeArray"]
+- !private ["Ps9AnyObject", "append"]
+- !private ["Ps9AnyObject", "async"]
+- !private ["Ps9AnyObject", "close"]
+- !private ["Ps9AnyObject", "closed"]
+- ["Ps9AnyObject", "defaultMiddleware"]
+- !private ["Ps9AnyObject", "forEach"]
+- ["Ps9AnyObject", "host"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "keepAlive"]
+- ["Ps9AnyObject", "middleware"]
+- !private ["Ps9AnyObject", "onComplete"]
+- ["Ps9AnyObject", "port"]
+- !private ["Ps9AnyObject", "queue"]
+- !private ["Ps9AnyObject", "remove"]
+- !private ["Ps9AnyObject", "respond"]
+- !private ["Ps9AnyObject", "respondAsync"]
+- ["Ps9AnyObject", "securityLayer"]
+- !private ["Ps9AnyObject", "server"]
+- !private ["Ps9AnyObject", "setTimeout"]
+- ["Ps9AnyObject", "start"]
+- ["Ps9AnyObject", "startAsync"]
+- !private ["Ps9AnyObject", "startWatching"]
+- !private ["Ps9AnyObject", "streams"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "Iterator"]
+- !private ["Sa", "_Element"]
+- !private ["Sa", "chain"]
+- ["Sa", "deinit"]
+- ["VE8DispatchCSo13DispatchQueue10Attributes", "concurrent"]
+- ["VE8DispatchCSo13DispatchQueue10Attributes", "deinit"]
+- !private ["Ps23BidirectionalCollection", "Iterator"]
+- !private ["Ps23BidirectionalCollection", "_Element"]
+- !private ["Ps23BidirectionalCollection", "chain"]
+- !private ["Ps22BidirectionalIndexable", "Iterator"]
+- !private ["Ps22BidirectionalIndexable", "_Element"]
+- !private ["Ps22BidirectionalIndexable", "chain"]
+- ["P4HTTP17BodyRepresentable", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["Sb", "deinit"]
+- ["P4Core16BytesConvertible", "init"]
+- ["P4Core18BytesInitializable", "init"]
+- ["P4Core18BytesRepresentable", "init"]
+- !private ["Ps7CVarArg", "Iterator"]
+- !private ["Ps7CVarArg", "_Element"]
+- !private ["Ps7CVarArg", "async"]
+- !private ["Ps7CVarArg", "chain"]
+- ["Ps7CVarArg", "init"]
+- !private ["Ps10Collection", "Iterator"]
+- !private ["Ps10Collection", "_Element"]
+- !private ["Ps10Collection", "chain"]
+- ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "Iterator"]
+- !private ["Ps28CustomDebugStringConvertible", "_Element"]
+- !private ["Ps28CustomDebugStringConvertible", "async"]
+- !private ["Ps28CustomDebugStringConvertible", "chain"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "Iterator"]
+- !private ["Ps17CustomReflectable", "_Element"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "chain"]
+- ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "Iterator"]
+- !private ["Ps23CustomStringConvertible", "_Element"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "async"]
+- !private ["Ps23CustomStringConvertible", "chain"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "keepAlive"]
+- !private ["Ps23CustomStringConvertible", "onComplete"]
+- !private ["CSo14DispatchObject", "async"]
+- ["CSo14DispatchObject", "init"]
+- ["V8Dispatch11DispatchQoS", "deinit"]
+- ["V8Dispatch11DispatchQoS", "userInteractive"]
+- !private ["CSo13DispatchQueue", "async"]
+- ["CSo13DispatchQueue", "deinit"]
+- ["CSo13DispatchQueue", "init"]
+- !private ["Sd", "deinit"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "async"]
+- !private ["Ps9Equatable", "close"]
+- !private ["Ps9Equatable", "closed"]
+- ["Ps9Equatable", "concurrent"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "setTimeout"]
+- !private ["Ps9Equatable", "startWatching"]
+- !private ["Ps9Equatable", "streamEmpty"]
+- ["Ps9Equatable", "userInteractive"]
+- !private ["Ps5Error", "accept"]
+- !private ["Ps5Error", "bind"]
+- ["Ps5Error", "deinit"]
+- !private ["Ps5Error", "dispatch"]
+- !private ["Ps5Error", "respond"]
+- !private ["Ps5Error", "streamEmpty"]
+- !private ["Ps25ExpressibleByArrayLiteral", "Iterator"]
+- !private ["Ps25ExpressibleByArrayLiteral", "_Element"]
+- !private ["Ps25ExpressibleByArrayLiteral", "chain"]
+- ["Ps25ExpressibleByArrayLiteral", "concurrent"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- ["Ps32ExpressibleByStringInterpolation", "init"]
+- ["Ps26ExpressibleByStringLiteral", "init"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "async"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "streamEmpty"]
+- !private ["Ps9Indexable", "Iterator"]
+- !private ["Ps9Indexable", "_Element"]
+- !private ["Ps9Indexable", "chain"]
+- !private ["Ps13IndexableBase", "Iterator"]
+- !private ["Ps13IndexableBase", "_Element"]
+- !private ["Ps13IndexableBase", "chain"]
+- !private ["Vs16IndexingIterator", "Element"]
+- ["Si", "deinit"]
+- !private ["Ps16IteratorProtocol", "Element"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps25LosslessStringConvertible", "init"]
+- !private ["C4HTTP7Message", "keepAlive"]
+- !private ["C4HTTP7Message", "onComplete"]
+- ["Ps10MirrorPath", "init"]
+- !private ["Ps17MutableCollection", "Iterator"]
+- !private ["Ps17MutableCollection", "_Element"]
+- !private ["Ps17MutableCollection", "chain"]
+- !private ["Ps16MutableIndexable", "Iterator"]
+- !private ["Ps16MutableIndexable", "_Element"]
+- !private ["Ps16MutableIndexable", "chain"]
+- ["PSo8NSCoding", "init"]
+- ["PSo9NSCopying", "init"]
+- ["PSo16NSMutableCopying", "init"]
+- !private ["CSo8NSObject", "async"]
+- ["CSo8NSObject", "init"]
+- !private ["PSo16NSObjectProtocol", "async"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo14NSSecureCoding", "init"]
+- ["CSo8NSString", "init"]
+- !private ["CSo9OS_object", "async"]
+- ["CSo9OS_object", "init"]
+- ["Ps9OptionSet", "concurrent"]
+- !private ["Sq", "deinit"]
+- ["C4HTTP6Parser", "deinit"]
+- !private ["O4HTTP11ParserError", "streamEmpty"]
+- ["P4HTTP7Program", "DispatchQueue"]
+- !private ["P4HTTP7Program", "Parser"]
+- !private ["P4HTTP7Program", "Serializer"]
+- !private ["P4HTTP7Program", "ServerError"]
+- !private ["P4HTTP7Program", "ServerStreamType"]
+- !private ["P4HTTP7Program", "StreamBuffer"]
+- ["P4HTTP7Program", "ThreadsafeArray"]
+- ["P4HTTP7Program", "defaultMiddleware"]
+- ["P4HTTP7Program", "host"]
+- ["P4HTTP7Program", "init"]
+- ["P4HTTP7Program", "middleware"]
+- ["P4HTTP7Program", "port"]
+- !private ["P4HTTP7Program", "queue"]
+- !private ["P4HTTP7Program", "respond"]
+- !private ["P4HTTP7Program", "respondAsync"]
+- ["P4HTTP7Program", "securityLayer"]
+- !private ["P4HTTP7Program", "server"]
+- ["P4HTTP7Program", "start"]
+- ["P4HTTP7Program", "startAsync"]
+- !private ["P4HTTP7Program", "streams"]
+- ["P4HTTP7Program", ""]
+- !private ["P9Transport13ProgramStream", "accept"]
+- !private ["P9Transport13ProgramStream", "init"]
+- !private ["P9Transport13ProgramStream", "startWatching"]
+- !private ["Ps22RandomAccessCollection", "Iterator"]
+- !private ["Ps22RandomAccessCollection", "_Element"]
+- !private ["Ps22RandomAccessCollection", "chain"]
+- !private ["Ps21RandomAccessIndexable", "Iterator"]
+- !private ["Ps21RandomAccessIndexable", "_Element"]
+- !private ["Ps21RandomAccessIndexable", "chain"]
+- !private ["Ps26RangeReplaceableCollection", "Iterator"]
+- !private ["Ps26RangeReplaceableCollection", "_Element"]
+- !private ["Ps26RangeReplaceableCollection", "chain"]
+- !private ["Ps25RangeReplaceableIndexable", "Iterator"]
+- !private ["Ps25RangeReplaceableIndexable", "_Element"]
+- !private ["Ps25RangeReplaceableIndexable", "chain"]
+- ["Ps16RawRepresentable", "concurrent"]
+- !private ["C4HTTP7Request", "deinit"]
+- !private ["C4HTTP7Request", "keepAlive"]
+- ["P4HTTP9Responder", "deinit"]
+- !private ["P4HTTP9Responder", "respond"]
+- !private ["C4HTTP8Response", "deinit"]
+- !private ["C4HTTP8Response", "onComplete"]
+- ["P4HTTP21ResponseRepresentable", "init"]
+- !private ["P4HTTP21ResponseRepresentable", "onComplete"]
+- ["O9Transport13SecurityLayer", "deinit"]
+- !private ["O9Transport13SecurityLayer", "none"]
+- !private ["Ps8Sequence", "Element"]
+- !private ["Ps8Sequence", "Iterator"]
+- !private ["Ps8Sequence", "_Element"]
+- !private ["Ps8Sequence", "chain"]
+- ["C4HTTP10Serializer", "deinit"]
+- ["C4HTTP6Server", "DispatchQueue"]
+- ["C4HTTP6Server", "Int"]
+- ["C4HTTP6Server", "Middleware"]
+- !private ["C4HTTP6Server", "Parser"]
+- !private ["C4HTTP6Server", "ParserError"]
+- !private ["C4HTTP6Server", "Request"]
+- ["C4HTTP6Server", "Responder"]
+- ["C4HTTP6Server", "SecurityLayer"]
+- !private ["C4HTTP6Server", "Serializer"]
+- !private ["C4HTTP6Server", "ServerError"]
+- ["C4HTTP6Server", "ServerErrorHandler"]
+- ["C4HTTP6Server", "ServerStreamType"]
+- !private ["C4HTTP6Server", "Stream"]
+- ["C4HTTP6Server", "StreamBuffer"]
+- !private ["C4HTTP6Server", "StreamError"]
+- ["C4HTTP6Server", "String"]
+- ["C4HTTP6Server", "ThreadsafeArray"]
+- ["C4HTTP6Server", "defaultMiddleware"]
+- ["C4HTTP6Server", "deinit"]
+- ["C4HTTP6Server", "host"]
+- ["C4HTTP6Server", "init"]
+- ["C4HTTP6Server", "middleware"]
+- ["C4HTTP6Server", "port"]
+- !private ["C4HTTP6Server", "queue"]
+- !private ["C4HTTP6Server", "respond"]
+- !private ["C4HTTP6Server", "respondAsync"]
+- ["C4HTTP6Server", "securityLayer"]
+- ["C4HTTP6Server", "server"]
+- ["C4HTTP6Server", "start"]
+- ["C4HTTP6Server", "startAsync"]
+- !private ["C4HTTP6Server", "streams"]
+- !private ["O4HTTP11ServerError", "accept"]
+- !private ["O4HTTP11ServerError", "bind"]
+- ["O4HTTP11ServerError", "deinit"]
+- !private ["O4HTTP11ServerError", "dispatch"]
+- !private ["O4HTTP11ServerError", "respond"]
+- ["P4HTTP14ServerProtocol", "DispatchQueue"]
+- !private ["P4HTTP14ServerProtocol", "Parser"]
+- !private ["P4HTTP14ServerProtocol", "Serializer"]
+- !private ["P4HTTP14ServerProtocol", "ServerError"]
+- !private ["P4HTTP14ServerProtocol", "ServerStreamType"]
+- !private ["P4HTTP14ServerProtocol", "StreamBuffer"]
+- ["P4HTTP14ServerProtocol", "ThreadsafeArray"]
+- ["P4HTTP14ServerProtocol", "defaultMiddleware"]
+- ["P4HTTP14ServerProtocol", "host"]
+- ["P4HTTP14ServerProtocol", "init"]
+- ["P4HTTP14ServerProtocol", "middleware"]
+- ["P4HTTP14ServerProtocol", "port"]
+- !private ["P4HTTP14ServerProtocol", "queue"]
+- !private ["P4HTTP14ServerProtocol", "respond"]
+- !private ["P4HTTP14ServerProtocol", "respondAsync"]
+- ["P4HTTP14ServerProtocol", "securityLayer"]
+- !private ["P4HTTP14ServerProtocol", "server"]
+- ["P4HTTP14ServerProtocol", "start"]
+- ["P4HTTP14ServerProtocol", "startAsync"]
+- !private ["P4HTTP14ServerProtocol", "streams"]
+- ["P4HTTP14ServerProtocol", ""]
+- !private ["P9Transport12ServerStream", "accept"]
+- !private ["P9Transport12ServerStream", "init"]
+- !private ["P9Transport12ServerStream", "startWatching"]
+- ["Ps10SetAlgebra", "concurrent"]
+- !private ["P9Transport6Stream", "close"]
+- !private ["P9Transport6Stream", "closed"]
+- ["P9Transport6Stream", "deinit"]
+- !private ["P9Transport6Stream", "init"]
+- !private ["P9Transport6Stream", "setTimeout"]
+- !private ["P9Transport6Stream", "startWatching"]
+- !private ["C9Transport12StreamBuffer", "close"]
+- !private ["C9Transport12StreamBuffer", "closed"]
+- !private ["C9Transport12StreamBuffer", "deinit"]
+- !private ["C9Transport12StreamBuffer", "init"]
+- !private ["C9Transport12StreamBuffer", "setTimeout"]
+- !private ["C9Transport12StreamBuffer", "startWatching"]
+- !private ["O9Transport11StreamError", "deinit"]
+- ["SS", "deinit"]
+- ["SS", "init"]
+- ["Ps16TextOutputStream", "init"]
+- ["Ps20TextOutputStreamable", "init"]
+- !private ["C4HTTP15ThreadsafeArray", "append"]
+- ["C4HTTP15ThreadsafeArray", "deinit"]
+- !private ["C4HTTP15ThreadsafeArray", "forEach"]
+- ["C4HTTP15ThreadsafeArray", "init"]
+- !private ["C4HTTP15ThreadsafeArray", "remove"]
+- !private ["P9Transport15TransferMessage", "keepAlive"]
+- !private ["P9Transport15TransferMessage", "onComplete"]
+- ["P9Transport14TransferParser", "MessageType"]
+- !private ["P9Transport14TransferParser", "init"]
+- !private ["P9Transport14TransferParser", "parse"]
+- ["P9Transport18TransferSerializer", "MessageType"]
+- !private ["P9Transport18TransferSerializer", "init"]
+- !private ["P9Transport18TransferSerializer", "serialize"]
+- !private ["P9Transport9Watchable", "accept"]
+- !private ["P9Transport9Watchable", "close"]
+- !private ["P9Transport9Watchable", "closed"]
+- !private ["P9Transport9Watchable", "init"]
+- !private ["P9Transport9Watchable", "setTimeout"]
+- !private ["P9Transport9Watchable", "startWatching"]
+- !private ["Ps14_ArrayProtocol", "Iterator"]
+- !private ["Ps14_ArrayProtocol", "_Element"]
+- !private ["Ps14_ArrayProtocol", "chain"]
+- !private ["Ps24_DestructorSafeContainer", "Iterator"]
+- !private ["Ps24_DestructorSafeContainer", "_Element"]
+- !private ["Ps24_DestructorSafeContainer", "chain"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "async"]
+- ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "streamEmpty"]
+- !private ["Ps21_ObjectiveCBridgeable", "Iterator"]
+- !private ["Ps21_ObjectiveCBridgeable", "_Element"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "chain"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Sa"
+- "VE8DispatchCSo13DispatchQueue10Attributes"
+- !private "Ps23BidirectionalCollection"
+- !private "Ps22BidirectionalIndexable"
+- "P4HTTP17BodyRepresentable"
+- "Sb"
+- "P4Core16BytesConvertible"
+- "P4Core18BytesInitializable"
+- "P4Core18BytesRepresentable"
+- "Ps7CVarArg"
+- !private "Ps10Collection"
+- "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "CSo14DispatchObject"
+- "V8Dispatch11DispatchQoS"
+- "CSo13DispatchQueue"
+- !private "Sd"
+- "Ps9Equatable"
+- "Ps5Error"
+- "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- "Ps32ExpressibleByStringInterpolation"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- !private "Ps9Indexable"
+- !private "Ps13IndexableBase"
+- !private "Vs16IndexingIterator"
+- "Si"
+- !private "Ps16IteratorProtocol"
+- "Ps25LosslessStringConvertible"
+- !private "C4HTTP7Message"
+- "Ps10MirrorPath"
+- !private "Ps17MutableCollection"
+- !private "Ps16MutableIndexable"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- "CSo8NSString"
+- "CSo9OS_object"
+- "Ps9OptionSet"
+- !private "Sq"
+- "C4HTTP6Parser"
+- !private "O4HTTP11ParserError"
+- "P4HTTP7Program"
+- !private "P9Transport13ProgramStream"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps21RandomAccessIndexable"
+- !private "Ps26RangeReplaceableCollection"
+- !private "Ps25RangeReplaceableIndexable"
+- "Ps16RawRepresentable"
+- !private "C4HTTP7Request"
+- "P4HTTP9Responder"
+- !private "C4HTTP8Response"
+- "P4HTTP21ResponseRepresentable"
+- "O9Transport13SecurityLayer"
+- !private "Ps8Sequence"
+- "C4HTTP10Serializer"
+- "C4HTTP6Server"
+- "O4HTTP11ServerError"
+- "P4HTTP14ServerProtocol"
+- !private "P9Transport12ServerStream"
+- "Ps10SetAlgebra"
+- "P9Transport6Stream"
+- !private "C9Transport12StreamBuffer"
+- !private "O9Transport11StreamError"
+- "SS"
+- "Ps16TextOutputStream"
+- "Ps20TextOutputStreamable"
+- "C4HTTP15ThreadsafeArray"
+- !private "P9Transport15TransferMessage"
+- "P9Transport14TransferParser"
+- "P9Transport18TransferSerializer"
+- !private "P9Transport9Watchable"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- "Ps34_ExpressibleByBuiltinStringLiteral"
+- "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Transport.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Core.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/libc.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/SocksCore.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/TLS.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/whrlpool.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/ui_compat.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/txt_db.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/ts.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/tls.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/ripemd.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/rc4.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/rc2.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/rand.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/poly1305.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/pkcs12.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/opensslfeatures.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/opensslconf.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/x509v3.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/ocsp.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/modes.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/md5.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/md4.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/krb5_asn.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/idea.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/gost.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/err.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/ui.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/engine.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/ssl.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/srtp.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/ssl23.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/tls1.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/ssl3.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/ssl2.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/pem2.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/pkcs7.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/x509_vfy.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/sha.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/rsa.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/ecdh.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/ecdsa.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/ec.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/x509.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/pem.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/hmac.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/dtls1.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/dso.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/dsa.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/dh.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/des.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/conf_api.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/lhash.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/conf.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/crypto.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/comp.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/cms.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/obj_mac.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/objects.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/evp.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/cmac.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/chacha.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/cast.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/camellia.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/buffer.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/blowfish.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/asn1t.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/asn1_mac.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/bn.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/ossl_typ.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/opensslv.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/safestack.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/stack.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/bio.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/asn1.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/aes.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/CLibreSSL.h"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/module.modulemap"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/URI.swiftmodule"
+interface-hash: "b7a3e62f5bed9fe42369fa4137be275b"

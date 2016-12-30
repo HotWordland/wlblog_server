@@ -1,0 +1,350 @@
+.billInfoContainer{
+    text-align: center;
+}
+.billInfoContent{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    display: block;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    float: none;
+    z-index: auto;
+    width: 80%;
+    cursor: default;
+    opacity: 1;
+    overflow: visible;
+    border: none;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    color: black;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    background-color: white;
+    -webkit-box-shadow: 1px 1px 3px 2px rgba(0,0,0,0.2) ;
+    box-shadow: 1px 1px 3px 2px rgba(0,0,0,0.2) ;
+    text-shadow: none;
+    -webkit-transition: none;
+    -moz-transition: none;
+    -o-transition: none;
+    transition: none;
+    -webkit-transform: none;
+    transform: none;
+    -webkit-transform-origin: 50% 50% 0;
+    transform-origin: 50% 50% 0;
+
+}
+.billInfoContainer .userPart{
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    border: 1px solid rgba(255,255,255,1);
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    color: rgba(255,255,255,1);
+    text-align: center;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    width: 30%;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.infoPart{
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.infoPart .monthCost{
+    background-color: #23B7E5;
+    height: 80px;
+    -webkit-border-radius: 2%;
+    border-radius: 2%;
+
+}
+.infoPart p{
+    color: white;
+    position:relative;
+    top:50%;
+    font: normal 16px/1 "Courier New", Courier, monospace;
+    transform:translateY(-50%);
+
+    /*height: 50px;*/
+}
+
+.infoPart .dayCost{
+    background-color: #7266BA;
+    height: 80px;
+    color: white;
+    -webkit-border-radius: 2%;
+    border-radius: 2%;
+
+}
+.costTimeLineContainer{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.costTimeLineContent{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7%;
+    display: block;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    float: none;
+    z-index: auto;
+    width: 80%;
+    /*height: 850px;*/
+    cursor: default;
+    opacity: 1;
+    overflow: visible;
+    border: none;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    color: black;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    background-color: white;
+    -webkit-box-shadow: 1px 1px 3px 2px rgba(0,0,0,0.2) ;
+    box-shadow: 1px 1px 3px 2px rgba(0,0,0,0.2) ;
+    text-shadow: none;
+    -webkit-transition: none;
+    -moz-transition: none;
+    -o-transition: none;
+    transition: none;
+    -webkit-transform: none;
+    transform: none;
+    -webkit-transform-origin: 50% 50% 0;
+    transform-origin: 50% 50% 0;
+}
+.costTimeLineContainer .tagCostIndi{
+    position: relative;
+    width: 100%;
+    height: 5px;
+    background-color: #fad733;
+
+
+}
+.costTimeLineContainer .tagIncomeIndi{
+    position: relative;
+    width: 100%;
+    height: 5px;
+    background-color: #23b7e5;
+}
+.costTimeLineContainer .infoTitle{
+    border-bottom: 1px solid #dee5e7;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.costTimeLineContainer .itemTitleDate{
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    border: 1px solid #dee5e7;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 12px;
+    color: darkgray;
+    display: inline-block;
+
+}
+.costTimeLineContainer .dateTitlePotLine{
+    width: 1px;
+    height: 30px;
+    margin: auto;
+    background-color: #dee5e7;
+
+}
+.costTimeLineContainer .itemTitleDateContainer{
+    padding-top: 10px;
+}
+.costTimeLineContainer .infoTitle h4{
+    text-align: left;
+    font-size: 23px;
+}
+.costTimeLineContainer .colorIndi{
+    float: right;
+}
+.colorIndi .indiItemCost{
+    margin-right:5px;
+    display:inline-block;
+    width: 10px;
+    height: 10px;
+    background-color:#fad733;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+
+}
+.colorIndi .titleCost{
+    color: #fad733;
+    margin-right: 5px;
+}
+.colorIndi .indiItemIncome{
+    background-color: #23b7e5;
+    margin-right:5px;
+    display:inline-block;
+    width: 10px;
+    height: 10px;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+.colorIndi .titleIncome{
+    color: #23b7e5;
+}
+.costTimeLineContainer .item{
+
+}
+.costTimeLineContainer .halfPart{
+    position: relative;
+    width: 49%;
+    float: left;
+    height: 60px;
+}
+.costTimeLineContainer .leftMark{
+    padding: 20px;
+    text-align: right;
+}
+.costTimeLineContainer .rightMark{
+    padding: 20px;
+    text-align: left;
+}
+.costTimeLineContainer .arrow.right {
+    top: 50%;
+    right: -7px;
+    margin-top: -9px;
+    border-left-color: rgba(0,0,0,.1);
+    border-right-width: 0;
+    border-left-color: #fad733;
+}
+.costTimeLineContainer .arrow .arrow:after {
+    position: absolute;
+    display: block;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+}
+.costTimeLineContainer .arrow, .arrow:after {
+    position: absolute;
+    display: block;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+}
+.costTimeLineContainer .arrow {
+    /*z-index: 10;*/
+    border-width: 9px;
+}
+i, cite, em, var, address, dfn {
+    font-style: italic;
+}
+
+.costTimeLineContainer .arrow.right:after {
+    right: 1px;
+    bottom: -8px;
+    border-left-color: #fff;
+    border-right-width: 0;
+}
+.costTimeLineContainer .arrow:after {
+    border-width: 8px;
+}
+.costTimeLineContainer .arrow, .arrow:after {
+    position: absolute;
+    display: block;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+}
+/*span 文字内容*/
+.costTimeLineContainer .lefttc{
+    position: relative;
+    color: white;
+    background-color:#fad733;
+    font-size: 13px
+}
+
+.costTimeLineContainer .righttc{
+    position: relative;
+    color: white;
+    background-color:#23b7e5;
+    font-size: 13px
+}
+.costTimeLineContainer .arrow.left {
+    top: 50%;
+    left: -7px;
+    margin-top: -9px;
+    border-right-color: rgba(0,0,0,.1);
+    border-left-width: 0;
+    border-right-color: #23b7e5;
+}
+.costTimeLineContainer .potContainer{
+    position: relative;
+    width: 2%;
+    text-align: center;
+    float: left;
+    padding-top: 27px;
+}
+.costTimeLineContainer .potLine{
+    position: absolute;
+    width: 1px;
+    top: 0;
+    height: 60px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: #dee5e7;
+}
+.costTimeLineContainer .potLinetop{
+    position: absolute;
+    width: 1px;
+    top: 0px;
+    height: 60px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: #dee5e7;
+}
+.costTimeLineContainer .potContainer .pot{
+    display: block;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    z-index: auto;
+    width: 6px;
+    height: 6px;
+    cursor: default;
+    opacity: 1;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: visible;
+    border: none;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    color: black;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    background: #dee5e7;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    text-shadow: none;
+    -webkit-transition: none;
+    -moz-transition: none;
+    -o-transition: none;
+    transition: none;
+    -webkit-transform: none;
+    transform: none;
+    -webkit-transform-origin: 50% 50% 0;
+    transform-origin: 50% 50% 0;
+    position: relative;
+}
+

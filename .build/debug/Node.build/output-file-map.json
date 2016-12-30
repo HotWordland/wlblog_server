@@ -1,0 +1,137 @@
+{
+  "": {
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Node.build/master.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Node-1.0.1/Sources/Node/NodeBacked.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Node.build/NodeBacked.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Node.build/NodeBacked.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Node.build/NodeBacked~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Node.build/NodeBacked.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Node-1.0.1/Sources/Node/Convertible/Bool+Convertible.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Node.build/Bool+Convertible.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Node.build/Convertible/Bool+Convertible.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Node.build/Bool+Convertible~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Node.build/Bool+Convertible.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Node-1.0.1/Sources/Node/Convertible/Context.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Node.build/Context.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Node.build/Convertible/Context.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Node.build/Context~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Node.build/Context.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Node-1.0.1/Sources/Node/Convertible/Convertible+Init.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Node.build/Convertible+Init.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Node.build/Convertible/Convertible+Init.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Node.build/Convertible+Init~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Node.build/Convertible+Init.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Node-1.0.1/Sources/Node/Convertible/Convertible.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Node.build/Convertible.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Node.build/Convertible/Convertible.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Node.build/Convertible~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Node.build/Convertible.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Node-1.0.1/Sources/Node/Convertible/FloatingPoint+Convertible.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Node.build/FloatingPoint+Convertible.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Node.build/Convertible/FloatingPoint+Convertible.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Node.build/FloatingPoint+Convertible~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Node.build/FloatingPoint+Convertible.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Node-1.0.1/Sources/Node/Convertible/Integer+Convertible.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Node.build/Integer+Convertible.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Node.build/Convertible/Integer+Convertible.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Node.build/Integer+Convertible~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Node.build/Integer+Convertible.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Node-1.0.1/Sources/Node/Convertible/Node+Convertible.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Node.build/Node+Convertible.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Node.build/Convertible/Node+Convertible.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Node.build/Node+Convertible~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Node.build/Node+Convertible.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Node-1.0.1/Sources/Node/Convertible/Sequence+Convertible.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Node.build/Sequence+Convertible.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Node.build/Convertible/Sequence+Convertible.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Node.build/Sequence+Convertible~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Node.build/Sequence+Convertible.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Node-1.0.1/Sources/Node/Convertible/String+Convertible.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Node.build/String+Convertible.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Node.build/Convertible/String+Convertible.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Node.build/String+Convertible~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Node.build/String+Convertible.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Node-1.0.1/Sources/Node/Convertible/UnsignedInteger+Convertible.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Node.build/UnsignedInteger+Convertible.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Node.build/Convertible/UnsignedInteger+Convertible.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Node.build/UnsignedInteger+Convertible~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Node.build/UnsignedInteger+Convertible.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Node-1.0.1/Sources/Node/Core/Node+Accessors.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Node.build/Node+Accessors.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Node.build/Core/Node+Accessors.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Node.build/Node+Accessors~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Node.build/Node+Accessors.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Node-1.0.1/Sources/Node/Core/Node+Equatable.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Node.build/Node+Equatable.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Node.build/Core/Node+Equatable.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Node.build/Node+Equatable~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Node.build/Node+Equatable.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Node-1.0.1/Sources/Node/Core/Node+Exports.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Node.build/Node+Exports.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Node.build/Core/Node+Exports.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Node.build/Node+Exports~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Node.build/Node+Exports.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Node-1.0.1/Sources/Node/Core/Node+Init.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Node.build/Node+Init.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Node.build/Core/Node+Init.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Node.build/Node+Init~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Node.build/Node+Init.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Node-1.0.1/Sources/Node/Core/Node+Literals.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Node.build/Node+Literals.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Node.build/Core/Node+Literals.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Node.build/Node+Literals~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Node.build/Node+Literals.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Node-1.0.1/Sources/Node/Core/Node+PathIndexable.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Node.build/Node+PathIndexable.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Node.build/Core/Node+PathIndexable.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Node.build/Node+PathIndexable~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Node.build/Node+PathIndexable.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Node-1.0.1/Sources/Node/Core/Node+Polymorphic.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Node.build/Node+Polymorphic.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Node.build/Core/Node+Polymorphic.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Node.build/Node+Polymorphic~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Node.build/Node+Polymorphic.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Node-1.0.1/Sources/Node/Core/Node.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Node.build/Node.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Node.build/Core/Node.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Node.build/Node~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Node.build/Node.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Node-1.0.1/Sources/Node/Extract/Node+Extract.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Node.build/Node+Extract.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Node.build/Extract/Node+Extract.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Node.build/Node+Extract~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Node.build/Node+Extract.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Node-1.0.1/Sources/Node/Number/Number.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Node.build/Number.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Node.build/Number/Number.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Node.build/Number~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Node.build/Number.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Node-1.0.1/Sources/Node/Utilities/Errors.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Node.build/Errors.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Node.build/Utilities/Errors.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Node.build/Errors~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Node.build/Errors.swiftdeps"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "": {
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Settings.build/master.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Settings/Config+Arguments.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Settings.build/Config+Arguments.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Settings.build/Config+Arguments.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Settings.build/Config+Arguments~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Settings.build/Config+Arguments.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Settings/Config+Directory.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Settings.build/Config+Directory.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Settings.build/Config+Directory.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Settings.build/Config+Directory~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Settings.build/Config+Directory.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Settings/Config.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Settings.build/Config.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Settings.build/Config.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Settings.build/Config~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Settings.build/Config.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Settings/KeyAccessible+Merge.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Settings.build/KeyAccessible+Merge.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Settings.build/KeyAccessible+Merge.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Settings.build/KeyAccessible+Merge~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Settings.build/KeyAccessible+Merge.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Settings/KeyAccessible.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Settings.build/KeyAccessible.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Settings.build/KeyAccessible.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Settings.build/KeyAccessible~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Settings.build/KeyAccessible.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Settings/Node+Merge.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Settings.build/Node+Merge.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Settings.build/Node+Merge.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Settings.build/Node+Merge~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Settings.build/Node+Merge.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Settings/Source.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Settings.build/Source.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Settings.build/Source.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Settings.build/Source~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Settings.build/Source.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Settings/Env/Env.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Settings.build/Env.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Settings.build/Env/Env.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Settings.build/Env~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Settings.build/Env.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Settings/Env/Node+Env.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Settings.build/Node+Env.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Settings.build/Env/Node+Env.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Settings.build/Node+Env~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Settings.build/Node+Env.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Settings/Env/String+Env.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Settings.build/String+Env.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Settings.build/Env/String+Env.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Settings.build/String+Env~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Settings.build/String+Env.swiftdeps"
+  }
+}

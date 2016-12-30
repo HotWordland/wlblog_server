@@ -1,0 +1,51 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "RouteBuilder"
+provides-nominal:
+- "P7Routing12RouteBuilder"
+- "C7Routing6Router"
+provides-member:
+- ["P7Routing12RouteBuilder", ""]
+- ["C7Routing6Router", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "RouteBuilder"
+- "String"
+- "Router"
+depends-member:
+- ["Ps9AnyObject", "Value"]
+- ["Ps9AnyObject", "add"]
+- !private ["Ps9AnyObject", "register"]
+- ["Sa", "deinit"]
+- ["P7Routing12RouteBuilder", "String"]
+- ["P7Routing12RouteBuilder", "Value"]
+- ["P7Routing12RouteBuilder", "add"]
+- !private ["P7Routing12RouteBuilder", "register"]
+- ["P7Routing12RouteBuilder", ""]
+- ["C7Routing6Router", "Output"]
+- ["C7Routing6Router", "String"]
+- ["C7Routing6Router", "Value"]
+- ["C7Routing6Router", "add"]
+- ["C7Routing6Router", "deinit"]
+- !private ["C7Routing6Router", "register"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Sa"
+- "P7Routing12RouteBuilder"
+- "C7Routing6Router"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Core.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/libc.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Node.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/PathIndexable.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Polymorphic.swiftmodule"
+interface-hash: "2d2acf9813f3a990d7ae78fd0c791287"

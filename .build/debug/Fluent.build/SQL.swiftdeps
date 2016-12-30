@@ -1,0 +1,57 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SQL"
+provides-nominal:
+- "O6Fluent3SQL"
+- "OO6Fluent3SQL11TableAction"
+provides-member:
+- ["O6Fluent3SQL", ""]
+- ["OO6Fluent3SQL11TableAction", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "String"
+- "Union"
+- "SQL"
+- "Sort"
+- "Filter"
+- "Node"
+- "Limit"
+- "Schema"
+depends-member:
+- ["O6Fluent3SQL", "Filter"]
+- ["O6Fluent3SQL", "Limit"]
+- ["O6Fluent3SQL", "Node"]
+- ["O6Fluent3SQL", "Schema"]
+- ["O6Fluent3SQL", "Sort"]
+- ["O6Fluent3SQL", "String"]
+- ["O6Fluent3SQL", "TableAction"]
+- ["O6Fluent3SQL", "Union"]
+- ["O6Fluent3SQL", "delete"]
+- ["O6Fluent3SQL", "insert"]
+- ["O6Fluent3SQL", "select"]
+- ["O6Fluent3SQL", "table"]
+- ["O6Fluent3SQL", "update"]
+- ["O6Fluent6Schema", "Field"]
+- ["OO6Fluent3SQL11TableAction", "Schema"]
+- ["OO6Fluent3SQL11TableAction", "String"]
+- ["OO6Fluent3SQL11TableAction", "alter"]
+- ["OO6Fluent3SQL11TableAction", "create"]
+- ["OO6Fluent3SQL11TableAction", "drop"]
+depends-nominal:
+- "O6Fluent3SQL"
+- "O6Fluent6Schema"
+- "OO6Fluent3SQL11TableAction"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Node.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/PathIndexable.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Polymorphic.swiftmodule"
+interface-hash: "17d176cc9eb2eecc1668cf6fbc349184"

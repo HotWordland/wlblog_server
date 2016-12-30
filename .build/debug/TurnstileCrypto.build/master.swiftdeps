@@ -1,0 +1,7 @@
+version: "Apple Swift version 3.0.1 (swiftlang-800.0.58.6 clang-800.0.42.1)"
+options: "5659093be10aa4bb923add42abba1b18"
+build_time: [536398976, 875638000]
+inputs:
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Turnstile-1.0.3/Sources/TurnstileCrypto/BCrypt.swift": [533880698, 0]
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Turnstile-1.0.3/Sources/TurnstileCrypto/Random.swift": [533880698, 0]
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Turnstile-1.0.3/Sources/TurnstileCrypto/URandom.swift": [533880698, 0]

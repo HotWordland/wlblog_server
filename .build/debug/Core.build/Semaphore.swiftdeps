@@ -1,0 +1,81 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["CSo17DispatchSemaphore", ""]
+- ["CSo17DispatchSemaphore", "wait"]
+provides-dynamic-lookup:
+depends-top-level:
+- "DispatchSemaphore"
+- "DispatchTimeoutResult"
+- !private "DispatchTime"
+- "Double"
+depends-member:
+- !private ["Ps9AnyObject", "DispatchTime"]
+- ["Ps9AnyObject", "wait"]
+- !private ["Ps7CVarArg", "DispatchTime"]
+- ["Ps7CVarArg", "wait"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "DispatchTime"]
+- ["Ps28CustomDebugStringConvertible", "wait"]
+- !private ["Ps23CustomStringConvertible", "DispatchTime"]
+- ["Ps23CustomStringConvertible", "wait"]
+- !private ["CSo14DispatchObject", "DispatchTime"]
+- ["CSo14DispatchObject", "DispatchTimeoutResult"]
+- ["CSo14DispatchObject", "Double"]
+- ["CSo14DispatchObject", "wait"]
+- !private ["CSo17DispatchSemaphore", "DispatchTime"]
+- ["CSo17DispatchSemaphore", "DispatchTimeoutResult"]
+- ["CSo17DispatchSemaphore", "Double"]
+- ["CSo17DispatchSemaphore", "deinit"]
+- ["CSo17DispatchSemaphore", "wait"]
+- ["V8Dispatch12DispatchTime", "deinit"]
+- !private ["V8Dispatch12DispatchTime", "init"]
+- ["O8Dispatch21DispatchTimeoutResult", "deinit"]
+- ["Sd", "deinit"]
+- !private ["Ps9Equatable", "DispatchTime"]
+- !private ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "wait"]
+- !private ["Ps8Hashable", "DispatchTime"]
+- ["Ps8Hashable", "wait"]
+- !private ["CSo8NSObject", "DispatchTime"]
+- ["CSo8NSObject", "DispatchTimeoutResult"]
+- ["CSo8NSObject", "Double"]
+- ["CSo8NSObject", "wait"]
+- !private ["PSo16NSObjectProtocol", "DispatchTime"]
+- ["PSo16NSObjectProtocol", "wait"]
+- !private ["CSo9OS_object", "DispatchTime"]
+- ["CSo9OS_object", "DispatchTimeoutResult"]
+- ["CSo9OS_object", "Double"]
+- ["CSo9OS_object", "wait"]
+- !private ["Ps9_Hashable", "DispatchTime"]
+- ["Ps9_Hashable", "wait"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Ps7CVarArg"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "CSo14DispatchObject"
+- "CSo17DispatchSemaphore"
+- "V8Dispatch12DispatchTime"
+- "O8Dispatch21DispatchTimeoutResult"
+- "Sd"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "CSo9OS_object"
+- "Ps9_Hashable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/libc.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+interface-hash: "c9992a8aaf215ea9b91542c41fe17cd9"

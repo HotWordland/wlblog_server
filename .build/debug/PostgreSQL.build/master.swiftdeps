@@ -1,0 +1,10 @@
+version: "Apple Swift version 3.0.1 (swiftlang-800.0.58.6 clang-800.0.42.1)"
+options: "0031d2bbb28f79a015d1c00408662da9"
+build_time: [536398991, 832644000]
+inputs:
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/PostgreSQL-1.1.0/Sources/PostgreSQL/Connection.swift": [533895373, 0]
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/PostgreSQL-1.1.0/Sources/PostgreSQL/Database.swift": [533895373, 0]
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/PostgreSQL-1.1.0/Sources/PostgreSQL/Node+Oid.swift": [533895373, 0]
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/PostgreSQL-1.1.0/Sources/PostgreSQL/PostgreSQL+Node.swift": [533895370, 0]
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/PostgreSQL-1.1.0/Sources/PostgreSQL/Result.swift": [533895373, 0]
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/PostgreSQL-1.1.0/Sources/PostgreSQL/Status.swift": [533895370, 0]

@@ -1,0 +1,53 @@
+<div class="<% ctrl.page2Style %>" ng-style="showContent" ng-style="{
+  '-webkit-transition-duration': ctrl.speed + 'ms',
+  '-moz-transition-duration': ctrl.speed + 'ms',
+  '-ms-transition-duration': ctrl.speed + 'ms',
+  '-o-transition-duration': ctrl.speed + 'ms',
+  'transition-duration': ctrl.speed + 'ms'
+}"  ng-init="app.settings.container = false;">
+  <div class="alert alert-info" role="alert">
+    <strong>这是一个有swift构建的web app 后台管理系统</strong>
+    <strong>有兴趣交流 可以访问 重庆开发者:http://codercq.com <% vm.introView_name %> </strong>
+</div>
+<div class="asked">
+        <div class="questions">
+          <h2>1.服务端是 swift 写的?</h2>
+          <p>是的 swift早已有了server side的方向 现在swift主要有几款流行的web framework 分别是:Vapor Perfect Kiura ...
+            我使用的是vapor这个框架来构建这个web app的
+          </p>
+        </div>
+         <div class="questions">
+          <h5>2.为什么要做这个事?</h5>
+          <p> 纯粹是喜欢swift这门语言 然后呢想带动更多的人一起来学习这门语言 还有的就是我旁边的ios同事 总想把他带进swift这条不归路 ^_^
+               服务端方向 我个人之前一直是用的php 框架有很多 ThinkPhp Laravel Yii ...等等 个人只用过ThinkPhp和Laravel
+             现在这个项目其实是我之前用laravel写的
+             只是用swift重新实现了一遍 我个人比较喜欢swift 在swift有了服务端方案之后 迫不及待的想要试试
+          </p>
+         </div>
+
+          <div class="questions">
+          <h5>3.这个系统的主要内容 ?</h5>
+          <p> 对文章等的一些操作 有前台(部署中)
+          </p>
+         </div>
+
+          <div class="questions">
+          <h5>4.涉及到的技术?</h5>
+          <p> 首先肯定是CRUD等的操作 然后呢就是vapor这个框架的一些用法 模板引擎 认证 等的一些内容... 以及swift3.0语言本身
+          </p>
+         </div>
+          <div class="questions">
+          <h5>5.意愿</h5>
+          <p>希望更多的人学习这门语言
+          </p>
+         </div>
+          <div class="questions">
+          <h5>6.交流?</h5>
+          <p> 个人qq 情热大陆:454763196@qq.com
+              网站: http://codercq.com
+              一起交流吧
+          </p>
+         </div>
+      </div>
+    </div>
+    <div ng-include="'src/View/DashboardView/footer.html'"></div>

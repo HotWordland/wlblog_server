@@ -1,0 +1,257 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "=="
+provides-nominal:
+- "OC10PostgreSQL8Database6Status"
+provides-member:
+- ["C10PostgreSQL8Database", ""]
+- ["OC10PostgreSQL8Database6Status", ""]
+- ["C10PostgreSQL8Database", "Status"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "~="
+- "=="
+- "AssignmentPrecedence"
+- !private "PGRES_TUPLES_OK"
+- !private "PGRES_COPY_BOTH"
+- !private "PGRES_COPY_OUT"
+- !private "PGRES_FATAL_ERROR"
+- !private "IntegerLiteralType"
+- !private "PQresultStatus"
+- !private "FloatLiteralType"
+- !private "PGRES_SINGLE_TUPLE"
+- !private "PGRES_COMMAND_OK"
+- !private "PGRES_BAD_RESPONSE"
+- !private "PGRES_COPY_IN"
+- !private "PGRES_NONFATAL_ERROR"
+- "Result"
+- !private "PGRES_EMPTY_QUERY"
+- "Database"
+depends-member:
+- !private ["Ps9AnyObject", "PGRES_BAD_RESPONSE"]
+- !private ["Ps9AnyObject", "PGRES_COMMAND_OK"]
+- !private ["Ps9AnyObject", "PGRES_COPY_BOTH"]
+- !private ["Ps9AnyObject", "PGRES_COPY_IN"]
+- !private ["Ps9AnyObject", "PGRES_COPY_OUT"]
+- !private ["Ps9AnyObject", "PGRES_EMPTY_QUERY"]
+- !private ["Ps9AnyObject", "PGRES_FATAL_ERROR"]
+- !private ["Ps9AnyObject", "PGRES_NONFATAL_ERROR"]
+- !private ["Ps9AnyObject", "PGRES_SINGLE_TUPLE"]
+- !private ["Ps9AnyObject", "PGRES_TUPLES_OK"]
+- !private ["Ps9AnyObject", "PQresultStatus"]
+- ["Ps9AnyObject", "ResultPointer"]
+- !private ["Ps17BitwiseOperations", "hashValue"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["Sb", "deinit"]
+- !private ["Ps7CVarArg", "hashValue"]
+- !private ["Ps10Comparable", "hashValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "hashValue"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "hashValue"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "hashValue"]
+- !private ["C10PostgreSQL8Database", "PGRES_BAD_RESPONSE"]
+- !private ["C10PostgreSQL8Database", "PGRES_COMMAND_OK"]
+- !private ["C10PostgreSQL8Database", "PGRES_COPY_BOTH"]
+- !private ["C10PostgreSQL8Database", "PGRES_COPY_IN"]
+- !private ["C10PostgreSQL8Database", "PGRES_COPY_OUT"]
+- !private ["C10PostgreSQL8Database", "PGRES_EMPTY_QUERY"]
+- !private ["C10PostgreSQL8Database", "PGRES_FATAL_ERROR"]
+- !private ["C10PostgreSQL8Database", "PGRES_NONFATAL_ERROR"]
+- !private ["C10PostgreSQL8Database", "PGRES_SINGLE_TUPLE"]
+- !private ["C10PostgreSQL8Database", "PGRES_TUPLES_OK"]
+- !private ["C10PostgreSQL8Database", "PQresultStatus"]
+- ["C10PostgreSQL8Database", "Result"]
+- ["C10PostgreSQL8Database", "Status"]
+- !private ["Ps9Equatable", "PGRES_BAD_RESPONSE"]
+- !private ["Ps9Equatable", "PGRES_COMMAND_OK"]
+- !private ["Ps9Equatable", "PGRES_COPY_BOTH"]
+- !private ["Ps9Equatable", "PGRES_COPY_IN"]
+- !private ["Ps9Equatable", "PGRES_COPY_OUT"]
+- !private ["Ps9Equatable", "PGRES_EMPTY_QUERY"]
+- !private ["Ps9Equatable", "PGRES_FATAL_ERROR"]
+- !private ["Ps9Equatable", "PGRES_NONFATAL_ERROR"]
+- !private ["Ps9Equatable", "PGRES_SINGLE_TUPLE"]
+- !private ["Ps9Equatable", "PGRES_TUPLES_OK"]
+- !private ["Ps9Equatable", "PQresultStatus"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "_toAnyHashable"]
+- !private ["Ps9Equatable", "badResponse"]
+- !private ["Ps9Equatable", "commandOk"]
+- !private ["Ps9Equatable", "copyBoth"]
+- !private ["Ps9Equatable", "copyIn"]
+- !private ["Ps9Equatable", "copyOut"]
+- !private ["Ps9Equatable", "emptyQuery"]
+- !private ["Ps9Equatable", "fatalError"]
+- ["Ps9Equatable", "hashValue"]
+- !private ["Ps9Equatable", "nonFatalError"]
+- !private ["Ps9Equatable", "singleTuple"]
+- !private ["Ps9Equatable", "tuplesOk"]
+- !private ["Ps9Equatable", "unknown"]
+- ["Ps9Equatable", ""]
+- ["VSC14ExecStatusType", "deinit"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "hashValue"]
+- !private ["Ps8Hashable", "PGRES_BAD_RESPONSE"]
+- !private ["Ps8Hashable", "PGRES_COMMAND_OK"]
+- !private ["Ps8Hashable", "PGRES_COPY_BOTH"]
+- !private ["Ps8Hashable", "PGRES_COPY_IN"]
+- !private ["Ps8Hashable", "PGRES_COPY_OUT"]
+- !private ["Ps8Hashable", "PGRES_EMPTY_QUERY"]
+- !private ["Ps8Hashable", "PGRES_FATAL_ERROR"]
+- !private ["Ps8Hashable", "PGRES_NONFATAL_ERROR"]
+- !private ["Ps8Hashable", "PGRES_SINGLE_TUPLE"]
+- !private ["Ps8Hashable", "PGRES_TUPLES_OK"]
+- !private ["Ps8Hashable", "PQresultStatus"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "_toAnyHashable"]
+- !private ["Ps8Hashable", "badResponse"]
+- !private ["Ps8Hashable", "commandOk"]
+- !private ["Ps8Hashable", "copyBoth"]
+- !private ["Ps8Hashable", "copyIn"]
+- !private ["Ps8Hashable", "copyOut"]
+- !private ["Ps8Hashable", "emptyQuery"]
+- !private ["Ps8Hashable", "fatalError"]
+- ["Ps8Hashable", "hashValue"]
+- !private ["Ps8Hashable", "nonFatalError"]
+- !private ["Ps8Hashable", "singleTuple"]
+- !private ["Ps8Hashable", "tuplesOk"]
+- !private ["Ps8Hashable", "unknown"]
+- ["Ps8Hashable", ""]
+- ["Si", "deinit"]
+- !private ["Si", "hashValue"]
+- !private ["Ps7Integer", "hashValue"]
+- !private ["Ps17IntegerArithmetic", "hashValue"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps10MirrorPath", "hashValue"]
+- !private ["P4Node15NodeConvertible", "_getBuiltinLogicValue"]
+- !private ["P4Node15NodeConvertible", "hashValue"]
+- !private ["P4Node17NodeInitializable", "_getBuiltinLogicValue"]
+- !private ["P4Node17NodeInitializable", "hashValue"]
+- !private ["P4Node17NodeRepresentable", "_getBuiltinLogicValue"]
+- !private ["P4Node17NodeRepresentable", "hashValue"]
+- ["Vs13OpaquePointer", "deinit"]
+- !private ["P13PathIndexable9PathIndex", "hashValue"]
+- ["C10PostgreSQL6Result", "ResultPointer"]
+- !private ["Ps13SignedInteger", "hashValue"]
+- !private ["Ps12SignedNumber", "hashValue"]
+- ["OC10PostgreSQL8Database6Status", "=="]
+- !private ["OC10PostgreSQL8Database6Status", "PGRES_BAD_RESPONSE"]
+- !private ["OC10PostgreSQL8Database6Status", "PGRES_COMMAND_OK"]
+- !private ["OC10PostgreSQL8Database6Status", "PGRES_COPY_BOTH"]
+- !private ["OC10PostgreSQL8Database6Status", "PGRES_COPY_IN"]
+- !private ["OC10PostgreSQL8Database6Status", "PGRES_COPY_OUT"]
+- !private ["OC10PostgreSQL8Database6Status", "PGRES_EMPTY_QUERY"]
+- !private ["OC10PostgreSQL8Database6Status", "PGRES_FATAL_ERROR"]
+- !private ["OC10PostgreSQL8Database6Status", "PGRES_NONFATAL_ERROR"]
+- !private ["OC10PostgreSQL8Database6Status", "PGRES_SINGLE_TUPLE"]
+- !private ["OC10PostgreSQL8Database6Status", "PGRES_TUPLES_OK"]
+- !private ["OC10PostgreSQL8Database6Status", "PQresultStatus"]
+- ["OC10PostgreSQL8Database6Status", "Result"]
+- ["OC10PostgreSQL8Database6Status", "_toAnyHashable"]
+- ["OC10PostgreSQL8Database6Status", "badResponse"]
+- ["OC10PostgreSQL8Database6Status", "commandOk"]
+- ["OC10PostgreSQL8Database6Status", "copyBoth"]
+- ["OC10PostgreSQL8Database6Status", "copyIn"]
+- ["OC10PostgreSQL8Database6Status", "copyOut"]
+- ["OC10PostgreSQL8Database6Status", "deinit"]
+- ["OC10PostgreSQL8Database6Status", "emptyQuery"]
+- ["OC10PostgreSQL8Database6Status", "fatalError"]
+- ["OC10PostgreSQL8Database6Status", "hashValue"]
+- ["OC10PostgreSQL8Database6Status", "init"]
+- ["OC10PostgreSQL8Database6Status", "nonFatalError"]
+- ["OC10PostgreSQL8Database6Status", "singleTuple"]
+- ["OC10PostgreSQL8Database6Status", "tuplesOk"]
+- ["OC10PostgreSQL8Database6Status", "unknown"]
+- !private ["Ps10Strideable", "hashValue"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "hashValue"]
+- !private ["Ps9_Hashable", "PGRES_BAD_RESPONSE"]
+- !private ["Ps9_Hashable", "PGRES_COMMAND_OK"]
+- !private ["Ps9_Hashable", "PGRES_COPY_BOTH"]
+- !private ["Ps9_Hashable", "PGRES_COPY_IN"]
+- !private ["Ps9_Hashable", "PGRES_COPY_OUT"]
+- !private ["Ps9_Hashable", "PGRES_EMPTY_QUERY"]
+- !private ["Ps9_Hashable", "PGRES_FATAL_ERROR"]
+- !private ["Ps9_Hashable", "PGRES_NONFATAL_ERROR"]
+- !private ["Ps9_Hashable", "PGRES_SINGLE_TUPLE"]
+- !private ["Ps9_Hashable", "PGRES_TUPLES_OK"]
+- !private ["Ps9_Hashable", "PQresultStatus"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- ["Ps9_Hashable", "_toAnyHashable"]
+- !private ["Ps9_Hashable", "badResponse"]
+- !private ["Ps9_Hashable", "commandOk"]
+- !private ["Ps9_Hashable", "copyBoth"]
+- !private ["Ps9_Hashable", "copyIn"]
+- !private ["Ps9_Hashable", "copyOut"]
+- !private ["Ps9_Hashable", "emptyQuery"]
+- !private ["Ps9_Hashable", "fatalError"]
+- ["Ps9_Hashable", "hashValue"]
+- !private ["Ps9_Hashable", "nonFatalError"]
+- !private ["Ps9_Hashable", "singleTuple"]
+- !private ["Ps9_Hashable", "tuplesOk"]
+- !private ["Ps9_Hashable", "unknown"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps14_Incrementable", "hashValue"]
+- !private ["Ps8_Integer", "hashValue"]
+- !private ["Ps18_IntegerArithmetic", "hashValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "hashValue"]
+- !private ["Ps14_SignedInteger", "hashValue"]
+- !private ["Ps11_Strideable", "hashValue"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Ps17BitwiseOperations"
+- "Sb"
+- !private "Ps7CVarArg"
+- !private "Ps10Comparable"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- "C10PostgreSQL8Database"
+- "Ps9Equatable"
+- "VSC14ExecStatusType"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- "Ps8Hashable"
+- "Si"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "P4Node15NodeConvertible"
+- !private "P4Node17NodeInitializable"
+- !private "P4Node17NodeRepresentable"
+- "Vs13OpaquePointer"
+- !private "P13PathIndexable9PathIndex"
+- "C10PostgreSQL6Result"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- "OC10PostgreSQL8Database6Status"
+- !private "Ps10Strideable"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps14_SignedInteger"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Core.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/libc.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Node.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/PathIndexable.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Polymorphic.swiftmodule"
+interface-hash: "57c87659ed4ba66bb6e139e53bd8711e"

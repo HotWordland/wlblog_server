@@ -1,0 +1,223 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Children"
+provides-nominal:
+- "C6Fluent8Children"
+provides-member:
+- ["C6Fluent8Children", ""]
+- ["P6Fluent6Entity", ""]
+- ["P6Fluent6Entity", "children"]
+provides-dynamic-lookup:
+depends-top-level:
+- "QueryRepresentable"
+- "Children"
+- "AssignmentPrecedence"
+- "String"
+- "Entity"
+- !private "??"
+- !private "RelationError"
+- !private "StringLiteralType"
+- !private "UnicodeScalarType"
+- "Query"
+depends-member:
+- !private ["Ps9AnyObject", "RelationError"]
+- ["Ps9AnyObject", "T"]
+- !private ["Ps9AnyObject", "filter"]
+- !private ["Ps9AnyObject", "foreignKey"]
+- !private ["Ps9AnyObject", "idKey"]
+- !private ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "makeQuery"]
+- !private ["Ps9AnyObject", "parent"]
+- ["Ps9AnyObject", ""]
+- !private ["Sb", "deinit"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Vs9Character", "deinit"]
+- ["C6Fluent8Children", "Entity"]
+- ["C6Fluent8Children", "Query"]
+- !private ["C6Fluent8Children", "RelationError"]
+- ["C6Fluent8Children", "String"]
+- ["C6Fluent8Children", "T"]
+- ["C6Fluent8Children", "deinit"]
+- ["C6Fluent8Children", "foreignKey"]
+- ["C6Fluent8Children", "init"]
+- ["C6Fluent8Children", "makeQuery"]
+- ["C6Fluent8Children", "parent"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Sd", "deinit"]
+- ["P6Fluent6Entity", "Children"]
+- ["P6Fluent6Entity", "Entity"]
+- ["P6Fluent6Entity", "String"]
+- ["P6Fluent6Entity", "children"]
+- ["P6Fluent6Entity", "deinit"]
+- !private ["P6Fluent6Entity", "id"]
+- !private ["P6Fluent6Entity", "name"]
+- !private ["P6Fluent6Entity", "query"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "noIdentifier"]
+- !private ["Ps5Error", "noIdentifier"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Sf", "deinit"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "noIdentifier"]
+- !private ["Si", "deinit"]
+- !private ["Vs5Int16", "deinit"]
+- !private ["Vs5Int32", "deinit"]
+- !private ["Vs5Int64", "deinit"]
+- !private ["Vs4Int8", "deinit"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["CSo8NSObject", "init"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- ["O4Node4Node", "deinit"]
+- ["P4Node15NodeConvertible", "Children"]
+- ["P4Node15NodeConvertible", "Entity"]
+- ["P4Node15NodeConvertible", "String"]
+- !private ["P4Node15NodeConvertible", "id"]
+- !private ["P4Node15NodeConvertible", "init"]
+- !private ["P4Node15NodeConvertible", "name"]
+- !private ["P4Node15NodeConvertible", "query"]
+- ["P4Node17NodeInitializable", "Children"]
+- ["P4Node17NodeInitializable", "Entity"]
+- ["P4Node17NodeInitializable", "String"]
+- !private ["P4Node17NodeInitializable", "id"]
+- !private ["P4Node17NodeInitializable", "init"]
+- !private ["P4Node17NodeInitializable", "name"]
+- !private ["P4Node17NodeInitializable", "query"]
+- ["P4Node17NodeRepresentable", "Children"]
+- ["P4Node17NodeRepresentable", "Entity"]
+- ["P4Node17NodeRepresentable", "String"]
+- !private ["P4Node17NodeRepresentable", "id"]
+- !private ["P4Node17NodeRepresentable", "init"]
+- !private ["P4Node17NodeRepresentable", "name"]
+- !private ["P4Node17NodeRepresentable", "query"]
+- ["Sq", "deinit"]
+- !private ["P13PathIndexable9PathIndex", "init"]
+- !private ["P11Polymorphic11Polymorphic", "init"]
+- ["P6Fluent11Preparation", "Children"]
+- ["P6Fluent11Preparation", "Entity"]
+- ["P6Fluent11Preparation", "String"]
+- !private ["P6Fluent11Preparation", "deinit"]
+- !private ["P6Fluent11Preparation", "id"]
+- !private ["P6Fluent11Preparation", "name"]
+- !private ["P6Fluent11Preparation", "query"]
+- !private ["C6Fluent5Query", "T"]
+- ["C6Fluent5Query", "deinit"]
+- !private ["C6Fluent5Query", "filter"]
+- !private ["C6Fluent5Query", "idKey"]
+- !private ["P6Fluent18QueryRepresentable", "RelationError"]
+- ["P6Fluent18QueryRepresentable", "T"]
+- !private ["P6Fluent18QueryRepresentable", "filter"]
+- !private ["P6Fluent18QueryRepresentable", "foreignKey"]
+- !private ["P6Fluent18QueryRepresentable", "idKey"]
+- !private ["P6Fluent18QueryRepresentable", "init"]
+- ["P6Fluent18QueryRepresentable", "makeQuery"]
+- !private ["P6Fluent18QueryRepresentable", "parent"]
+- ["P6Fluent18QueryRepresentable", ""]
+- ["O6Fluent13RelationError", "deinit"]
+- !private ["O6Fluent13RelationError", "noIdentifier"]
+- ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["Su", "deinit"]
+- !private ["Vs6UInt16", "deinit"]
+- !private ["Vs6UInt32", "deinit"]
+- !private ["Vs6UInt64", "deinit"]
+- !private ["Vs5UInt8", "deinit"]
+- !private ["Sc", "deinit"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "noIdentifier"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sb"
+- !private "Ps7CVarArg"
+- !private "Vs9Character"
+- "C6Fluent8Children"
+- !private "Ps10Comparable"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- !private "Sd"
+- "P6Fluent6Entity"
+- !private "Ps9Equatable"
+- !private "Ps5Error"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps32ExpressibleByStringInterpolation"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Sf"
+- !private "Ps8Hashable"
+- !private "Si"
+- !private "Vs5Int16"
+- !private "Vs5Int32"
+- !private "Vs5Int64"
+- !private "Vs4Int8"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- "O4Node4Node"
+- "P4Node15NodeConvertible"
+- "P4Node17NodeInitializable"
+- "P4Node17NodeRepresentable"
+- "Sq"
+- !private "P13PathIndexable9PathIndex"
+- !private "P11Polymorphic11Polymorphic"
+- "P6Fluent11Preparation"
+- "C6Fluent5Query"
+- "P6Fluent18QueryRepresentable"
+- "O6Fluent13RelationError"
+- "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "Su"
+- !private "Vs6UInt16"
+- !private "Vs6UInt32"
+- !private "Vs6UInt64"
+- !private "Vs5UInt8"
+- !private "Sc"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- !private "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Node.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/PathIndexable.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Polymorphic.swiftmodule"
+interface-hash: "921947a7be8d7818aae62acc04a09edd"

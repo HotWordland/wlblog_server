@@ -1,0 +1,10 @@
+version: "Apple Swift version 3.0.1 (swiftlang-800.0.58.6 clang-800.0.42.1)"
+options: "d93e888b9fe01c47bcf2459258933ff3"
+build_time: [536398998, 394009000]
+inputs:
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Fluent-1.1.0/Sources/FluentTester/Atom.swift": [533878080, 0]
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Fluent-1.1.0/Sources/FluentTester/Compound.swift": [533878080, 0]
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Fluent-1.1.0/Sources/FluentTester/Tester+InsertAndFind.swift": [533878080, 0]
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Fluent-1.1.0/Sources/FluentTester/Tester+PivotsAndRelations.swift": [533878080, 0]
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Fluent-1.1.0/Sources/FluentTester/Tester+Utilities.swift": [533878080, 0]
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Fluent-1.1.0/Sources/FluentTester/Tester.swift": [533878080, 0]

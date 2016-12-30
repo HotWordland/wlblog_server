@@ -1,0 +1,125 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["P8Settings13KeyAccessible", ""]
+- ["P8Settings13KeyAccessible", "merge"]
+provides-dynamic-lookup:
+depends-top-level:
+- "KeyAccessible"
+- "Node"
+- !private "AssignmentPrecedence"
+- "String"
+depends-member:
+- !private ["Ps7CVarArg", "Iterator"]
+- !private ["Ps7CVarArg", "forEach"]
+- !private ["Ps10Collection", "Iterator"]
+- !private ["Ps10Collection", "forEach"]
+- !private ["P4Node7Context", "Iterator"]
+- !private ["P4Node7Context", "forEach"]
+- !private ["P4Node7Context", "merged"]
+- !private ["Ps28CustomDebugStringConvertible", "Iterator"]
+- !private ["Ps28CustomDebugStringConvertible", "forEach"]
+- !private ["Ps17CustomReflectable", "Element"]
+- !private ["Ps17CustomReflectable", "Iterator"]
+- !private ["Ps17CustomReflectable", "forEach"]
+- !private ["Ps23CustomStringConvertible", "Iterator"]
+- !private ["Ps23CustomStringConvertible", "forEach"]
+- !private ["Vs10Dictionary", "Iterator"]
+- ["Vs10Dictionary", "deinit"]
+- !private ["Vs10Dictionary", "forEach"]
+- !private ["Vs18DictionaryIterator", "Element"]
+- !private ["Ps9Equatable", "merged"]
+- !private ["Ps25ExpressibleByArrayLiteral", "merged"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "merged"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "Iterator"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "forEach"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "merged"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "merged"]
+- !private ["Ps25ExpressibleByFloatLiteral", "merged"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "merged"]
+- !private ["Ps23ExpressibleByNilLiteral", "merged"]
+- !private ["Ps26ExpressibleByStringLiteral", "merged"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "merged"]
+- !private ["Ps9Indexable", "Iterator"]
+- !private ["Ps9Indexable", "forEach"]
+- !private ["Ps13IndexableBase", "Iterator"]
+- !private ["Ps13IndexableBase", "forEach"]
+- !private ["Ps16IteratorProtocol", "Element"]
+- !private ["P4Node13KeyAccessible", "Iterator"]
+- !private ["P4Node13KeyAccessible", "forEach"]
+- !private ["P8Settings13KeyAccessible", "Iterator"]
+- ["P8Settings13KeyAccessible", "Key"]
+- ["P8Settings13KeyAccessible", "Node"]
+- ["P8Settings13KeyAccessible", "String"]
+- ["P8Settings13KeyAccessible", "Value"]
+- !private ["P8Settings13KeyAccessible", "forEach"]
+- ["P8Settings13KeyAccessible", "merge"]
+- !private ["P8Settings13KeyAccessible", "subscript"]
+- !private ["O4Node4Node", "deinit"]
+- !private ["O4Node4Node", "merged"]
+- !private ["P4Node10NodeBacked", "merged"]
+- !private ["P4Node15NodeConvertible", "merged"]
+- !private ["P4Node17NodeInitializable", "merged"]
+- !private ["P4Node17NodeRepresentable", "merged"]
+- !private ["Sq", "deinit"]
+- !private ["P13PathIndexable13PathIndexable", "merged"]
+- !private ["P11Polymorphic11Polymorphic", "merged"]
+- !private ["Ps8Sequence", "Iterator"]
+- !private ["Ps8Sequence", "forEach"]
+- !private ["SS", "deinit"]
+- !private ["Ps21_ObjectiveCBridgeable", "Iterator"]
+- !private ["Ps21_ObjectiveCBridgeable", "forEach"]
+depends-nominal:
+- !private "Ps7CVarArg"
+- !private "Ps10Collection"
+- !private "P4Node7Context"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- "Vs10Dictionary"
+- !private "Vs18DictionaryIterator"
+- !private "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps30ExpressibleByDictionaryLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps25ExpressibleByFloatLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps23ExpressibleByNilLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Ps9Indexable"
+- !private "Ps13IndexableBase"
+- !private "Ps16IteratorProtocol"
+- !private "P4Node13KeyAccessible"
+- "P8Settings13KeyAccessible"
+- !private "O4Node4Node"
+- !private "P4Node10NodeBacked"
+- !private "P4Node15NodeConvertible"
+- !private "P4Node17NodeInitializable"
+- !private "P4Node17NodeRepresentable"
+- !private "Sq"
+- !private "P13PathIndexable13PathIndexable"
+- !private "P11Polymorphic11Polymorphic"
+- !private "Ps8Sequence"
+- !private "SS"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Core.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/libc.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/JSON.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Jay.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Node.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/PathIndexable.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Polymorphic.swiftmodule"
+interface-hash: "19b9e317d04fd650b6281e5bd861f1c5"

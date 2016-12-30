@@ -1,0 +1,83 @@
+{
+  "": {
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Turnstile.build/master.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Turnstile-1.0.3/Sources/Turnstile/TurnstileError.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Turnstile.build/TurnstileError.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Turnstile.build/TurnstileError.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Turnstile.build/TurnstileError~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Turnstile.build/TurnstileError.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Turnstile-1.0.3/Sources/Turnstile/Core/Subject.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Turnstile.build/Subject.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Turnstile.build/Core/Subject.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Turnstile.build/Subject~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Turnstile.build/Subject.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Turnstile-1.0.3/Sources/Turnstile/Core/Turnstile.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Turnstile.build/Turnstile.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Turnstile.build/Core/Turnstile.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Turnstile.build/Turnstile~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Turnstile.build/Turnstile.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Turnstile-1.0.3/Sources/Turnstile/Credentials/APIKey.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Turnstile.build/APIKey.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Turnstile.build/Credentials/APIKey.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Turnstile.build/APIKey~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Turnstile.build/APIKey.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Turnstile-1.0.3/Sources/Turnstile/Credentials/Credentials.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Turnstile.build/Credentials.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Turnstile.build/Credentials/Credentials.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Turnstile.build/Credentials~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Turnstile.build/Credentials.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Turnstile-1.0.3/Sources/Turnstile/Credentials/CredentialsError.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Turnstile.build/CredentialsError.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Turnstile.build/Credentials/CredentialsError.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Turnstile.build/CredentialsError~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Turnstile.build/CredentialsError.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Turnstile-1.0.3/Sources/Turnstile/Credentials/Token.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Turnstile.build/Token.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Turnstile.build/Credentials/Token.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Turnstile.build/Token~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Turnstile.build/Token.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Turnstile-1.0.3/Sources/Turnstile/Credentials/UsernamePassword.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Turnstile.build/UsernamePassword.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Turnstile.build/Credentials/UsernamePassword.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Turnstile.build/UsernamePassword~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Turnstile.build/UsernamePassword.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Turnstile-1.0.3/Sources/Turnstile/Realm/Account.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Turnstile.build/Account.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Turnstile.build/Realm/Account.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Turnstile.build/Account~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Turnstile.build/Account.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Turnstile-1.0.3/Sources/Turnstile/Realm/MemoryRealm.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Turnstile.build/MemoryRealm.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Turnstile.build/Realm/MemoryRealm.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Turnstile.build/MemoryRealm~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Turnstile.build/MemoryRealm.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Turnstile-1.0.3/Sources/Turnstile/Realm/Realm.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Turnstile.build/Realm.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Turnstile.build/Realm/Realm.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Turnstile.build/Realm~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Turnstile.build/Realm.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Turnstile-1.0.3/Sources/Turnstile/SessionManager/MemorySessionManager.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Turnstile.build/MemorySessionManager.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Turnstile.build/SessionManager/MemorySessionManager.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Turnstile.build/MemorySessionManager~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Turnstile.build/MemorySessionManager.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Turnstile-1.0.3/Sources/Turnstile/SessionManager/SessionManager.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Turnstile.build/SessionManager.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Turnstile.build/SessionManager/SessionManager.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Turnstile.build/SessionManager~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Turnstile.build/SessionManager.swiftdeps"
+  }
+}

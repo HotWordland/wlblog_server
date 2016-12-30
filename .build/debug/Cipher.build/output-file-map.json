@@ -1,0 +1,17 @@
+{
+  "": {
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Cipher.build/master.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Crypto-1.0.1/Sources/Cipher/Cipher.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Cipher.build/Cipher.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Cipher.build/Cipher.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Cipher.build/Cipher~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Cipher.build/Cipher.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Crypto-1.0.1/Sources/Cipher/Method.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Cipher.build/Method.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Cipher.build/Method.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Cipher.build/Method~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Cipher.build/Method.swiftdeps"
+  }
+}

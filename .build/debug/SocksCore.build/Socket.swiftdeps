@@ -1,0 +1,154 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "RawSocket"
+- "Socket"
+- "SocketConfig"
+provides-nominal:
+- "P9SocksCore9RawSocket"
+- "P9SocksCore6Socket"
+- "V9SocksCore12SocketConfig"
+provides-member:
+- ["P9SocksCore9RawSocket", ""]
+- ["P9SocksCore6Socket", ""]
+- ["V9SocksCore12SocketConfig", ""]
+- ["P9SocksCore9RawSocket", "close"]
+- ["P9SocksCore6Socket", "createNewSocket"]
+provides-dynamic-lookup:
+depends-top-level:
+- "Protocol"
+- !private "SocksError"
+- "Bool"
+- "SocketConfig"
+- "BooleanLiteralType"
+- "AddressFamily"
+- !private "s_socket"
+- !private "!="
+- !private "IntegerLiteralType"
+- "Darwin"
+- !private ">="
+- !private "FloatLiteralType"
+- "RawSocket"
+- "SocketType"
+- "Descriptor"
+- !private "s_close"
+- !private "SOL_SOCKET"
+- !private "SO_REUSEADDR"
+- "Socket"
+- "AssignmentPrecedence"
+depends-member:
+- !private ["O9SocksCore13AddressFamily", "deinit"]
+- !private ["O9SocksCore13AddressFamily", "toCType"]
+- !private ["O9SocksCore13AddressFamily", "unspecified"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["P9SocksCore21CTypeInt32Convertible", "TCP"]
+- !private ["P9SocksCore21CTypeInt32Convertible", "UDP"]
+- !private ["P9SocksCore21CTypeInt32Convertible", "datagram"]
+- !private ["P9SocksCore21CTypeInt32Convertible", "stream"]
+- !private ["P9SocksCore21CTypeInt32Convertible", "toCType"]
+- !private ["P9SocksCore21CTypeInt32Convertible", "unspecified"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps9Equatable", "TCP"]
+- !private ["Ps9Equatable", "UDP"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "datagram"]
+- !private ["Ps9Equatable", "stream"]
+- !private ["Ps9Equatable", "toCType"]
+- !private ["Ps9Equatable", "unspecified"]
+- !private ["Ps5Error", "init"]
+- !private ["O9SocksCore11ErrorReason", "closeSocketFailed"]
+- !private ["O9SocksCore11ErrorReason", "createSocketFailed"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "TCP"]
+- !private ["Ps8Hashable", "UDP"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "datagram"]
+- !private ["Ps8Hashable", "stream"]
+- !private ["Ps8Hashable", "toCType"]
+- !private ["Ps8Hashable", "unspecified"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["O9SocksCore8Protocol", "TCP"]
+- !private ["O9SocksCore8Protocol", "UDP"]
+- !private ["O9SocksCore8Protocol", "deinit"]
+- !private ["O9SocksCore8Protocol", "toCType"]
+- ["P9SocksCore9RawSocket", "Descriptor"]
+- !private ["P9SocksCore9RawSocket", "SOL_SOCKET"]
+- !private ["P9SocksCore9RawSocket", "SO_REUSEADDR"]
+- ["P9SocksCore9RawSocket", "SocketConfig"]
+- !private ["P9SocksCore9RawSocket", "SocksError"]
+- ["P9SocksCore9RawSocket", "close"]
+- ["P9SocksCore9RawSocket", "config"]
+- ["P9SocksCore9RawSocket", "descriptor"]
+- !private ["P9SocksCore9RawSocket", "disableSIGPIPE"]
+- !private ["P9SocksCore9RawSocket", "s_close"]
+- !private ["P9SocksCore9RawSocket", "s_socket"]
+- !private ["P9SocksCore9RawSocket", "setOption"]
+- ["P9SocksCore9RawSocket", ""]
+- ["P9SocksCore6Socket", "Descriptor"]
+- !private ["P9SocksCore6Socket", "SOL_SOCKET"]
+- !private ["P9SocksCore6Socket", "SO_REUSEADDR"]
+- ["P9SocksCore6Socket", "SocketConfig"]
+- !private ["P9SocksCore6Socket", "SocksError"]
+- ["P9SocksCore6Socket", "config"]
+- ["P9SocksCore6Socket", "createNewSocket"]
+- !private ["P9SocksCore6Socket", "disableSIGPIPE"]
+- !private ["P9SocksCore6Socket", "s_socket"]
+- !private ["P9SocksCore6Socket", "setOption"]
+- ["P9SocksCore6Socket", ""]
+- ["V9SocksCore12SocketConfig", "AddressFamily"]
+- ["V9SocksCore12SocketConfig", "Bool"]
+- ["V9SocksCore12SocketConfig", "Protocol"]
+- ["V9SocksCore12SocketConfig", "SocketConfig"]
+- ["V9SocksCore12SocketConfig", "SocketType"]
+- ["V9SocksCore12SocketConfig", "TCP"]
+- ["V9SocksCore12SocketConfig", "UDP"]
+- ["V9SocksCore12SocketConfig", "addressFamily"]
+- ["V9SocksCore12SocketConfig", "init"]
+- ["V9SocksCore12SocketConfig", "protocolType"]
+- ["V9SocksCore12SocketConfig", "reuseAddress"]
+- ["V9SocksCore12SocketConfig", "socketType"]
+- !private ["O9SocksCore10SocketType", "datagram"]
+- !private ["O9SocksCore10SocketType", "deinit"]
+- !private ["O9SocksCore10SocketType", "stream"]
+- !private ["O9SocksCore10SocketType", "toCType"]
+- !private ["V9SocksCore10SocksError", "deinit"]
+- !private ["V9SocksCore10SocksError", "init"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "TCP"]
+- !private ["Ps9_Hashable", "UDP"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "datagram"]
+- !private ["Ps9_Hashable", "stream"]
+- !private ["Ps9_Hashable", "toCType"]
+- !private ["Ps9_Hashable", "unspecified"]
+depends-nominal:
+- !private "O9SocksCore13AddressFamily"
+- !private "Sb"
+- !private "P9SocksCore21CTypeInt32Convertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- !private "Ps9Equatable"
+- !private "Ps5Error"
+- !private "O9SocksCore11ErrorReason"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps8Hashable"
+- !private "Ps25LosslessStringConvertible"
+- !private "O9SocksCore8Protocol"
+- "P9SocksCore9RawSocket"
+- "P9SocksCore6Socket"
+- "V9SocksCore12SocketConfig"
+- !private "O9SocksCore10SocketType"
+- !private "V9SocksCore10SocksError"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps9_Hashable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+interface-hash: "473b0cb480dad53ed95ba995a9672bba"

@@ -1,0 +1,17 @@
+{
+  "": {
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/HMAC.build/master.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Crypto-1.0.1/Sources/HMAC/HMAC.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/HMAC.build/HMAC.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/HMAC.build/HMAC.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/HMAC.build/HMAC~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/HMAC.build/HMAC.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Crypto-1.0.1/Sources/HMAC/Method.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/HMAC.build/Method.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/HMAC.build/Method.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/HMAC.build/Method~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/HMAC.build/Method.swiftdeps"
+  }
+}

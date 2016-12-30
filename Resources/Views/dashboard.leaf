@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title></title>
+<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+<link rel="stylesheet" href="/css/bootstrap.min.css">
+<link rel="stylesheet" href="/css/font-awesome.min.css">
+<link rel="stylesheet" href="/css/ionicons.min.css">
+<link rel="stylesheet" href="/css/AdminLTE.min.css">
+<link rel="stylesheet" href="/css/skin-blue.min.css">
+
+<!--[if lt IE 9]>
+<script src="{{ url('assets/js/html5shiv.min.js') }}"></script>
+<script src="{{ url('assets/js/respond.min.js') }}"></script>
+<![endif]-->
+
+<script src="/js/jquery-2.2.3.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="/js/app.min.js"></script>
+<script src="/layer/layer.js"></script>
+</head>
+<body class="hold-transition skin-blue sidebar-mini">
+<div class="wrapper">
+    #embed("header")
+    
+    #embed("sidebar")
+    
+    
+    #embed("content/content")
+    
+    
+    #embed("footer")
+
+</div>
+</body>
+</html>

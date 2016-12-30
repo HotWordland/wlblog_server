@@ -1,0 +1,12 @@
+version: "Apple Swift version 3.0.1 (swiftlang-800.0.58.6 clang-800.0.42.1)"
+options: "315aff825e96d1668767a867cda0363a"
+build_time: [536398996, 695656000]
+inputs:
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/JSON-1.0.2/Sources/JSON/JSON+Bytes.swift": [536397276, 0]
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/JSON-1.0.2/Sources/JSON/JSON+Equatable.swift": [536397276, 0]
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/JSON-1.0.2/Sources/JSON/JSON+Node.swift": [536397276, 0]
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/JSON-1.0.2/Sources/JSON/JSON+Parse.swift": [536397276, 0]
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/JSON-1.0.2/Sources/JSON/JSON+Serialize.swift": [536397276, 0]
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/JSON-1.0.2/Sources/JSON/JSON.swift": [536397276, 0]
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/JSON-1.0.2/Sources/JSON/JSONRepresentable.swift": [536397276, 0]
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/JSON-1.0.2/Sources/JSON/Sequence+Convertible.swift": [536397276, 0]

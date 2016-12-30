@@ -1,0 +1,100 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+- "CSo4Pipe"
+provides-member:
+- ["CSo4Pipe", ""]
+provides-dynamic-lookup:
+- "write"
+- "read"
+depends-top-level:
+- "IOStream"
+- "UInt8"
+- "Pipe"
+depends-member:
+- !private ["Ps9AnyObject", "fileHandleForReading"]
+- !private ["Ps9AnyObject", "fileHandleForWriting"]
+- ["Ps9AnyObject", "read"]
+- ["Ps9AnyObject", "write"]
+- ["Sa", "deinit"]
+- !private ["Ps7CVarArg", "fileHandleForReading"]
+- !private ["Ps7CVarArg", "fileHandleForWriting"]
+- ["Ps7CVarArg", "read"]
+- ["Ps7CVarArg", "write"]
+- !private ["Ps28CustomDebugStringConvertible", "fileHandleForReading"]
+- !private ["Ps28CustomDebugStringConvertible", "fileHandleForWriting"]
+- ["Ps28CustomDebugStringConvertible", "read"]
+- ["Ps28CustomDebugStringConvertible", "write"]
+- !private ["Ps23CustomStringConvertible", "fileHandleForReading"]
+- !private ["Ps23CustomStringConvertible", "fileHandleForWriting"]
+- ["Ps23CustomStringConvertible", "read"]
+- ["Ps23CustomStringConvertible", "write"]
+- !private ["Ps9Equatable", "fileHandleForReading"]
+- !private ["Ps9Equatable", "fileHandleForWriting"]
+- ["Ps9Equatable", "read"]
+- ["Ps9Equatable", "write"]
+- ["CSo10FileHandle", "deinit"]
+- !private ["CSo10FileHandle", "read"]
+- !private ["CSo10FileHandle", "write"]
+- !private ["Ps8Hashable", "fileHandleForReading"]
+- !private ["Ps8Hashable", "fileHandleForWriting"]
+- ["Ps8Hashable", "read"]
+- ["Ps8Hashable", "write"]
+- !private ["P7Console8IOStream", "fileHandleForReading"]
+- !private ["P7Console8IOStream", "fileHandleForWriting"]
+- ["P7Console8IOStream", "read"]
+- ["P7Console8IOStream", "write"]
+- ["P7Console8IOStream", ""]
+- !private ["PSo8NSCoding", "read"]
+- !private ["PSo8NSCoding", "write"]
+- ["CSo8NSObject", "UInt8"]
+- !private ["CSo8NSObject", "fileHandleForReading"]
+- !private ["CSo8NSObject", "fileHandleForWriting"]
+- ["CSo8NSObject", "read"]
+- ["CSo8NSObject", "write"]
+- !private ["PSo16NSObjectProtocol", "fileHandleForReading"]
+- !private ["PSo16NSObjectProtocol", "fileHandleForWriting"]
+- ["PSo16NSObjectProtocol", "read"]
+- ["PSo16NSObjectProtocol", "write"]
+- !private ["PSo14NSSecureCoding", "read"]
+- !private ["PSo14NSSecureCoding", "write"]
+- ["CSo4Pipe", "UInt8"]
+- ["CSo4Pipe", "deinit"]
+- !private ["CSo4Pipe", "fileHandleForReading"]
+- !private ["CSo4Pipe", "fileHandleForWriting"]
+- ["CSo4Pipe", "read"]
+- ["CSo4Pipe", "write"]
+- !private ["Ps9_Hashable", "fileHandleForReading"]
+- !private ["Ps9_Hashable", "fileHandleForWriting"]
+- ["Ps9_Hashable", "read"]
+- ["Ps9_Hashable", "write"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Sa"
+- "Ps7CVarArg"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "CSo10FileHandle"
+- "Ps8Hashable"
+- "P7Console8IOStream"
+- !private "PSo8NSCoding"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- "CSo4Pipe"
+- "Ps9_Hashable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/libc.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Polymorphic.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Core.swiftmodule"
+interface-hash: "3a10e8265bb94ba61650725e9c8226ca"

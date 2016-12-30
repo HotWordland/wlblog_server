@@ -1,0 +1,14 @@
+version: "Apple Swift version 3.0.1 (swiftlang-800.0.58.6 clang-800.0.42.1)"
+options: "3c0642fb46f3573ce18f0aa7e8914efc"
+build_time: [536399017, 85844000]
+inputs:
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Settings/Config+Arguments.swift": [536397249, 0]
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Settings/Config+Directory.swift": [536397249, 0]
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Settings/Config.swift": [536397249, 0]
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Settings/KeyAccessible+Merge.swift": [536397249, 0]
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Settings/KeyAccessible.swift": [536397249, 0]
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Settings/Node+Merge.swift": [536397249, 0]
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Settings/Source.swift": [536397249, 0]
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Settings/Env/Env.swift": [536397249, 0]
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Settings/Env/Node+Env.swift": [536397249, 0]
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Settings/Env/String+Env.swift": [536397249, 0]

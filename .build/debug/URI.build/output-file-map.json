@@ -1,0 +1,65 @@
+{
+  "": {
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/URI.build/master.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Engine-1.3.5/Sources/URI/PercentDecoding.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/URI.build/PercentDecoding.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/URI.build/PercentDecoding.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/URI.build/PercentDecoding~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/URI.build/PercentDecoding.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Engine-1.3.5/Sources/URI/Model/URI+Byte.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/URI.build/URI+Byte.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/URI.build/Model/URI+Byte.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/URI.build/URI+Byte~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/URI.build/URI+Byte.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Engine-1.3.5/Sources/URI/Model/URI+Modification.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/URI.build/URI+Modification.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/URI.build/Model/URI+Modification.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/URI.build/URI+Modification~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/URI.build/URI+Modification.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Engine-1.3.5/Sources/URI/Model/URI+Ports.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/URI.build/URI+Ports.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/URI.build/Model/URI+Ports.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/URI.build/URI+Ports~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/URI.build/URI+Ports.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Engine-1.3.5/Sources/URI/Model/URI+String.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/URI.build/URI+String.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/URI.build/Model/URI+String.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/URI.build/URI+String~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/URI.build/URI+String.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Engine-1.3.5/Sources/URI/Model/URI.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/URI.build/URI.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/URI.build/Model/URI.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/URI.build/URI~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/URI.build/URI.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Engine-1.3.5/Sources/URI/Parser/Parser+Components.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/URI.build/Parser+Components.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/URI.build/Parser/Parser+Components.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/URI.build/Parser+Components~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/URI.build/Parser+Components.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Engine-1.3.5/Sources/URI/Parser/Parser+Public.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/URI.build/Parser+Public.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/URI.build/Parser/Parser+Public.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/URI.build/Parser+Public~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/URI.build/Parser+Public.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Engine-1.3.5/Sources/URI/Parser/Parser+SubComponents.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/URI.build/Parser+SubComponents.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/URI.build/Parser/Parser+SubComponents.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/URI.build/Parser+SubComponents~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/URI.build/Parser+SubComponents.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Engine-1.3.5/Sources/URI/Parser/Parser.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/URI.build/Parser.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/URI.build/Parser/Parser.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/URI.build/Parser~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/URI.build/Parser.swiftdeps"
+  }
+}

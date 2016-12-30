@@ -1,0 +1,5 @@
+version: "Apple Swift version 3.0.1 (swiftlang-800.0.58.6 clang-800.0.42.1)"
+options: "a436a73fa1bceade25a2034a8aca4143"
+build_time: [536398999, 529744000]
+inputs:
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Crypto-1.0.1/Sources/BCrypt/BCrypt.swift": [533876828, 0]

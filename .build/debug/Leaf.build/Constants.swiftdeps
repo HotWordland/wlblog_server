@@ -1,0 +1,244 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "TOKEN"
+- "SUFFIX"
+- "defaultTags"
+provides-nominal:
+provides-member:
+provides-dynamic-lookup:
+depends-top-level:
+- "TOKEN"
+- "Loop"
+- "String"
+- "Variable"
+- "Equal"
+- "Uppercased"
+- "Raw"
+- "Dictionary"
+- "If"
+- "Extend"
+- "StringLiteralType"
+- "Byte"
+- "Embed"
+- "SUFFIX"
+- "Import"
+- "Else"
+- "defaultTags"
+- "Index"
+- "Export"
+- "Tag"
+depends-member:
+- ["Ps9AnyObject", "init"]
+- ["P4Leaf8BasicTag", "init"]
+- ["Ps17BitwiseOperations", "numberSign"]
+- ["P4Core16BytesConvertible", "init"]
+- ["P4Core18BytesInitializable", "init"]
+- ["P4Core18BytesRepresentable", "init"]
+- ["Ps7CVarArg", "Key"]
+- ["Ps7CVarArg", "Value"]
+- ["Ps7CVarArg", "init"]
+- ["Ps7CVarArg", "numberSign"]
+- ["Ps10Collection", "Key"]
+- ["Ps10Collection", "Value"]
+- ["Ps10Comparable", "init"]
+- ["Ps10Comparable", "numberSign"]
+- ["P4Node7Context", "Key"]
+- ["P4Node7Context", "Value"]
+- ["Ps28CustomDebugStringConvertible", "Key"]
+- ["Ps28CustomDebugStringConvertible", "Value"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- ["Ps29CustomPlaygroundQuickLookable", "numberSign"]
+- ["Ps17CustomReflectable", "Key"]
+- ["Ps17CustomReflectable", "Value"]
+- ["Ps17CustomReflectable", "init"]
+- ["Ps17CustomReflectable", "numberSign"]
+- ["Ps23CustomStringConvertible", "Key"]
+- ["Ps23CustomStringConvertible", "Value"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "numberSign"]
+- ["Vs10Dictionary", "Key"]
+- ["Vs10Dictionary", "Value"]
+- ["Vs10Dictionary", "deinit"]
+- ["C4Leaf4Else", "deinit"]
+- ["C4Leaf4Else", "init"]
+- ["C4Leaf5Embed", "deinit"]
+- ["C4Leaf5Embed", "init"]
+- ["C4Leaf5Equal", "deinit"]
+- ["C4Leaf5Equal", "init"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "numberSign"]
+- ["C4Leaf6Export", "deinit"]
+- ["C4Leaf6Export", "init"]
+- ["Ps30ExpressibleByDictionaryLiteral", "Key"]
+- ["Ps30ExpressibleByDictionaryLiteral", "Value"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- ["Ps27ExpressibleByIntegerLiteral", "numberSign"]
+- ["Ps32ExpressibleByStringInterpolation", "init"]
+- ["Ps26ExpressibleByStringLiteral", "init"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- ["C4Leaf6Extend", "deinit"]
+- ["C4Leaf6Extend", "init"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "numberSign"]
+- ["C4Leaf2If", "deinit"]
+- ["C4Leaf2If", "init"]
+- ["C4Leaf6Import", "deinit"]
+- ["C4Leaf6Import", "init"]
+- ["C4Leaf5Index", "deinit"]
+- ["C4Leaf5Index", "init"]
+- ["Ps9Indexable", "Key"]
+- ["Ps9Indexable", "Value"]
+- ["Ps13IndexableBase", "Key"]
+- ["Ps13IndexableBase", "Value"]
+- ["Ps7Integer", "numberSign"]
+- ["Ps17IntegerArithmetic", "numberSign"]
+- ["P4Node13KeyAccessible", "Key"]
+- ["P4Node13KeyAccessible", "Value"]
+- ["C4Leaf4Loop", "deinit"]
+- ["C4Leaf4Loop", "init"]
+- ["Ps25LosslessStringConvertible", "init"]
+- ["Ps10MirrorPath", "init"]
+- ["PSo8NSCoding", "init"]
+- ["PSo9NSCopying", "init"]
+- ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "init"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo14NSSecureCoding", "init"]
+- ["CSo8NSString", "init"]
+- ["P4Node15NodeConvertible", "init"]
+- ["P4Node15NodeConvertible", "numberSign"]
+- ["P4Node17NodeInitializable", "init"]
+- ["P4Node17NodeInitializable", "numberSign"]
+- ["P4Node17NodeRepresentable", "init"]
+- ["P4Node17NodeRepresentable", "numberSign"]
+- ["P13PathIndexable9PathIndex", "init"]
+- ["P11Polymorphic11Polymorphic", "init"]
+- ["C4Leaf3Raw", "deinit"]
+- ["C4Leaf3Raw", "init"]
+- ["Ps8Sequence", "Key"]
+- ["Ps8Sequence", "Value"]
+- ["Ps10Strideable", "numberSign"]
+- ["SS", "deinit"]
+- ["SS", "init"]
+- ["P4Leaf3Tag", "init"]
+- ["Ps16TextOutputStream", "init"]
+- ["Ps20TextOutputStreamable", "init"]
+- ["Vs5UInt8", "deinit"]
+- ["Vs5UInt8", "numberSign"]
+- ["Ps15UnsignedInteger", "numberSign"]
+- ["C4Leaf10Uppercased", "deinit"]
+- ["C4Leaf10Uppercased", "init"]
+- ["C4Leaf8Variable", "deinit"]
+- ["C4Leaf8Variable", "init"]
+- ["Ps28_DisallowMixedSignArithmetic", "numberSign"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- ["Ps35_ExpressibleByBuiltinIntegerLiteral", "numberSign"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "numberSign"]
+- ["Ps14_Incrementable", "numberSign"]
+- ["Ps8_Integer", "numberSign"]
+- ["Ps18_IntegerArithmetic", "numberSign"]
+- ["Ps21_ObjectiveCBridgeable", "Key"]
+- ["Ps21_ObjectiveCBridgeable", "Value"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+- ["Ps21_ObjectiveCBridgeable", "numberSign"]
+- ["Ps11_Strideable", "numberSign"]
+- ["Ps14_StringElement", "numberSign"]
+depends-nominal:
+- "Ps9AnyObject"
+- "P4Leaf8BasicTag"
+- "Ps17BitwiseOperations"
+- "P4Core16BytesConvertible"
+- "P4Core18BytesInitializable"
+- "P4Core18BytesRepresentable"
+- "Ps7CVarArg"
+- "Ps10Collection"
+- "Ps10Comparable"
+- "P4Node7Context"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Vs10Dictionary"
+- "C4Leaf4Else"
+- "C4Leaf5Embed"
+- "C4Leaf5Equal"
+- "Ps9Equatable"
+- "C4Leaf6Export"
+- "Ps30ExpressibleByDictionaryLiteral"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- "Ps27ExpressibleByIntegerLiteral"
+- "Ps32ExpressibleByStringInterpolation"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- "C4Leaf6Extend"
+- "Ps8Hashable"
+- "C4Leaf2If"
+- "C4Leaf6Import"
+- "C4Leaf5Index"
+- "Ps9Indexable"
+- "Ps13IndexableBase"
+- "Ps7Integer"
+- "Ps17IntegerArithmetic"
+- "P4Node13KeyAccessible"
+- "C4Leaf4Loop"
+- "Ps25LosslessStringConvertible"
+- "Ps10MirrorPath"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- "CSo8NSString"
+- "P4Node15NodeConvertible"
+- "P4Node17NodeInitializable"
+- "P4Node17NodeRepresentable"
+- "P13PathIndexable9PathIndex"
+- "P11Polymorphic11Polymorphic"
+- "C4Leaf3Raw"
+- "Ps8Sequence"
+- "Ps10Strideable"
+- "SS"
+- "P4Leaf3Tag"
+- "Ps16TextOutputStream"
+- "Ps20TextOutputStreamable"
+- "Vs5UInt8"
+- "Ps15UnsignedInteger"
+- "C4Leaf10Uppercased"
+- "C4Leaf8Variable"
+- "Ps28_DisallowMixedSignArithmetic"
+- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- "Ps34_ExpressibleByBuiltinStringLiteral"
+- "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- "Ps14_Incrementable"
+- "Ps8_Integer"
+- "Ps18_IntegerArithmetic"
+- "Ps21_ObjectiveCBridgeable"
+- "Ps11_Strideable"
+- "Ps14_StringElement"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Core.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/libc.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Node.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/PathIndexable.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Polymorphic.swiftmodule"
+interface-hash: "5af635d513d5d58d9bb866875bce86cd"

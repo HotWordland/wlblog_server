@@ -1,0 +1,132 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+- "O4Node4Node"
+provides-member:
+- ["O4Node4Node", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "Node"
+- "String"
+- "PathIndexable"
+depends-member:
+- ["P4Node7Context", "init"]
+- !private ["P4Node7Context", "nodeArray"]
+- !private ["P4Node7Context", "nodeObject"]
+- ["P4Node7Context", "pathIndexableArray"]
+- ["P4Node7Context", "pathIndexableObject"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "nodeArray"]
+- !private ["Ps9Equatable", "nodeObject"]
+- ["Ps9Equatable", "pathIndexableArray"]
+- ["Ps9Equatable", "pathIndexableObject"]
+- ["Ps25ExpressibleByArrayLiteral", "init"]
+- !private ["Ps25ExpressibleByArrayLiteral", "nodeArray"]
+- !private ["Ps25ExpressibleByArrayLiteral", "nodeObject"]
+- ["Ps25ExpressibleByArrayLiteral", "pathIndexableArray"]
+- ["Ps25ExpressibleByArrayLiteral", "pathIndexableObject"]
+- ["Ps27ExpressibleByBooleanLiteral", "init"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "nodeArray"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "nodeObject"]
+- ["Ps27ExpressibleByBooleanLiteral", "pathIndexableArray"]
+- ["Ps27ExpressibleByBooleanLiteral", "pathIndexableObject"]
+- ["Ps30ExpressibleByDictionaryLiteral", "init"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "nodeArray"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "nodeObject"]
+- ["Ps30ExpressibleByDictionaryLiteral", "pathIndexableArray"]
+- ["Ps30ExpressibleByDictionaryLiteral", "pathIndexableObject"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "nodeArray"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "nodeObject"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "pathIndexableArray"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "pathIndexableObject"]
+- ["Ps25ExpressibleByFloatLiteral", "init"]
+- !private ["Ps25ExpressibleByFloatLiteral", "nodeArray"]
+- !private ["Ps25ExpressibleByFloatLiteral", "nodeObject"]
+- ["Ps25ExpressibleByFloatLiteral", "pathIndexableArray"]
+- ["Ps25ExpressibleByFloatLiteral", "pathIndexableObject"]
+- ["Ps27ExpressibleByIntegerLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "nodeArray"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "nodeObject"]
+- ["Ps27ExpressibleByIntegerLiteral", "pathIndexableArray"]
+- ["Ps27ExpressibleByIntegerLiteral", "pathIndexableObject"]
+- ["Ps23ExpressibleByNilLiteral", "init"]
+- !private ["Ps23ExpressibleByNilLiteral", "nodeArray"]
+- !private ["Ps23ExpressibleByNilLiteral", "nodeObject"]
+- ["Ps23ExpressibleByNilLiteral", "pathIndexableArray"]
+- ["Ps23ExpressibleByNilLiteral", "pathIndexableObject"]
+- ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "nodeArray"]
+- !private ["Ps26ExpressibleByStringLiteral", "nodeObject"]
+- ["Ps26ExpressibleByStringLiteral", "pathIndexableArray"]
+- ["Ps26ExpressibleByStringLiteral", "pathIndexableObject"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "nodeArray"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "nodeObject"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "pathIndexableArray"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "pathIndexableObject"]
+- ["O4Node4Node", "Node"]
+- ["O4Node4Node", "String"]
+- ["O4Node4Node", "deinit"]
+- ["O4Node4Node", "init"]
+- !private ["O4Node4Node", "nodeArray"]
+- !private ["O4Node4Node", "nodeObject"]
+- ["O4Node4Node", "pathIndexableArray"]
+- ["O4Node4Node", "pathIndexableObject"]
+- ["P4Node10NodeBacked", "init"]
+- !private ["P4Node10NodeBacked", "nodeArray"]
+- !private ["P4Node10NodeBacked", "nodeObject"]
+- ["P4Node10NodeBacked", "pathIndexableArray"]
+- ["P4Node10NodeBacked", "pathIndexableObject"]
+- ["P4Node15NodeConvertible", "init"]
+- !private ["P4Node15NodeConvertible", "nodeArray"]
+- !private ["P4Node15NodeConvertible", "nodeObject"]
+- ["P4Node15NodeConvertible", "pathIndexableArray"]
+- ["P4Node15NodeConvertible", "pathIndexableObject"]
+- ["P4Node17NodeInitializable", "init"]
+- !private ["P4Node17NodeInitializable", "nodeArray"]
+- !private ["P4Node17NodeInitializable", "nodeObject"]
+- ["P4Node17NodeInitializable", "pathIndexableArray"]
+- ["P4Node17NodeInitializable", "pathIndexableObject"]
+- ["P4Node17NodeRepresentable", "init"]
+- !private ["P4Node17NodeRepresentable", "nodeArray"]
+- !private ["P4Node17NodeRepresentable", "nodeObject"]
+- ["P4Node17NodeRepresentable", "pathIndexableArray"]
+- ["P4Node17NodeRepresentable", "pathIndexableObject"]
+- ["P13PathIndexable13PathIndexable", "init"]
+- !private ["P13PathIndexable13PathIndexable", "nodeArray"]
+- !private ["P13PathIndexable13PathIndexable", "nodeObject"]
+- ["P13PathIndexable13PathIndexable", "pathIndexableArray"]
+- ["P13PathIndexable13PathIndexable", "pathIndexableObject"]
+- ["P13PathIndexable13PathIndexable", ""]
+- ["P11Polymorphic11Polymorphic", "init"]
+- !private ["P11Polymorphic11Polymorphic", "nodeArray"]
+- !private ["P11Polymorphic11Polymorphic", "nodeObject"]
+- ["P11Polymorphic11Polymorphic", "pathIndexableArray"]
+- ["P11Polymorphic11Polymorphic", "pathIndexableObject"]
+depends-nominal:
+- "P4Node7Context"
+- "Ps9Equatable"
+- "Ps25ExpressibleByArrayLiteral"
+- "Ps27ExpressibleByBooleanLiteral"
+- "Ps30ExpressibleByDictionaryLiteral"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- "Ps25ExpressibleByFloatLiteral"
+- "Ps27ExpressibleByIntegerLiteral"
+- "Ps23ExpressibleByNilLiteral"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- "O4Node4Node"
+- "P4Node10NodeBacked"
+- "P4Node15NodeConvertible"
+- "P4Node17NodeInitializable"
+- "P4Node17NodeRepresentable"
+- "P13PathIndexable13PathIndexable"
+- "P11Polymorphic11Polymorphic"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Polymorphic.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/PathIndexable.swiftmodule"
+interface-hash: "7888a473406383b2babdafcf7fad4242"

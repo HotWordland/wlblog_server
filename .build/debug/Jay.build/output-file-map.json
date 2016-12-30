@@ -1,0 +1,131 @@
+{
+  "": {
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Jay.build/master.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Jay-1.0.0/Sources/Jay/ArrayParser.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Jay.build/ArrayParser.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Jay.build/ArrayParser.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Jay.build/ArrayParser~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Jay.build/ArrayParser.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Jay-1.0.0/Sources/Jay/BooleanParser.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Jay.build/BooleanParser.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Jay.build/BooleanParser.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Jay.build/BooleanParser~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Jay.build/BooleanParser.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Jay-1.0.0/Sources/Jay/ByteReader.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Jay.build/ByteReader.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Jay.build/ByteReader.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Jay.build/ByteReader~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Jay.build/ByteReader.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Jay-1.0.0/Sources/Jay/CommentParser.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Jay.build/CommentParser.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Jay.build/CommentParser.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Jay.build/CommentParser~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Jay.build/CommentParser.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Jay-1.0.0/Sources/Jay/Consts.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Jay.build/Consts.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Jay.build/Consts.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Jay.build/Consts~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Jay.build/Consts.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Jay-1.0.0/Sources/Jay/Error.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Jay.build/Error.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Jay.build/Error.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Jay.build/Error~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Jay.build/Error.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Jay-1.0.0/Sources/Jay/Extensions.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Jay.build/Extensions.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Jay.build/Extensions.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Jay.build/Extensions~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Jay.build/Extensions.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Jay-1.0.0/Sources/Jay/Formatter.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Jay.build/Formatter.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Jay.build/Formatter.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Jay.build/Formatter~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Jay.build/Formatter.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Jay-1.0.0/Sources/Jay/Jay.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Jay.build/Jay.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Jay.build/Jay.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Jay.build/Jay~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Jay.build/Jay.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Jay-1.0.0/Sources/Jay/NativeParser.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Jay.build/NativeParser.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Jay.build/NativeParser.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Jay.build/NativeParser~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Jay.build/NativeParser.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Jay-1.0.0/Sources/Jay/NativeTypeConversions.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Jay.build/NativeTypeConversions.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Jay.build/NativeTypeConversions.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Jay.build/NativeTypeConversions~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Jay.build/NativeTypeConversions.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Jay-1.0.0/Sources/Jay/NullParser.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Jay.build/NullParser.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Jay.build/NullParser.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Jay.build/NullParser~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Jay.build/NullParser.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Jay-1.0.0/Sources/Jay/NumberParser.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Jay.build/NumberParser.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Jay.build/NumberParser.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Jay.build/NumberParser~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Jay.build/NumberParser.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Jay-1.0.0/Sources/Jay/ObjectParser.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Jay.build/ObjectParser.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Jay.build/ObjectParser.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Jay.build/ObjectParser~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Jay.build/ObjectParser.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Jay-1.0.0/Sources/Jay/OutputStream.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Jay.build/OutputStream.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Jay.build/OutputStream.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Jay.build/OutputStream~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Jay.build/OutputStream.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Jay-1.0.0/Sources/Jay/Parser.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Jay.build/Parser.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Jay.build/Parser.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Jay.build/Parser~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Jay.build/Parser.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Jay-1.0.0/Sources/Jay/Reader.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Jay.build/Reader.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Jay.build/Reader.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Jay.build/Reader~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Jay.build/Reader.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Jay-1.0.0/Sources/Jay/RootParser.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Jay.build/RootParser.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Jay.build/RootParser.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Jay.build/RootParser~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Jay.build/RootParser.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Jay-1.0.0/Sources/Jay/StringParser.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Jay.build/StringParser.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Jay.build/StringParser.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Jay.build/StringParser~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Jay.build/StringParser.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Jay-1.0.0/Sources/Jay/Types.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Jay.build/Types.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Jay.build/Types.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Jay.build/Types~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Jay.build/Types.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Jay-1.0.0/Sources/Jay/ValueParser.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Jay.build/ValueParser.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Jay.build/ValueParser.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Jay.build/ValueParser~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Jay.build/ValueParser.swiftdeps"
+  }
+}

@@ -1,0 +1,184 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ErrorReason"
+- "SocksError"
+provides-nominal:
+- "O9SocksCore11ErrorReason"
+- "V9SocksCore10SocksError"
+provides-member:
+- ["O9SocksCore11ErrorReason", ""]
+- ["V9SocksCore10SocksError", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "strerror"
+- !private "errno"
+- !private "UnicodeScalarType"
+- "String"
+- "ErrorReason"
+- "SocksError"
+- "CustomStringConvertible"
+- !private "StringLiteralType"
+- !private "??"
+- "Descriptor"
+- "AssignmentPrecedence"
+- !private "IntegerLiteralType"
+- !private "FloatLiteralType"
+- "Int32"
+- "EINTR"
+- "Error"
+depends-member:
+- !private ["Sb", "deinit"]
+- !private ["Vs9Character", "deinit"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "init"]
+- ["Ps23CustomStringConvertible", "EINTR"]
+- !private ["Ps23CustomStringConvertible", "String"]
+- ["Ps23CustomStringConvertible", "_code"]
+- ["Ps23CustomStringConvertible", "_domain"]
+- ["Ps23CustomStringConvertible", "_getEmbeddedNSError"]
+- ["Ps23CustomStringConvertible", "_userInfo"]
+- ["Ps23CustomStringConvertible", "description"]
+- !private ["Ps23CustomStringConvertible", "errno"]
+- !private ["Ps23CustomStringConvertible", "getReason"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "number"]
+- !private ["Ps23CustomStringConvertible", "strerror"]
+- !private ["Ps23CustomStringConvertible", "type"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Sd", "deinit"]
+- !private ["Ps9Equatable", "init"]
+- ["Ps5Error", "EINTR"]
+- !private ["Ps5Error", "String"]
+- ["Ps5Error", "_code"]
+- ["Ps5Error", "_domain"]
+- ["Ps5Error", "_getEmbeddedNSError"]
+- ["Ps5Error", "_userInfo"]
+- ["Ps5Error", "description"]
+- !private ["Ps5Error", "errno"]
+- !private ["Ps5Error", "getReason"]
+- !private ["Ps5Error", "number"]
+- !private ["Ps5Error", "strerror"]
+- !private ["Ps5Error", "type"]
+- ["Ps5Error", ""]
+- ["O9SocksCore11ErrorReason", "Descriptor"]
+- ["O9SocksCore11ErrorReason", "Int32"]
+- ["O9SocksCore11ErrorReason", "String"]
+- ["O9SocksCore11ErrorReason", "acceptFailed"]
+- ["O9SocksCore11ErrorReason", "bindFailed"]
+- ["O9SocksCore11ErrorReason", "closeSocketFailed"]
+- ["O9SocksCore11ErrorReason", "concreteSocketAddressFamilyRequired"]
+- ["O9SocksCore11ErrorReason", "connectFailed"]
+- ["O9SocksCore11ErrorReason", "connectFailedWithSocketErrorCode"]
+- ["O9SocksCore11ErrorReason", "connectTimedOut"]
+- ["O9SocksCore11ErrorReason", "createSocketFailed"]
+- ["O9SocksCore11ErrorReason", "failedToGetIPFromHostname"]
+- ["O9SocksCore11ErrorReason", "generic"]
+- ["O9SocksCore11ErrorReason", "ipAddressResolutionFailed"]
+- ["O9SocksCore11ErrorReason", "ipAddressValidationFailed"]
+- ["O9SocksCore11ErrorReason", "listenFailed"]
+- ["O9SocksCore11ErrorReason", "localAddressResolutionFailed"]
+- ["O9SocksCore11ErrorReason", "optionGetFailed"]
+- ["O9SocksCore11ErrorReason", "optionSetFailed"]
+- ["O9SocksCore11ErrorReason", "pipeCreationFailed"]
+- ["O9SocksCore11ErrorReason", "readFailed"]
+- ["O9SocksCore11ErrorReason", "remoteAddressResolutionFailed"]
+- ["O9SocksCore11ErrorReason", "selectFailed"]
+- ["O9SocksCore11ErrorReason", "sendFailedToSendAllBytes"]
+- ["O9SocksCore11ErrorReason", "unparsableBytes"]
+- ["O9SocksCore11ErrorReason", "unsupportedSocketAddressFamily"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Sf", "deinit"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Si", "deinit"]
+- !private ["Vs5Int16", "deinit"]
+- !private ["Vs5Int32", "deinit"]
+- !private ["Vs5Int64", "deinit"]
+- !private ["Vs4Int8", "deinit"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["Sq", "deinit"]
+- ["V9SocksCore10SocksError", "EINTR"]
+- ["V9SocksCore10SocksError", "ErrorReason"]
+- ["V9SocksCore10SocksError", "Int32"]
+- ["V9SocksCore10SocksError", "String"]
+- ["V9SocksCore10SocksError", "_code"]
+- ["V9SocksCore10SocksError", "_domain"]
+- ["V9SocksCore10SocksError", "_getEmbeddedNSError"]
+- ["V9SocksCore10SocksError", "_userInfo"]
+- ["V9SocksCore10SocksError", "deinit"]
+- ["V9SocksCore10SocksError", "description"]
+- !private ["V9SocksCore10SocksError", "errno"]
+- ["V9SocksCore10SocksError", "getReason"]
+- ["V9SocksCore10SocksError", "init"]
+- ["V9SocksCore10SocksError", "interruptedSystemCall"]
+- ["V9SocksCore10SocksError", "number"]
+- !private ["V9SocksCore10SocksError", "strerror"]
+- ["V9SocksCore10SocksError", "type"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["Su", "deinit"]
+- !private ["Vs6UInt16", "deinit"]
+- !private ["Vs6UInt32", "deinit"]
+- !private ["Vs6UInt64", "deinit"]
+- !private ["Vs5UInt8", "deinit"]
+- !private ["Sc", "deinit"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps9_Hashable", "init"]
+depends-nominal:
+- !private "Sb"
+- !private "Vs9Character"
+- !private "Ps10Comparable"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- !private "Sd"
+- !private "Ps9Equatable"
+- "Ps5Error"
+- "O9SocksCore11ErrorReason"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps32ExpressibleByStringInterpolation"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Sf"
+- !private "Ps8Hashable"
+- !private "Si"
+- !private "Vs5Int16"
+- !private "Vs5Int32"
+- !private "Vs5Int64"
+- !private "Vs4Int8"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "Sq"
+- "V9SocksCore10SocksError"
+- !private "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "Su"
+- !private "Vs6UInt16"
+- !private "Vs6UInt32"
+- !private "Vs6UInt64"
+- !private "Vs5UInt8"
+- !private "Sc"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps9_Hashable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+interface-hash: "2e9da9284d842a52066f3703f7baaa6e"

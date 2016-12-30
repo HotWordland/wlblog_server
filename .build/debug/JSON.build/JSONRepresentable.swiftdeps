@@ -1,0 +1,112 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "JSONRepresentable"
+- "JSONInitializable"
+- "JSONConvertible"
+provides-nominal:
+- "P4JSON17JSONRepresentable"
+- "P4JSON17JSONInitializable"
+- "P4JSON15JSONConvertible"
+- "V4JSON4JSON"
+provides-member:
+- ["P4JSON17JSONRepresentable", ""]
+- ["P4JSON17JSONInitializable", ""]
+- ["P4JSON15JSONConvertible", ""]
+- ["V4JSON4JSON", ""]
+- ["P4JSON17JSONRepresentable", "makeJSON"]
+- ["P4JSON17JSONInitializable", "init"]
+provides-dynamic-lookup:
+depends-top-level:
+- "JSONRepresentable"
+- "NodeRepresentable"
+- "JSONInitializable"
+- "JSONConvertible"
+- "NodeInitializable"
+- "JSON"
+depends-member:
+- ["P4Core16BytesConvertible", "init"]
+- ["P4Core16BytesConvertible", "makeJSON"]
+- !private ["P4Core16BytesConvertible", "makeNode"]
+- ["P4Core18BytesInitializable", "init"]
+- ["P4Core18BytesInitializable", "makeJSON"]
+- !private ["P4Core18BytesInitializable", "makeNode"]
+- ["P4Core18BytesRepresentable", "init"]
+- ["P4Core18BytesRepresentable", "makeJSON"]
+- !private ["P4Core18BytesRepresentable", "makeNode"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "makeJSON"]
+- !private ["Ps9Equatable", "makeNode"]
+- ["V4JSON4JSON", "deinit"]
+- ["V4JSON4JSON", "init"]
+- ["V4JSON4JSON", "makeJSON"]
+- !private ["V4JSON4JSON", "makeNode"]
+- ["P4JSON15JSONConvertible", "init"]
+- ["P4JSON15JSONConvertible", "makeJSON"]
+- !private ["P4JSON15JSONConvertible", "makeNode"]
+- ["P4JSON15JSONConvertible", ""]
+- ["P4JSON17JSONInitializable", "JSON"]
+- ["P4JSON17JSONInitializable", "NodeInitializable"]
+- ["P4JSON17JSONInitializable", "init"]
+- ["P4JSON17JSONInitializable", "makeJSON"]
+- !private ["P4JSON17JSONInitializable", "makeNode"]
+- ["P4JSON17JSONInitializable", ""]
+- ["P4JSON17JSONRepresentable", "JSON"]
+- ["P4JSON17JSONRepresentable", "NodeRepresentable"]
+- ["P4JSON17JSONRepresentable", "init"]
+- ["P4JSON17JSONRepresentable", "makeJSON"]
+- !private ["P4JSON17JSONRepresentable", "makeNode"]
+- ["P4JSON17JSONRepresentable", ""]
+- ["O4Node4Node", "deinit"]
+- ["P4Node10NodeBacked", "init"]
+- ["P4Node10NodeBacked", "makeJSON"]
+- !private ["P4Node10NodeBacked", "makeNode"]
+- ["P4Node15NodeConvertible", "init"]
+- ["P4Node15NodeConvertible", "makeJSON"]
+- !private ["P4Node15NodeConvertible", "makeNode"]
+- ["P4Node17NodeInitializable", "JSON"]
+- ["P4Node17NodeInitializable", "init"]
+- ["P4Node17NodeInitializable", "makeJSON"]
+- !private ["P4Node17NodeInitializable", "makeNode"]
+- ["P4Node17NodeRepresentable", "JSON"]
+- ["P4Node17NodeRepresentable", "init"]
+- ["P4Node17NodeRepresentable", "makeJSON"]
+- !private ["P4Node17NodeRepresentable", "makeNode"]
+- ["P13PathIndexable13PathIndexable", "init"]
+- ["P13PathIndexable13PathIndexable", "makeJSON"]
+- !private ["P13PathIndexable13PathIndexable", "makeNode"]
+- ["P11Polymorphic11Polymorphic", "init"]
+- ["P11Polymorphic11Polymorphic", "makeJSON"]
+- !private ["P11Polymorphic11Polymorphic", "makeNode"]
+depends-nominal:
+- "P4Core16BytesConvertible"
+- "P4Core18BytesInitializable"
+- "P4Core18BytesRepresentable"
+- "Ps9Equatable"
+- "V4JSON4JSON"
+- "P4JSON15JSONConvertible"
+- "P4JSON17JSONInitializable"
+- "P4JSON17JSONRepresentable"
+- "O4Node4Node"
+- "P4Node10NodeBacked"
+- "P4Node15NodeConvertible"
+- "P4Node17NodeInitializable"
+- "P4Node17NodeRepresentable"
+- "P13PathIndexable13PathIndexable"
+- "P11Polymorphic11Polymorphic"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Core.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/libc.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Jay.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Node.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/PathIndexable.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Polymorphic.swiftmodule"
+interface-hash: "eef73bfe94ad7c9c89af0848d94f1382"

@@ -1,0 +1,36 @@
+{
+  "name": "angular-ui-router-anim-in-out",
+  "description": "Directive for use with ngAnimate and ui-router, providing events between transition phases",
+  "version": "1.0.2",
+  "main": [
+    "anim-in-out.js",
+    "css/anim-in-out.css",
+    "scss/anim-in-out.scss"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "*",
+    "!anim-in-out.js",
+    "!css/*.css",
+    "!scss/*.scss"
+  ],
+  "dependencies": {
+    "angular": ">=1.2",
+    "angular-animate": ">=1.2",
+    "angular-ui-router": ">=0.2"
+  },
+  "devDependencies": {
+    "Bootflat": "~2.0.4"
+  },
+  "homepage": "https://github.com/homerjam/angular-ui-router-anim-in-out",
+  "_release": "1.0.2",
+  "_resolution": {
+    "type": "version",
+    "tag": "1.0.2",
+    "commit": "0a10ce2ac77c5d49e1e6b802d5fb71b135fff6e4"
+  },
+  "_source": "https://github.com/homerjam/angular-ui-router-anim-in-out.git",
+  "_target": "~1.0.2",
+  "_originalSource": "angular-ui-router-anim-in-out",
+  "_direct": true
+}

@@ -1,0 +1,91 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Tag"
+provides-nominal:
+- "P4Leaf3Tag"
+provides-member:
+- ["P4Leaf3Tag", ""]
+- ["P4Leaf3Tag", "compileBody"]
+- ["P4Leaf3Tag", "postCompile"]
+- ["P4Leaf3Tag", "postCompile"]
+- ["P4Leaf3Tag", "makeArguments"]
+- ["P4Leaf3Tag", "shouldRender"]
+- ["P4Leaf3Tag", "render"]
+provides-dynamic-lookup:
+depends-top-level:
+- "Bool"
+- !private "!="
+- "Stem"
+- "TagTemplate"
+- "String"
+- "Bytes"
+- "Tag"
+- "Context"
+- "Node"
+- "Argument"
+- "Leaf"
+depends-member:
+- !private ["Ps9AnyObject", "makeArguments"]
+- !private ["Ps9AnyObject", "render"]
+- !private ["Ps9AnyObject", "spawnLeaf"]
+- ["Sa", "deinit"]
+- ["Sb", "deinit"]
+- ["C4Leaf7Context", "deinit"]
+- !private ["Ps23CustomStringConvertible", "makeArguments"]
+- !private ["Ps9Equatable", "makeArguments"]
+- ["C4Leaf4Leaf", "deinit"]
+- ["Sq", "deinit"]
+- ["C4Leaf4Stem", "deinit"]
+- !private ["C4Leaf4Stem", "render"]
+- !private ["C4Leaf4Stem", "spawnLeaf"]
+- ["SS", "deinit"]
+- ["P4Leaf3Tag", "Argument"]
+- ["P4Leaf3Tag", "Bool"]
+- ["P4Leaf3Tag", "Bytes"]
+- ["P4Leaf3Tag", "Context"]
+- ["P4Leaf3Tag", "Leaf"]
+- ["P4Leaf3Tag", "Node"]
+- ["P4Leaf3Tag", "Stem"]
+- ["P4Leaf3Tag", "String"]
+- ["P4Leaf3Tag", "TagTemplate"]
+- ["P4Leaf3Tag", "compileBody"]
+- ["P4Leaf3Tag", "makeArguments"]
+- ["P4Leaf3Tag", "name"]
+- ["P4Leaf3Tag", "postCompile"]
+- ["P4Leaf3Tag", "render"]
+- ["P4Leaf3Tag", "run"]
+- ["P4Leaf3Tag", "shouldRender"]
+- ["P4Leaf3Tag", ""]
+- ["C4Leaf11TagTemplate", "deinit"]
+- !private ["C4Leaf11TagTemplate", "makeArguments"]
+- !private ["Vs26_OptionalNilComparisonType", "deinit"]
+depends-nominal:
+- !private "Ps9AnyObject"
+- "Sa"
+- "Sb"
+- "C4Leaf7Context"
+- !private "Ps23CustomStringConvertible"
+- !private "Ps9Equatable"
+- "C4Leaf4Leaf"
+- "Sq"
+- "C4Leaf4Stem"
+- "SS"
+- "P4Leaf3Tag"
+- "C4Leaf11TagTemplate"
+- !private "Vs26_OptionalNilComparisonType"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Core.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/libc.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Node.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/PathIndexable.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Polymorphic.swiftmodule"
+interface-hash: "77a0f1b00b5b514db771ba0c81ab813e"

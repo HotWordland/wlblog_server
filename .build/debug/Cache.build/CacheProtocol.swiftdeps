@@ -1,0 +1,46 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CacheProtocol"
+provides-nominal:
+- "P5Cache13CacheProtocol"
+provides-member:
+- ["P5Cache13CacheProtocol", ""]
+- ["P5Cache13CacheProtocol", "set"]
+provides-dynamic-lookup:
+depends-top-level:
+- "String"
+- "CacheProtocol"
+- "Node"
+- "NodeRepresentable"
+depends-member:
+- ["P5Cache13CacheProtocol", "Node"]
+- ["P5Cache13CacheProtocol", "NodeRepresentable"]
+- ["P5Cache13CacheProtocol", "String"]
+- !private ["P5Cache13CacheProtocol", "deinit"]
+- ["P5Cache13CacheProtocol", "delete"]
+- ["P5Cache13CacheProtocol", "get"]
+- ["P5Cache13CacheProtocol", "set"]
+- ["O4Node4Node", "deinit"]
+- ["P4Node17NodeRepresentable", "deinit"]
+- !private ["P4Node17NodeRepresentable", "makeNode"]
+- ["SS", "deinit"]
+depends-nominal:
+- "P5Cache13CacheProtocol"
+- "O4Node4Node"
+- "P4Node17NodeRepresentable"
+- "SS"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Node.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/PathIndexable.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Polymorphic.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Fluent.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+interface-hash: "7745f680b6963c1eb25e1f33d81ecbb4"

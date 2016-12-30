@@ -1,0 +1,545 @@
+{
+  "": {
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/master.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Vapor/Cipher/CipherProtocol.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/CipherProtocol.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Cipher/CipherProtocol.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/CipherProtocol~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/CipherProtocol.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Vapor/Cipher/CryptoCipher.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/CryptoCipher.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Cipher/CryptoCipher.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/CryptoCipher~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/CryptoCipher.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Vapor/Commands/Vapor+Console.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Vapor+Console.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Commands/Vapor+Console.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Vapor+Console~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Vapor+Console.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Vapor/Commands/Version.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Version.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Commands/Version.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Version~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Version.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Vapor/Config/ConfigInitializable.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/ConfigInitializable.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Config/ConfigInitializable.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/ConfigInitializable~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/ConfigInitializable.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Vapor/Config/Environment.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Environment.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Config/Environment.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Environment~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Environment.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Vapor/Content/Content.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Content.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Content/Content.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Content~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Content.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Vapor/Content/MediaType.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/MediaType.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Content/MediaType.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/MediaType~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/MediaType.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Vapor/Content/Request+Content.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Request+Content.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Content/Request+Content.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Request+Content~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Request+Content.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Vapor/Content/Response+Content.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Response+Content.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Content/Response+Content.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Response+Content~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Response+Content.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Vapor/CORS/CORSConfiguration.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/CORSConfiguration.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/CORS/CORSConfiguration.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/CORSConfiguration~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/CORSConfiguration.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Vapor/CORS/CORSMiddleware.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/CORSMiddleware.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/CORS/CORSMiddleware.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/CORSMiddleware~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/CORSMiddleware.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Vapor/Date/DateMiddleware.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/DateMiddleware.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Date/DateMiddleware.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/DateMiddleware~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/DateMiddleware.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Vapor/Droplet/Droplet+Configurable.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Droplet+Configurable.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Droplet/Droplet+Configurable.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Droplet+Configurable~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Droplet+Configurable.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Vapor/Droplet/Droplet+Deprecated.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Droplet+Deprecated.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Droplet/Droplet+Deprecated.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Droplet+Deprecated~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Droplet+Deprecated.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Vapor/Droplet/Droplet+Providers.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Droplet+Providers.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Droplet/Droplet+Providers.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Droplet+Providers~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Droplet+Providers.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Vapor/Droplet/Droplet+Responder.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Droplet+Responder.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Droplet/Droplet+Responder.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Droplet+Responder~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Droplet+Responder.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Vapor/Droplet/Droplet+Run.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Droplet+Run.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Droplet/Droplet+Run.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Droplet+Run~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Droplet+Run.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Vapor/Droplet/Droplet+TLS.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Droplet+TLS.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Droplet/Droplet+TLS.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Droplet+TLS~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Droplet+TLS.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Vapor/Droplet/Droplet+WorkingDirectory.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Droplet+WorkingDirectory.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Droplet/Droplet+WorkingDirectory.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Droplet+WorkingDirectory~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Droplet+WorkingDirectory.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Vapor/Droplet/Droplet.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Droplet.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Droplet/Droplet.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Droplet~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Droplet.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Vapor/Error/Abort.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Abort.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Error/Abort.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Abort~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Abort.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Vapor/Error/AbortMiddleware.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/AbortMiddleware.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Error/AbortMiddleware.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/AbortMiddleware~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/AbortMiddleware.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Vapor/Error/ErrorView.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/ErrorView.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Error/ErrorView.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/ErrorView~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/ErrorView.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Vapor/Event/Event.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Event.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Event/Event.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Event~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Event.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Vapor/Event/Subscription.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Subscription.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Event/Subscription.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Subscription~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Subscription.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Vapor/File/FileManager.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/FileManager.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/File/FileManager.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/FileManager~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/FileManager.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Vapor/File/FileMiddleware.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/FileMiddleware.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/File/FileMiddleware.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/FileMiddleware~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/FileMiddleware.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Vapor/Fluent/Model.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Model.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Fluent/Model.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Model~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Model.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Vapor/Fluent/Prepare.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Prepare.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Fluent/Prepare.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Prepare~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Prepare.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Vapor/FormURLEncoded/Request+FormURLEncoded.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Request+FormURLEncoded.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/FormURLEncoded/Request+FormURLEncoded.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Request+FormURLEncoded~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Request+FormURLEncoded.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Vapor/FormURLEncoded/StructuredData+FormURLEncoded.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/StructuredData+FormURLEncoded.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/FormURLEncoded/StructuredData+FormURLEncoded.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/StructuredData+FormURLEncoded~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/StructuredData+FormURLEncoded.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Vapor/Hash/CryptoHasher.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/CryptoHasher.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Hash/CryptoHasher.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/CryptoHasher~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/CryptoHasher.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Vapor/Hash/Hasher.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Hasher.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Hash/Hasher.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Hasher~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Hasher.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Vapor/Hash/Int+Random.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Int+Random.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Hash/Int+Random.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Int+Random~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Int+Random.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Vapor/HTTP/Accept.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Accept.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/HTTP/Accept.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Accept~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Accept.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Vapor/HTTP/AcceptLanguage.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/AcceptLanguage.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/HTTP/AcceptLanguage.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/AcceptLanguage~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/AcceptLanguage.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Vapor/HTTP/HTTP+Node.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/HTTP+Node.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/HTTP/HTTP+Node.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/HTTP+Node~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/HTTP+Node.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Vapor/HTTP/RequestInitializable.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/RequestInitializable.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/HTTP/RequestInitializable.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/RequestInitializable~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/RequestInitializable.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Vapor/JSON/JSON.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/JSON.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/JSON/JSON.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/JSON~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/JSON.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Vapor/JSON/JSONRepresentable.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/JSONRepresentable.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/JSON/JSONRepresentable.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/JSONRepresentable~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/JSONRepresentable.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Vapor/Localization/Localization.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Localization.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Localization/Localization.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Localization~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Localization.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Vapor/Log/ConsoleLogger.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/ConsoleLogger.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Log/ConsoleLogger.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/ConsoleLogger~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/ConsoleLogger.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Vapor/Log/Log+Convenience.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Log+Convenience.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Log/Log+Convenience.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Log+Convenience~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Log+Convenience.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Vapor/Log/Log.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Log.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Log/Log.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Log~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Log.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Vapor/Log/LogLevel.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/LogLevel.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Log/LogLevel.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/LogLevel~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/LogLevel.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Vapor/Middleware/Chaining.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Chaining.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Middleware/Chaining.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Chaining~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Chaining.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Vapor/Multipart/Multipart+Parse.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Multipart+Parse.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Multipart/Multipart+Parse.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Multipart+Parse~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Multipart+Parse.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Vapor/Multipart/Multipart+Polymorphic.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Multipart+Polymorphic.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Multipart/Multipart+Polymorphic.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Multipart+Polymorphic~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Multipart+Polymorphic.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Vapor/Multipart/Multipart.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Multipart.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Multipart/Multipart.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Multipart~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Multipart.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Vapor/Multipart/Request+Multipart.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Request+Multipart.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Multipart/Request+Multipart.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Request+Multipart~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Request+Multipart.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Vapor/Polymorphic/PolymorphicInitializable.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/PolymorphicInitializable.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Polymorphic/PolymorphicInitializable.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/PolymorphicInitializable~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/PolymorphicInitializable.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Vapor/Provider/Providable.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Providable.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Provider/Providable.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Providable~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Providable.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Vapor/Provider/ProvidableError.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/ProvidableError.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Provider/ProvidableError.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/ProvidableError~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/ProvidableError.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Vapor/Provider/Provider.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Provider.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Provider/Provider.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Provider~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Provider.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Vapor/Routing/Droplet+Routing.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Droplet+Routing.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Routing/Droplet+Routing.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Droplet+Routing~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Droplet+Routing.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Vapor/Routing/Resource.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Resource.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Routing/Resource.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Resource~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Resource.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Vapor/Routing/TypeSafeErrorMiddleware.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/TypeSafeErrorMiddleware.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Routing/TypeSafeErrorMiddleware.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/TypeSafeErrorMiddleware~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/TypeSafeErrorMiddleware.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Vapor/Serve/Droplet+BootServers.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Droplet+BootServers.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Serve/Droplet+BootServers.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Droplet+BootServers~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Droplet+BootServers.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Vapor/Serve/Serve.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Serve.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Serve/Serve.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Serve~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Serve.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Vapor/Utilities/Bytes.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Bytes.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Utilities/Bytes.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Bytes~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Bytes.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Vapor/Utilities/Dispatch.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Dispatch.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Utilities/Dispatch.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Dispatch~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Dispatch.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Vapor/Utilities/InitProtocols.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/InitProtocols.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Utilities/InitProtocols.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/InitProtocols~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/InitProtocols.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Vapor/Validation/And.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/And.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Validation/And.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/And~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/And.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Vapor/Validation/Error.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Error.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Validation/Error.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Error~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Error.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Vapor/Validation/Not.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Not.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Validation/Not.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Not~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Not.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Vapor/Validation/Operators.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Operators.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Validation/Operators.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Operators~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Operators.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Vapor/Validation/Or.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Or.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Validation/Or.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Or~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Or.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Vapor/Validation/Polymorphic+Validation.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Polymorphic+Validation.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Validation/Polymorphic+Validation.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Polymorphic+Validation~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Polymorphic+Validation.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Vapor/Validation/Valid.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Valid.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Validation/Valid.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Valid~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Valid.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Vapor/Validation/Validatable.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Validatable.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Validation/Validatable.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Validatable~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Validatable.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Vapor/Validation/ValidationMiddleware.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/ValidationMiddleware.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Validation/ValidationMiddleware.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/ValidationMiddleware~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/ValidationMiddleware.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Vapor/Validation/Validators.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Validators.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Validation/Validators.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Validators~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Validators.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Vapor/View/LeafRenderer.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/LeafRenderer.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/View/LeafRenderer.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/LeafRenderer~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/LeafRenderer.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Vapor/View/View.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/View.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/View/View.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/View~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/View.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Vapor/View/ViewRenderer+Request.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/ViewRenderer+Request.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/View/ViewRenderer+Request.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/ViewRenderer+Request~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/ViewRenderer+Request.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Vapor/View/ViewRenderer.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/ViewRenderer.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/View/ViewRenderer.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/ViewRenderer~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/ViewRenderer.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Vapor/WebSockets/WebSockets.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/WebSockets.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/WebSockets/WebSockets.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/WebSockets~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/WebSockets.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Vapor/JSON/HTTP/Body+JSON.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Body+JSON.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/JSON/HTTP/Body+JSON.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Body+JSON~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Body+JSON.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Vapor/JSON/HTTP/Message+JSON.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Message+JSON.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/JSON/HTTP/Message+JSON.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Message+JSON~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Message+JSON.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Vapor/JSON/HTTP/Response+JSON.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Response+JSON.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/JSON/HTTP/Response+JSON.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Response+JSON~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Response+JSON.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Vapor/Utilities/Byte/Data.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Data.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Utilities/Byte/Data.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Data~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Data.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Vapor/Validation/Convenience/Alphanumeric.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Alphanumeric.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Validation/Convenience/Alphanumeric.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Alphanumeric~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Alphanumeric.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Vapor/Validation/Convenience/Compare.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Compare.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Validation/Convenience/Compare.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Compare~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Compare.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Vapor/Validation/Convenience/Contains.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Contains.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Validation/Convenience/Contains.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Contains~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Contains.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Vapor/Validation/Convenience/Count.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Count.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Validation/Convenience/Count.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Count~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Count.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Vapor/Validation/Convenience/Email.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Email.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Validation/Convenience/Email.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Email~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Email.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Vapor/Validation/Convenience/In.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/In.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Validation/Convenience/In.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/In~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/In.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Vapor/Validation/Convenience/Matches.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Matches.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Validation/Convenience/Matches.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Matches~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Matches.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Vapor/Validation/Convenience/Unique.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Unique.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Validation/Convenience/Unique.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Unique~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Vapor.build/Unique.swiftdeps"
+  }
+}

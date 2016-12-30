@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/BCrypt.build/master.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Crypto-1.0.1/Sources/BCrypt/BCrypt.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/BCrypt.build/BCrypt.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/BCrypt.build/BCrypt.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/BCrypt.build/BCrypt~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/BCrypt.build/BCrypt.swiftdeps"
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "": {
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Auth.build/master.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Auth/Authentication/AuthError.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Auth.build/AuthError.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Auth.build/Authentication/AuthError.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Auth.build/AuthError~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Auth.build/AuthError.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Auth/Authentication/AuthMiddleware.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Auth.build/AuthMiddleware.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Auth.build/Authentication/AuthMiddleware.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Auth.build/AuthMiddleware~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Auth.build/AuthMiddleware.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Auth/Authentication/CacheSessionManager.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Auth.build/CacheSessionManager.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Auth.build/Authentication/CacheSessionManager.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Auth.build/CacheSessionManager~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Auth.build/CacheSessionManager.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Auth/Authentication/LoginRedirectMiddleware.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Auth.build/LoginRedirectMiddleware.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Auth.build/Authentication/LoginRedirectMiddleware.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Auth.build/LoginRedirectMiddleware~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Auth.build/LoginRedirectMiddleware.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Auth/Authentication/ProtectMiddleware.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Auth.build/ProtectMiddleware.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Auth.build/Authentication/ProtectMiddleware.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Auth.build/ProtectMiddleware~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Auth.build/ProtectMiddleware.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Auth/Authentication/Request+Subject.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Auth.build/Request+Subject.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Auth.build/Authentication/Request+Subject.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Auth.build/Request+Subject~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Auth.build/Request+Subject.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Auth/Authentication/Authenticator/Authenticator.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Auth.build/Authenticator.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Auth.build/Authentication/Authenticator/Authenticator.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Auth.build/Authenticator~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Auth.build/Authenticator.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Auth/Authentication/Authenticator/Realm.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Auth.build/Realm.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Auth.build/Authentication/Authenticator/Realm.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Auth.build/Realm~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Auth.build/Realm.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Auth/Authentication/Authenticator/User+Authenticator.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Auth.build/User+Authenticator.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Auth.build/Authentication/Authenticator/User+Authenticator.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Auth.build/User+Authenticator~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Auth.build/User+Authenticator.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Auth/Authentication/Credentials/Identifier.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Auth.build/Identifier.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Auth.build/Authentication/Credentials/Identifier.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Auth.build/Identifier~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Auth.build/Identifier.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Auth/Authentication/Header/Authorization.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Auth.build/Authorization.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Auth.build/Authentication/Header/Authorization.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Auth.build/Authorization~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Auth.build/Authorization.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Auth/Authentication/Header/Basic.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Auth.build/Basic.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Auth.build/Authentication/Header/Basic.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Auth.build/Basic~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Auth.build/Basic.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Auth/Authentication/Header/Bearer.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Auth.build/Bearer.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Auth.build/Authentication/Header/Bearer.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Auth.build/Bearer~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Auth.build/Bearer.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Auth/Authentication/Header/Request+Authorization.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Auth.build/Request+Authorization.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Auth.build/Authentication/Header/Request+Authorization.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Auth.build/Request+Authorization~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Auth.build/Request+Authorization.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Vapor-1.3.4/Sources/Auth/Authentication/User/User.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Auth.build/User.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Auth.build/Authentication/User/User.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Auth.build/User~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Auth.build/User.swiftdeps"
+  }
+}

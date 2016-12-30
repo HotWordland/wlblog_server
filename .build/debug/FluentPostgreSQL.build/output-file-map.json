@@ -1,0 +1,17 @@
+{
+  "": {
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/FluentPostgreSQL.build/master.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/FluentPostgreSQL-1.0.4/Sources/FluentPostgreSQL/PostgreSQLDriver.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/FluentPostgreSQL.build/PostgreSQLDriver.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/FluentPostgreSQL.build/PostgreSQLDriver.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/FluentPostgreSQL.build/PostgreSQLDriver~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/FluentPostgreSQL.build/PostgreSQLDriver.swiftdeps"
+  },
+  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/FluentPostgreSQL-1.0.4/Sources/FluentPostgreSQL/PostgreSQLSerializer.swift": {
+    "dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/FluentPostgreSQL.build/PostgreSQLSerializer.d",
+    "object": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/FluentPostgreSQL.build/PostgreSQLSerializer.swift.o",
+    "swiftmodule": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/FluentPostgreSQL.build/PostgreSQLSerializer~partial.swiftmodule",
+    "swift-dependencies": "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/FluentPostgreSQL.build/PostgreSQLSerializer.swiftdeps"
+  }
+}

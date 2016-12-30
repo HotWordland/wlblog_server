@@ -1,0 +1,399 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "FluentCache"
+provides-nominal:
+- "C5Cache11FluentCache"
+- "CC5Cache11FluentCache6Entity"
+provides-member:
+- ["C5Cache11FluentCache", ""]
+- ["CC5Cache11FluentCache6Entity", ""]
+- ["C5Cache11FluentCache", "Entity"]
+provides-dynamic-lookup:
+depends-top-level:
+- "CacheProtocol"
+- "AssignmentPrecedence"
+- "Node"
+- "FluentCache"
+- "Context"
+- !private "Dictionary"
+- !private "Query"
+- "Fluent"
+- "Database"
+- "StringLiteralType"
+- "String"
+depends-member:
+- !private ["Ps9AnyObject", "Entity"]
+- !private ["Ps9AnyObject", "Node"]
+- !private ["Ps9AnyObject", "Query"]
+- !private ["Ps9AnyObject", "T"]
+- !private ["Ps9AnyObject", "_find"]
+- !private ["Ps9AnyObject", "create"]
+- !private ["Ps9AnyObject", "database"]
+- ["Ps9AnyObject", "delete"]
+- ["Ps9AnyObject", "didCreate"]
+- ["Ps9AnyObject", "didDelete"]
+- ["Ps9AnyObject", "didUpdate"]
+- ["Ps9AnyObject", "entity"]
+- ["Ps9AnyObject", "exists"]
+- !private ["Ps9AnyObject", "filter"]
+- !private ["Ps9AnyObject", "first"]
+- ["Ps9AnyObject", "get"]
+- ["Ps9AnyObject", "id"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "key"]
+- ["Ps9AnyObject", "makeNode"]
+- ["Ps9AnyObject", "name"]
+- ["Ps9AnyObject", "prepare"]
+- ["Ps9AnyObject", "revert"]
+- !private ["Ps9AnyObject", "save"]
+- ["Ps9AnyObject", "set"]
+- !private ["Ps9AnyObject", "string"]
+- !private ["Ps9AnyObject", "value"]
+- ["Ps9AnyObject", "willCreate"]
+- ["Ps9AnyObject", "willDelete"]
+- ["Ps9AnyObject", "willUpdate"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "deinit"]
+- !private ["Ps7CVarArg", "Key"]
+- !private ["Ps7CVarArg", "Value"]
+- ["Ps7CVarArg", "init"]
+- !private ["P5Cache13CacheProtocol", "Entity"]
+- !private ["P5Cache13CacheProtocol", "Node"]
+- !private ["P5Cache13CacheProtocol", "Query"]
+- !private ["P5Cache13CacheProtocol", "_find"]
+- !private ["P5Cache13CacheProtocol", "database"]
+- ["P5Cache13CacheProtocol", "delete"]
+- ["P5Cache13CacheProtocol", "get"]
+- ["P5Cache13CacheProtocol", "set"]
+- ["P5Cache13CacheProtocol", ""]
+- !private ["Ps10Collection", "Key"]
+- !private ["Ps10Collection", "Value"]
+- ["Ps10Comparable", "init"]
+- !private ["P4Node7Context", "Key"]
+- !private ["P4Node7Context", "Value"]
+- !private ["P4Node7Context", "extract"]
+- !private ["P4Node7Context", "init"]
+- !private ["CO6Fluent6Schema7Creator", "deinit"]
+- !private ["CO6Fluent6Schema7Creator", "id"]
+- !private ["CO6Fluent6Schema7Creator", "string"]
+- !private ["Ps28CustomDebugStringConvertible", "Key"]
+- !private ["Ps28CustomDebugStringConvertible", "Value"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "Key"]
+- !private ["Ps17CustomReflectable", "Value"]
+- ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "Key"]
+- !private ["Ps23CustomStringConvertible", "Value"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["C6Fluent8Database", "create"]
+- ["C6Fluent8Database", "deinit"]
+- !private ["C6Fluent8Database", "delete"]
+- !private ["Vs10Dictionary", "Key"]
+- !private ["Vs10Dictionary", "Value"]
+- ["Vs10Dictionary", "deinit"]
+- ["CC5Cache11FluentCache6Entity", "Context"]
+- ["CC5Cache11FluentCache6Entity", "Database"]
+- !private ["CC5Cache11FluentCache6Entity", "Entity"]
+- ["CC5Cache11FluentCache6Entity", "Node"]
+- ["CC5Cache11FluentCache6Entity", "String"]
+- ["CC5Cache11FluentCache6Entity", "deinit"]
+- !private ["CC5Cache11FluentCache6Entity", "delete"]
+- ["CC5Cache11FluentCache6Entity", "didCreate"]
+- ["CC5Cache11FluentCache6Entity", "didDelete"]
+- ["CC5Cache11FluentCache6Entity", "didUpdate"]
+- ["CC5Cache11FluentCache6Entity", "entity"]
+- ["CC5Cache11FluentCache6Entity", "exists"]
+- ["CC5Cache11FluentCache6Entity", "id"]
+- ["CC5Cache11FluentCache6Entity", "init"]
+- ["CC5Cache11FluentCache6Entity", "key"]
+- ["CC5Cache11FluentCache6Entity", "makeNode"]
+- ["CC5Cache11FluentCache6Entity", "name"]
+- ["CC5Cache11FluentCache6Entity", "prepare"]
+- ["CC5Cache11FluentCache6Entity", "revert"]
+- !private ["CC5Cache11FluentCache6Entity", "save"]
+- ["CC5Cache11FluentCache6Entity", "value"]
+- ["CC5Cache11FluentCache6Entity", "willCreate"]
+- ["CC5Cache11FluentCache6Entity", "willDelete"]
+- ["CC5Cache11FluentCache6Entity", "willUpdate"]
+- !private ["P6Fluent6Entity", "Entity"]
+- !private ["P6Fluent6Entity", "Node"]
+- !private ["P6Fluent6Entity", "delete"]
+- ["P6Fluent6Entity", "didCreate"]
+- ["P6Fluent6Entity", "didDelete"]
+- ["P6Fluent6Entity", "didUpdate"]
+- ["P6Fluent6Entity", "entity"]
+- ["P6Fluent6Entity", "exists"]
+- ["P6Fluent6Entity", "id"]
+- ["P6Fluent6Entity", "init"]
+- !private ["P6Fluent6Entity", "key"]
+- ["P6Fluent6Entity", "makeNode"]
+- ["P6Fluent6Entity", "name"]
+- ["P6Fluent6Entity", "prepare"]
+- ["P6Fluent6Entity", "revert"]
+- !private ["P6Fluent6Entity", "save"]
+- !private ["P6Fluent6Entity", "value"]
+- ["P6Fluent6Entity", "willCreate"]
+- ["P6Fluent6Entity", "willDelete"]
+- ["P6Fluent6Entity", "willUpdate"]
+- ["P6Fluent6Entity", ""]
+- !private ["Ps9Equatable", "extract"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps25ExpressibleByArrayLiteral", "extract"]
+- !private ["Ps25ExpressibleByArrayLiteral", "init"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "extract"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "init"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "Key"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "Value"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "extract"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "init"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "extract"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps25ExpressibleByFloatLiteral", "extract"]
+- !private ["Ps25ExpressibleByFloatLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "extract"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "init"]
+- !private ["Ps23ExpressibleByNilLiteral", "Key"]
+- !private ["Ps23ExpressibleByNilLiteral", "extract"]
+- !private ["Ps23ExpressibleByNilLiteral", "init"]
+- ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "extract"]
+- ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "extract"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- ["C5Cache11FluentCache", "Context"]
+- ["C5Cache11FluentCache", "Database"]
+- ["C5Cache11FluentCache", "Entity"]
+- ["C5Cache11FluentCache", "Fluent"]
+- ["C5Cache11FluentCache", "Node"]
+- !private ["C5Cache11FluentCache", "Query"]
+- ["C5Cache11FluentCache", "String"]
+- !private ["C5Cache11FluentCache", "_find"]
+- ["C5Cache11FluentCache", "database"]
+- ["C5Cache11FluentCache", "deinit"]
+- ["C5Cache11FluentCache", "delete"]
+- ["C5Cache11FluentCache", "get"]
+- ["C5Cache11FluentCache", "init"]
+- ["C5Cache11FluentCache", "set"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps9Indexable", "Key"]
+- !private ["Ps9Indexable", "Value"]
+- !private ["Ps13IndexableBase", "Key"]
+- !private ["Ps13IndexableBase", "Value"]
+- !private ["P4Node13KeyAccessible", "Key"]
+- !private ["P4Node13KeyAccessible", "Value"]
+- ["Ps25LosslessStringConvertible", "init"]
+- ["Ps10MirrorPath", "init"]
+- ["PSo8NSCoding", "init"]
+- ["PSo9NSCopying", "init"]
+- ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "init"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo14NSSecureCoding", "init"]
+- ["CSo8NSString", "init"]
+- ["O4Node4Node", "deinit"]
+- !private ["O4Node4Node", "extract"]
+- !private ["O4Node4Node", "init"]
+- !private ["P4Node10NodeBacked", "extract"]
+- !private ["P4Node10NodeBacked", "init"]
+- !private ["P4Node15NodeConvertible", "Entity"]
+- !private ["P4Node15NodeConvertible", "Node"]
+- !private ["P4Node15NodeConvertible", "delete"]
+- ["P4Node15NodeConvertible", "didCreate"]
+- ["P4Node15NodeConvertible", "didDelete"]
+- ["P4Node15NodeConvertible", "didUpdate"]
+- ["P4Node15NodeConvertible", "entity"]
+- ["P4Node15NodeConvertible", "exists"]
+- !private ["P4Node15NodeConvertible", "extract"]
+- ["P4Node15NodeConvertible", "id"]
+- ["P4Node15NodeConvertible", "init"]
+- !private ["P4Node15NodeConvertible", "key"]
+- ["P4Node15NodeConvertible", "makeNode"]
+- ["P4Node15NodeConvertible", "name"]
+- ["P4Node15NodeConvertible", "prepare"]
+- ["P4Node15NodeConvertible", "revert"]
+- !private ["P4Node15NodeConvertible", "save"]
+- !private ["P4Node15NodeConvertible", "value"]
+- ["P4Node15NodeConvertible", "willCreate"]
+- ["P4Node15NodeConvertible", "willDelete"]
+- ["P4Node15NodeConvertible", "willUpdate"]
+- ["P4Node15NodeConvertible", ""]
+- !private ["P4Node17NodeInitializable", "Entity"]
+- !private ["P4Node17NodeInitializable", "Node"]
+- !private ["P4Node17NodeInitializable", "delete"]
+- ["P4Node17NodeInitializable", "didCreate"]
+- ["P4Node17NodeInitializable", "didDelete"]
+- ["P4Node17NodeInitializable", "didUpdate"]
+- ["P4Node17NodeInitializable", "entity"]
+- ["P4Node17NodeInitializable", "exists"]
+- !private ["P4Node17NodeInitializable", "extract"]
+- ["P4Node17NodeInitializable", "id"]
+- ["P4Node17NodeInitializable", "init"]
+- !private ["P4Node17NodeInitializable", "key"]
+- ["P4Node17NodeInitializable", "makeNode"]
+- ["P4Node17NodeInitializable", "name"]
+- ["P4Node17NodeInitializable", "prepare"]
+- ["P4Node17NodeInitializable", "revert"]
+- !private ["P4Node17NodeInitializable", "save"]
+- !private ["P4Node17NodeInitializable", "value"]
+- ["P4Node17NodeInitializable", "willCreate"]
+- ["P4Node17NodeInitializable", "willDelete"]
+- ["P4Node17NodeInitializable", "willUpdate"]
+- ["P4Node17NodeInitializable", ""]
+- !private ["P4Node17NodeRepresentable", "Entity"]
+- !private ["P4Node17NodeRepresentable", "Node"]
+- !private ["P4Node17NodeRepresentable", "Value"]
+- !private ["P4Node17NodeRepresentable", "deinit"]
+- !private ["P4Node17NodeRepresentable", "delete"]
+- ["P4Node17NodeRepresentable", "didCreate"]
+- ["P4Node17NodeRepresentable", "didDelete"]
+- ["P4Node17NodeRepresentable", "didUpdate"]
+- ["P4Node17NodeRepresentable", "entity"]
+- ["P4Node17NodeRepresentable", "exists"]
+- !private ["P4Node17NodeRepresentable", "extract"]
+- ["P4Node17NodeRepresentable", "id"]
+- ["P4Node17NodeRepresentable", "init"]
+- !private ["P4Node17NodeRepresentable", "key"]
+- ["P4Node17NodeRepresentable", "makeNode"]
+- ["P4Node17NodeRepresentable", "name"]
+- ["P4Node17NodeRepresentable", "prepare"]
+- ["P4Node17NodeRepresentable", "revert"]
+- !private ["P4Node17NodeRepresentable", "save"]
+- !private ["P4Node17NodeRepresentable", "value"]
+- ["P4Node17NodeRepresentable", "willCreate"]
+- ["P4Node17NodeRepresentable", "willDelete"]
+- ["P4Node17NodeRepresentable", "willUpdate"]
+- ["P4Node17NodeRepresentable", ""]
+- !private ["Sq", "Key"]
+- ["Sq", "deinit"]
+- !private ["P13PathIndexable9PathIndex", "deinit"]
+- ["P13PathIndexable9PathIndex", "init"]
+- !private ["P13PathIndexable13PathIndexable", "extract"]
+- !private ["P13PathIndexable13PathIndexable", "init"]
+- !private ["P11Polymorphic11Polymorphic", "extract"]
+- ["P11Polymorphic11Polymorphic", "init"]
+- !private ["P6Fluent11Preparation", "Entity"]
+- !private ["P6Fluent11Preparation", "Node"]
+- !private ["P6Fluent11Preparation", "delete"]
+- ["P6Fluent11Preparation", "didCreate"]
+- ["P6Fluent11Preparation", "didDelete"]
+- ["P6Fluent11Preparation", "didUpdate"]
+- ["P6Fluent11Preparation", "entity"]
+- ["P6Fluent11Preparation", "exists"]
+- ["P6Fluent11Preparation", "id"]
+- ["P6Fluent11Preparation", "init"]
+- !private ["P6Fluent11Preparation", "key"]
+- ["P6Fluent11Preparation", "makeNode"]
+- ["P6Fluent11Preparation", "name"]
+- ["P6Fluent11Preparation", "prepare"]
+- ["P6Fluent11Preparation", "revert"]
+- !private ["P6Fluent11Preparation", "save"]
+- !private ["P6Fluent11Preparation", "value"]
+- ["P6Fluent11Preparation", "willCreate"]
+- ["P6Fluent11Preparation", "willDelete"]
+- ["P6Fluent11Preparation", "willUpdate"]
+- ["P6Fluent11Preparation", ""]
+- !private ["C6Fluent5Query", "T"]
+- !private ["C6Fluent5Query", "deinit"]
+- !private ["C6Fluent5Query", "filter"]
+- !private ["C6Fluent5Query", "first"]
+- !private ["C6Fluent5Query", "init"]
+- !private ["P6Fluent18QueryRepresentable", "T"]
+- !private ["P6Fluent18QueryRepresentable", "filter"]
+- !private ["P6Fluent18QueryRepresentable", "first"]
+- !private ["P6Fluent18QueryRepresentable", "init"]
+- !private ["Ps8Sequence", "Key"]
+- !private ["Ps8Sequence", "Value"]
+- ["SS", "deinit"]
+- ["SS", "init"]
+- ["Ps16TextOutputStream", "init"]
+- ["Ps20TextOutputStreamable", "init"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- ["Ps9_Hashable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "Key"]
+- !private ["Ps21_ObjectiveCBridgeable", "Value"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sa"
+- "Ps7CVarArg"
+- "P5Cache13CacheProtocol"
+- !private "Ps10Collection"
+- "Ps10Comparable"
+- !private "P4Node7Context"
+- !private "CO6Fluent6Schema7Creator"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "C6Fluent8Database"
+- "Vs10Dictionary"
+- "CC5Cache11FluentCache6Entity"
+- "P6Fluent6Entity"
+- "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps30ExpressibleByDictionaryLiteral"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps25ExpressibleByFloatLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps23ExpressibleByNilLiteral"
+- "Ps32ExpressibleByStringInterpolation"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- "C5Cache11FluentCache"
+- "Ps8Hashable"
+- !private "Ps9Indexable"
+- !private "Ps13IndexableBase"
+- !private "P4Node13KeyAccessible"
+- "Ps25LosslessStringConvertible"
+- "Ps10MirrorPath"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- "CSo8NSString"
+- "O4Node4Node"
+- !private "P4Node10NodeBacked"
+- "P4Node15NodeConvertible"
+- "P4Node17NodeInitializable"
+- "P4Node17NodeRepresentable"
+- "Sq"
+- "P13PathIndexable9PathIndex"
+- !private "P13PathIndexable13PathIndexable"
+- "P11Polymorphic11Polymorphic"
+- "P6Fluent11Preparation"
+- !private "C6Fluent5Query"
+- !private "P6Fluent18QueryRepresentable"
+- !private "Ps8Sequence"
+- "SS"
+- "Ps16TextOutputStream"
+- "Ps20TextOutputStreamable"
+- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- "Ps34_ExpressibleByBuiltinStringLiteral"
+- "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Node.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/PathIndexable.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Polymorphic.swiftmodule"
+- "/Users/wulong/Desktop/WlblogSwiftServerSide/.build/debug/Fluent.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+interface-hash: "fc39c23b8e4d27c2fdc34795b1b94bba"

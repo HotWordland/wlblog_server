@@ -1,5 +1,5 @@
 module CLibreSSL {
-    umbrella header "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/CLibreSSL.h"
+    umbrella header "/Users/HotFeeling/Desktop/vapor/WlblogSwiftServerSide/Packages/CLibreSSL-1.0.0/Sources/CLibreSSL/include/CLibreSSL.h"
     link "CLibreSSL"
     export *
 }

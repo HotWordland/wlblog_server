@@ -1,22 +1,24 @@
 {
-  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "43BDF54C521F814E0DD3DA6D8729684F4EDB5905",
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "F77761D382927DDE5667389018516FE2E1C95802",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
-    "43BDF54C521F814E0DD3DA6D8729684F4EDB5905" : 9223372036854775807,
+    "F77761D382927DDE5667389018516FE2E1C95802" : 9223372036854775807,
     "07D38DC615E8ADA07E68B7DA8DD8A2654638A334" : 9223372036854775807,
     "8FE2B4BB55A3C9D7B3B78FD1E2302636E924BDDC" : 9223372036854775807,
     "7E7C1062562B886ABFA1C65C1E929E1339657116" : 9223372036854775807,
-    "0A2CDB7EE0CB08CFB1496AAF2E05A8B2023B6C50" : 9223372036854775807
+    "0A2CDB7EE0CB08CFB1496AAF2E05A8B2023B6C50" : 9223372036854775807,
+    "43BDF54C521F814E0DD3DA6D8729684F4EDB5905" : 9223372036854775807
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "4292EFFD-8D36-46BD-86FE-87406ACFBB19",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "43BDF54C521F814E0DD3DA6D8729684F4EDB5905" : "vapor\/wlblog\/",
+    "F77761D382927DDE5667389018516FE2E1C95802" : "WlblogSwiftServerSide\/",
     "07D38DC615E8ADA07E68B7DA8DD8A2654638A334" : "WlblogSwiftServerSide\/Packages\/Crypto-1.0.1\/",
     "8FE2B4BB55A3C9D7B3B78FD1E2302636E924BDDC" : "WlblogSwiftServerSide\/Packages\/Jay-1.0.0\/",
     "7E7C1062562B886ABFA1C65C1E929E1339657116" : "WlblogSwiftServerSide\/Packages\/Turnstile-1.0.3\/",
-    "0A2CDB7EE0CB08CFB1496AAF2E05A8B2023B6C50" : "wlblog\/Packages\/VaporJWT-0.6.1\/"
+    "0A2CDB7EE0CB08CFB1496AAF2E05A8B2023B6C50" : "wlblog\/Packages\/VaporJWT-0.6.1\/",
+    "43BDF54C521F814E0DD3DA6D8729684F4EDB5905" : "vapor\/wlblog\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "wlblog",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
@@ -46,6 +48,11 @@
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/DanToml\/Jay.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8FE2B4BB55A3C9D7B3B78FD1E2302636E924BDDC"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "wlpsv.com:WonderLand\/WlblogSwiftServerSide.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F77761D382927DDE5667389018516FE2E1C95802"
     }
   ]
 }

@@ -9,6 +9,7 @@
 import HTTP
 import Vapor
 extension Message {
+    //vapor作为api服务器时 angular跨域方案
     public var textplain_json: JSON? {
         get {
             if let type = headers["Content-Type"], type.contains("text/plain") {

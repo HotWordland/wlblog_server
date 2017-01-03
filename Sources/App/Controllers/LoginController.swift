@@ -6,7 +6,7 @@ import VaporPostgreSQL
 
 final class LoginController {
     func login(_ req: Request) throws -> ResponseRepresentable {
-        guard let param_name = req.data["name"]?.string,let param_pwd = req.data["pwd"]?.string else{
+        guard let param_name = req.textplain_json?.node["name"]?.string,let param_pwd = req.textplain_json?.node["pwd"]?.string else{
             return try responseWithError(msg: "有未提交的参数")
         }
         guard let user = try User.query().filter("name",param_name).all().first else{

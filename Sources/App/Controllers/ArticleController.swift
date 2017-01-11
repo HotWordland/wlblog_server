@@ -39,13 +39,17 @@ final class ArticleController:ResourceRepresentable {
     func update(request: Request, article: Article) throws -> ResponseRepresentable {
         let new = try request.article()
         var article = article
-//        article.cate_name = new.cate_name
-//        article.cate_title = new.cate_title
-//        article.cate_description = new.cate_description
-//        article.cate_keywords = new.cate_keywords
-//        article.cate_view = new.cate_view
-//        article.cate_order = new.cate_order
-//        article.cate_pid = new.cate_pid
+            article.art_title = new.art_title
+        article.art_content = new.art_content
+        article.art_description = new.art_description
+        article.art_keywords = new.art_keywords
+        article.art_tag = new.art_tag
+        article.art_thumb = new.art_thumb
+        article.art_time = new.art_time
+        article.art_editor = new.art_editor
+        article.art_view = new.art_view
+        article.catagory_id = new.catagory_id
+
         try article.save()
         return article
     }

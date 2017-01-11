@@ -19,26 +19,24 @@ func configRoute(drop:Droplet) -> Void {
     
     
     drop.group("admin/api") { admin in
-        //CorsMiddleware
-        admin.group(CorsMiddleware()) { cors_authorized in
         //登录
-        cors_authorized.post("login",handler: loginc.login)
+        admin.post("login",handler: loginc.login)
         //测试上传文件
-        cors_authorized.post("upload",handler: loginc.uploadFile)
+        admin.post("upload",handler: loginc.uploadFile)
         //中间件 判断token
-        cors_authorized.group(UserLoginMiddle()) { authorized in
+        admin.group(UserLoginMiddle()) { authorized in
             authorized.post("getuserinfo") { request in
                 // has been authorized
                 return try JSON(node:[
                     "token":"token prepare..."
                     ])
             }
-            cors_authorized.resource("catagory", catagoryc)
-            cors_authorized.resource("article", articlec)
-            cors_authorized.get("getParentCatalog",handler: catagoryc.getParentCatalog)
+            admin.resource("catagory", catagoryc)
+            admin.resource("article", articlec)
+            admin.get("getParentCatalog",handler: catagoryc.getParentCatalog)
             
         }
-        }
+
     }
     
     

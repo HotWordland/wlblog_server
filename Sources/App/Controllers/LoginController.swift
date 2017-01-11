@@ -30,11 +30,31 @@ final class LoginController {
     }
     func uploadFile(_ request: Request) throws -> ResponseRepresentable{
         guard let file = request.multipart?["file"]?.file,let fileName = file.name else {
-            return "Not found"
+             throw Abort.custom(status: .notFound, message: "文件未找到")
         }
-        try Data(file.data).write(to: URL(fileURLWithPath: "/Users/wulong/Desktop/\(fileName)"))
-        return try responseWithSuccess(data: [:])
+//        let dateFormatter = DateFormatter()
+//        dateFormatter.dateFormat = "yyyyMMddHH:mm:ss"
+        let date =  Int(Date().timeIntervalSince1970)
+//        var date_string = dateFormatter.string(from: date)
+        var file_save_name = "\(date)"
+        let separates =  fileName.components(separatedBy: ".")
+        if separates.count>1 {
+            if let extension_name = separates.last {
+                file_save_name = "\(file_save_name).\(extension_name)"
+            }
+        }
+        let imagePath = "upload_images/\(file_save_name)"
+        let savePath = drop.workDir + "Public/" + imagePath
+        
+//        try Data(file.data).write(to: URL(fileURLWithPath: "/Users/wulong/Desktop/\(date_string)"))
+        let flag = FileManager.default.createFile(atPath: savePath, contents: Data(bytes: file.data), attributes: nil)
+        if flag {
+            return try responseWithSuccess(data: ["path":imagePath])
 
+        }else{
+            throw Abort.custom(status: .notFound, message: "保存失败")
+
+        }
     }
 }
 

@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_3503"
+               BlueprintIdentifier = "OBJ_3769"
                BuildableName = "App"
                BlueprintName = "App"
                ReferencedContainer = "container:wlblog.xcodeproj">
@@ -32,7 +32,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "OBJ_3503"
+            BlueprintIdentifier = "OBJ_3769"
             BuildableName = "App"
             BlueprintName = "App"
             ReferencedContainer = "container:wlblog.xcodeproj">
@@ -42,7 +42,7 @@
       </AdditionalOptions>
    </TestAction>
    <LaunchAction
-      buildConfiguration = "Debug"
+      buildConfiguration = "Release"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
@@ -55,7 +55,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "OBJ_3503"
+            BlueprintIdentifier = "OBJ_3769"
             BuildableName = "App"
             BlueprintName = "App"
             ReferencedContainer = "container:wlblog.xcodeproj">
@@ -74,7 +74,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "OBJ_3503"
+            BlueprintIdentifier = "OBJ_3769"
             BuildableName = "App"
             BlueprintName = "App"
             ReferencedContainer = "container:wlblog.xcodeproj">

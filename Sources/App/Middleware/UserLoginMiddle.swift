@@ -23,7 +23,7 @@ final class UserLoginMiddle: Middleware {
                 throw Abort.custom(status: .notFound, message: "token无效")
             }
         do{
-            guard let isValid = try jwt?.verifySignatureWith(HS256(key: "secret")) else{
+            guard let isValid = try jwt?.verifySignatureWith(HS256(key: "AL3BRa7llckPgUw3Si2KCy1kRUZJ/pxJ29nlr86xlm0=")) else{
                 throw Abort.custom(status: .notFound, message: "token无效")
             }
             if isValid{

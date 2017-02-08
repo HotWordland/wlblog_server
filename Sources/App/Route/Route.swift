@@ -31,9 +31,9 @@ func configRoute(drop:Droplet) -> Void {
                     "token":"token prepare..."
                     ])
             }
-            admin.resource("catagory", catagoryc)
-            admin.resource("article", articlec)
-            admin.get("getParentCatalog",handler: catagoryc.getParentCatalog)
+            authorized.resource("catagory", catagoryc)
+            authorized.resource("article", articlec)
+            authorized.get("getParentCatalog",handler: catagoryc.getParentCatalog)
             
         }
 

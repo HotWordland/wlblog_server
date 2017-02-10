@@ -26,3 +26,11 @@ func responseWithError(status:String = "300",data:[String:String] = ["":""],msg:
         ])
     
 }
+func responseWithAuthFail(status:String = "301",data:[String:String] = ["":""],msg:String="") throws -> JSON{
+    return try JSON(node:[
+        "status":status,
+        "data":JSON(node:data),
+        "msg":msg
+        ])
+    
+}

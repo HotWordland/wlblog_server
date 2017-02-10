@@ -1,7 +1,0 @@
-version: "Apple Swift version 3.0.1 (swiftlang-800.0.58.6 clang-800.0.42.1)"
-options: "1d352465aff25219ba299d9b9b524e14"
-build_time: [536399015, 273733000]
-inputs:
-  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Routing-1.0.1/Sources/TypeSafeRouting/Generated.swift": [533880780, 0]
-  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Routing-1.0.1/Sources/TypeSafeRouting/StringInitializable.swift": [533880780, 0]
-  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Routing-1.0.1/Sources/TypeSafeRouting/TypeSafeRoutingError.swift": [533880780, 0]

@@ -1,9 +1,0 @@
-version: "Apple Swift version 3.0.1 (swiftlang-800.0.58.6 clang-800.0.42.1)"
-options: "bff015bbb35fb065c8b6f08acf616227"
-build_time: [536399014, 822194000]
-inputs:
-  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Routing-1.0.1/Sources/HTTPRouting/Request+Routing.swift": [533880780, 0]
-  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Routing-1.0.1/Sources/HTTPRouting/RouteBuilder+HTTP.swift": [533880780, 0]
-  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Routing-1.0.1/Sources/HTTPRouting/Router+HTTP.swift": [533880780, 0]
-  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Routing-1.0.1/Sources/HTTPRouting/Routing+HTTP.swift": [533880780, 0]
-  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Routing-1.0.1/Sources/HTTPRouting/Utilities.swift": [533880780, 0]

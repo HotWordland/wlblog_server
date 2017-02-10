@@ -1,9 +1,0 @@
-version: "Apple Swift version 3.0.1 (swiftlang-800.0.58.6 clang-800.0.42.1)"
-options: "fa9abefd5d3650f94e3f48a3e2339eda"
-build_time: [536398981, 896169000]
-inputs:
-  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Socks-1.2.0/Sources/Socks/Socks.swift": [533879673, 0]
-  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Socks-1.2.0/Sources/Socks/SynchronousTCPServer.swift": [533879673, 0]
-  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Socks-1.2.0/Sources/Socks/SynchronousUDPServer.swift": [533879673, 0]
-  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Socks-1.2.0/Sources/Socks/TCPClient.swift": [533879673, 0]
-  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Socks-1.2.0/Sources/Socks/UDPClient.swift": [533879674, 0]

@@ -1,7 +1,0 @@
-version: "Apple Swift version 3.0.1 (swiftlang-800.0.58.6 clang-800.0.42.1)"
-options: "242a4ef755468468829f7f54a98bcfe1"
-build_time: [536398996, 455182000]
-inputs:
-  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Crypto-1.0.1/Sources/Random/CryptoRandom.swift": [533876828, 0]
-  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Crypto-1.0.1/Sources/Random/Random.swift": [533876828, 0]
-  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Crypto-1.0.1/Sources/Random/URandom.swift": [533876828, 0]

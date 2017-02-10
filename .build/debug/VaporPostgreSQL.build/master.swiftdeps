@@ -1,5 +1,0 @@
-version: "Apple Swift version 3.0.1 (swiftlang-800.0.58.6 clang-800.0.42.1)"
-options: "d92328f9df399a4c8710ebd6f6990184"
-build_time: [536399032, 179948000]
-inputs:
-  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/VaporPostgreSQL-1.0.0/Sources/VaporPostgreSQL/Provider.swift": [533895342, 0]

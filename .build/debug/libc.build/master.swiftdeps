@@ -1,5 +1,0 @@
-version: "Apple Swift version 3.0.1 (swiftlang-800.0.58.6 clang-800.0.42.1)"
-options: "e94fe48ea80f3ae6c43d5ecb4eb15000"
-build_time: [536398976, 709991000]
-inputs:
-  "/Users/wulong/Desktop/WlblogSwiftServerSide/Packages/Core-1.0.0/Sources/libc/libc.swift": [533876865, 0]

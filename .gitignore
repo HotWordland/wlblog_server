@@ -1,3 +1,4 @@
 secrets/
 Packages/
+.build/
 LoginController.swift

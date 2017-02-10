@@ -15,15 +15,22 @@ import VaporPostgreSQL
 final class CatagoryController:ResourceRepresentable {
     func index(request: Request) throws -> ResponseRepresentable {
 //        let result = try Catagory.query().sort("cate_view",.ascending).all() 这里没有生效估计是因为建立的字段是String的关系 没关系 我们用swift原生来写
-        var all = try Catagory.all()
-        all = all.sorted { (p_c1, p_c2) -> Bool in
-            guard let c1 = p_c1.cate_order.int,let c2 = p_c2.cate_order.int else{
-              return false
-            }
-            //返回升序
-            return c1<c2
+//        var all = try Catagory.all()
+//        all = all.sorted { (p_c1, p_c2) -> Bool in
+//            guard let c1 = p_c1.cate_order.int,let c2 = p_c2.cate_order.int else{
+//              return false
+//            }
+//            //返回升序
+//            return c1<c2
+//        }
+//        return try all.makeNode().converted(to: JSON.self)
+        if let mysql = drop.database?.driver as? PostgreSQLDriver {
+            let all = try mysql.raw("SELECT * FROM catagorys")
+            print(all)
+            return try all.converted(to: JSON.self)
         }
-        return try all.makeNode().converted(to: JSON.self)
+        return "".makeResponse()
+
     }
     //获取父级分类
     func getParentCatalog(request: Request) throws -> ResponseRepresentable {

@@ -18,6 +18,11 @@ drop.preparations+=User.self
 drop.preparations+=Catagory.self
 drop.preparations+=Article.self
 
+if let mysql = drop.database?.driver as? PostgreSQLDriver {
+    let all = try mysql.raw("SELECT * FROM catagorys")
+    print(all)
+}
+
 //配置路由
 configRoute(drop: drop)
 

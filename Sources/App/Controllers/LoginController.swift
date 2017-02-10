@@ -15,8 +15,10 @@ final class LoginController {
         if user.password != param_pwd {
             return try responseWithError(msg: "密码有误")
         }
-        let jwt = try JWT(payload: Node(ExpirationTimeClaim(Date() + 60)),
-                          signer: HS256(key: "secret"))
+//        let jwt = try JWT(payload: Node(ExpirationTimeClaim(Date() + 60)),
+  //                        signer: HS256(key: "secret"))
+        let jwt = try JWT(payload: Node(ExpirationTimeClaim(Date() + 60)), signer: ES256(encodedKey: "AL3BRa7llckPgUw3Si2KCy1kRUZJ/pxJ29nlr86xlm0="))
+
         let token = try jwt.createToken()
         return try responseWithSuccess(data: ["token":token])
     }

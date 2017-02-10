@@ -14,6 +14,10 @@ import HTTP
 final class CorsMiddleware: Middleware {
     func respond(to request: Request, chainingTo next: Responder) throws -> Response {
         let response: Response
+        if request.uri.path.hasPrefix("/upload_images") {
+            response = try next.respond(to: request)
+            return response
+        }
         if request.isPreflight {
             response = "".makeResponse()
         } else {

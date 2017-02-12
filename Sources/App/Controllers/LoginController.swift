@@ -15,14 +15,14 @@ final class LoginController {
         if user.password != param_pwd {
             return try responseWithError(msg: "密码有误")
         }
-        let jwt = try JWT(payload: Node(ExpirationTimeClaim(Date() + 60)),
+        let jwt = try JWT(payload: Node(ExpirationTimeClaim(Date() + (60*60))),
                          signer: HS256(key: "secret"))
 //        let jwt = try JWT(payload: Node(ExpirationTimeClaim(Date() + 60)),
   //                        signer: HS256(key: "secret"))
 //        let jwt = try JWT(payload: Node(ExpirationTimeClaim(Date() + 60)), signer: ES256(encodedKey: "AL3BRa7llckPgUw3Si2KCy1kRUZJ/pxJ29nlr86xlm0="))
 
         let token = try jwt.createToken()
-        return try responseWithSuccess(data: ["token":token])
+        return try responseWithSuccess(data: ["token":Node(token)])
     }
     func saveDefaultUser(_ req: Request) throws -> ResponseRepresentable {
         if  try User.query().filter("name","admin2").all().count != 0 {
@@ -54,7 +54,7 @@ final class LoginController {
 //        try Data(file.data).write(to: URL(fileURLWithPath: "/Users/wulong/Desktop/\(date_string)"))
         let flag = FileManager.default.createFile(atPath: savePath, contents: Data(bytes: file.data), attributes: nil)
         if flag {
-            return try responseWithSuccess(data: ["path":imagePath])
+            return try responseWithSuccess(data: ["path":Node(imagePath)])
 
         }else{
             throw Abort.custom(status: .notFound, message: "保存失败")

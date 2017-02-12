@@ -32,6 +32,7 @@ func configRoute(drop:Droplet) -> Void {
                     ])
             }
             authorized.resource("catagory", catagoryc)
+            authorized.post("catagory_index_limit", handler: catagoryc.get_limit_index)
             authorized.resource("article", articlec)
             authorized.get("getParentCatalog",handler: catagoryc.getParentCatalog)
             

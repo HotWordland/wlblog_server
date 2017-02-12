@@ -10,7 +10,7 @@ import Foundation
 import Vapor
 
 
-func responseWithSuccess(status:String = "200",data:[String:String],msg:String = "操作成功") throws -> JSON{
+func responseWithSuccess(status:String = "200",data:[String:Node],msg:String = "操作成功") throws -> JSON{
     return try JSON(node:[
         "status":status,
         "data":JSON(node:data),
@@ -18,7 +18,7 @@ func responseWithSuccess(status:String = "200",data:[String:String],msg:String =
         ])
 
 }
-func responseWithError(status:String = "300",data:[String:String] = ["":""],msg:String) throws -> JSON{
+func responseWithError(status:String = "300",data:[String:Node] = ["":Node("")],msg:String) throws -> JSON{
     return try JSON(node:[
         "status":status,
         "data":JSON(node:data),
@@ -26,7 +26,7 @@ func responseWithError(status:String = "300",data:[String:String] = ["":""],msg:
         ])
     
 }
-func responseWithAuthFail(status:String = "301",data:[String:String] = ["":""],msg:String="") throws -> JSON{
+func responseWithAuthFail(status:String = "301",data:[String:Node] = ["":""],msg:String="") throws -> JSON{
     return try JSON(node:[
         "status":status,
         "data":JSON(node:data),

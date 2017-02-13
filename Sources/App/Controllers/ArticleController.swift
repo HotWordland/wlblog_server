@@ -15,7 +15,34 @@ import VaporPostgreSQL
 final class ArticleController:ResourceRepresentable {
     func index(request: Request) throws -> ResponseRepresentable {
         return try Article.all().makeNode().converted(to: JSON.self)
-    }    
+    }
+    func get_limit_index(_ req: Request) throws -> ResponseRepresentable{
+        if let mysql = drop.database?.driver as? PostgreSQLDriver {
+            if let page  = req.textplain_json?.node["start"]?.int {
+                if let count_r = try? mysql.raw("SELECT count(*) FROM articles"){
+                    if let array = count_r.array,let count_obj = array[0].object, let count_obj_dic = count_obj["count"],let count = count_obj_dic.int {
+                        print("共有 \(count) 条数据")
+                        var single_count = 5
+                        if let single_count_param  = req.textplain_json?.node["single_count"]?.int {
+                            single_count = single_count_param
+                        }
+                        let count_page = ceil(Double(count)/Double(single_count))
+                        print("每页 \(single_count) 条数据 , 共有 \(Int(count_page)) 页")
+                        let offset = page*single_count
+                        let all = try mysql.raw("SELECT * FROM articles LIMIT \(single_count) OFFSET \(offset)")
+                        let result = Node(["list":all,"pages":Node(Int(count_page))])
+                        print(result)
+                        return try responseWithSuccess(data: ["list":all,"pages":Node(Int(count_page))])
+                    }
+                    //                    if let count = count_r.array?[0].object?["count"]?.int{
+                    //                    }
+                }
+                
+            }
+        }
+        return try responseWithError(msg: "")
+        
+    }
     func create(request: Request) throws -> ResponseRepresentable {
         var article = try request.article()
         try article.save()

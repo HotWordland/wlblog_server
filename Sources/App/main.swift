@@ -18,8 +18,9 @@ drop.preparations+=User.self
 drop.preparations+=Catagory.self
 drop.preparations+=Article.self
 
-if let mysql = drop.database?.driver as? PostgreSQLDriver {
-    let all = try mysql.raw("SELECT * FROM catagorys")
+//测试一下数据连接 
+if let postgresql = drop.database?.driver as? PostgreSQLDriver {
+    let all = try postgresql.raw("SELECT * FROM catagorys")
     print(all)
 }
 

@@ -1,3 +1,7 @@
+## 线上访问
+http://wlpsv.com:8081/wlblog_admin_front/admin/#/login
+用户名:admin2
+密码:123456
 ## 基本功能
 - vapor构建(swift服务端框架).
 - Api服务.

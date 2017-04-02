@@ -30,7 +30,7 @@ swift build -c release
 ```
 cd到项目根目录 安装swift package 依赖
 ```
-vapor xcode \\生成xcode工程 这里会开始安装swift package依赖
+vapor xcode //生成xcode工程 这里会开始安装swift package依赖
 ```
 
 配置postgresql

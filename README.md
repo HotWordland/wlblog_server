@@ -2,14 +2,22 @@
 http://wlpsv.com:8081/wlblog_admin_front/admin/#/login
 用户名:admin2
 密码:123456
+
+
+
 ## 基本功能
 - vapor构建(swift服务端框架).
 - Api服务.
 - JWT支持.
 - postgresql数据库操作. 
 
+## 结构
+ ![](https://github.com/HotWordland/wlblog_server/blob/master/struct.png)
 
 ## 📖 安装
+
+
+
 获取vapor
 ```
 curl -sL check.vapor.sh | bash

@@ -86,6 +86,8 @@ clone项目后 修改项目根目录下的 /Config/secrets/postgresql.json
 导入数据
 
 将项目根目录下的public.sql文件导入进数据库 运行xcode即可
+由于设计原因项目只提供api服务 没有用到vapor的模板引擎 测试api或者查看路径 可以到线上环境查看网络请求情况 相对路径跟本地是一样的
+后面会提供api图
 
 ## 💧 其他
 vapor 现在已经更新到2.0beta了 项目使用的是1.3版本 后期会升级更新

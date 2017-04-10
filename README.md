@@ -77,7 +77,7 @@ clone项目后 修改项目根目录下的 /Config/secrets/postgresql.json
 vapor 现在已经更新到2.0beta了 项目使用的是1.3版本 后期会升级更新
 
 管理后台前端部分目前采用的是angularjs 由于angularjs(1.x)一直找不到合适脚手架管理工具加上已经有angular2 vue也用了一段时间了 
-所以后期准备用vue2重写
+所以接下来会用vue2重写
 
 一些题外话 : 
 目前vapor可以在Ubuntu上跑 所以拿来玩玩还是不错的 也可以写一些自己小的项目 喜欢swift的赶紧入坑吧 ^_^

@@ -83,6 +83,10 @@ clone项目后 修改项目根目录下的 /Config/secrets/postgresql.json
     "port": 5432
 } 
 ```
+导入数据
+
+将项目根目录下的public.sql文件导入进数据库 运行xcode即可
+
 ## 💧 其他
 vapor 现在已经更新到2.0beta了 项目使用的是1.3版本 后期会升级更新
 

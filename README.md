@@ -1,7 +1,17 @@
+## Xcode preview
+ ![](https://github.com/HotWordland/wlblog_server/blob/master/00.jpeg)
+ 
 ## 线上访问
 http://wlpsv.com:8081/wlblog_admin_front/admin/#/login
 用户名:admin2
 密码:123456
+ 
+# 截图
+ ![](https://github.com/HotWordland/wlblog_server/blob/master/01.jpeg)
+ ![](https://github.com/HotWordland/wlblog_server/blob/master/02.jpeg)
+ ![](https://github.com/HotWordland/wlblog_server/blob/master/03.jpeg)
+ ![](https://github.com/HotWordland/wlblog_server/blob/master/04.jpeg)
+ ![](https://github.com/HotWordland/wlblog_server/blob/master/05.jpeg)
 
 
 

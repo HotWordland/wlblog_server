@@ -1,5 +1,5 @@
 ## 线上访问
-http://wlpsv.com:8081/wlblog_admin_front/admin/#/login
+http://wlpsv.com:8081/wlblog_admin_front/admin/#/login (服务器到期了... 目前无法访问.. 后面打算再部署一套)
 用户名:admin2
 密码:123456
 
@@ -96,7 +96,7 @@ vapor 现在已经更新到2.0beta了 项目使用的是1.3版本 后期会升�
 所以接下来会用vue2重写
 
 一些题外话 : 
-也可以和笔者进行交流 qq群 318042857 验证信息:vapor交流 网站:https://codercq.com
+也可以和笔者进行交流 qq群 318042857 验证信息:vapor交流 网站:http://codercq.com
 项目比较简单 上手很适合 目前vapor可以在Ubuntu上跑 所以拿来玩玩还是不错的 也可以写一些自己小的项目 另外最近Perfect也在盛行 星星数已经超过
 vapor了 对于喜欢swift的朋友也是好消息 喜欢swift的赶紧入坑吧 ^_^
 
